@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radix - Learn Word Roots. Decode Any Word.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #8B5CF6;
+            --primary-dim: #7C3AED;
+            --bg: #0F0F0F;
+            --bg-card: #1A1A1A;
+            --text: #FFFFFF;
+            --text-dim: #A0A0A0;
+            --success: #4CAF50;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Hero */
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 700;
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, var(--primary), #A78BFA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero .tagline {
+            font-size: 1.5rem;
+            color: var(--text-dim);
+            margin-bottom: 32px;
+        }
+
+        .hero .value-prop {
+            font-size: 1.25rem;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 16px 48px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background 0.2s;
+        }
+
+        .cta-button:hover {
+            background: var(--primary-dim);
+        }
+
+        /* Demo */
+        .demo {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 32px;
+            margin: 60px 0;
+            text-align: center;
+        }
+
+        .demo-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 24px;
+        }
+
+        .demo-table th, .demo-table td {
+            padding: 16px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+
+        .demo-table th {
+            color: var(--text-dim);
+            font-weight: 500;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .demo-table td:first-child {
+            font-family: 'SF Mono', Monaco, monospace;
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 1.25rem;
+        }
+
+        .demo-table td:last-child {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+        }
+
+        /* Features */
+        .features {
+            padding: 60px 0;
+        }
+
+        .features h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 48px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+        }
+
+        .feature-card {
+            background: var(--bg-card);
+            padding: 24px;
+            border-radius: 12px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+
+        .feature-card p {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+        }
+
+        /* Problem/Solution */
+        .insight {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .insight h2 {
+            font-size: 2rem;
+            margin-bottom: 32px;
+        }
+
+        .insight-content {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .insight-content p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: var(--text-dim);
+        }
+
+        .insight-content strong {
+            color: var(--text);
+        }
+
+        .highlight {
+            color: var(--success);
+            font-weight: 600;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 60px 0;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            .hero {
+                min-height: auto;
+                padding: 40px 0;
+            }
+
+            .demo-table th:last-child,
+            .demo-table td:last-child {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <!-- Hero -->
+        <section class="hero">
+            <h1>Radix</h1>
+            <p class="tagline">Learn word roots. Decode any word.</p>
+            <p class="value-prop">
+                One root unlocks 10+ words. Learn that <strong>port</strong> means "carry" and suddenly
+                <em>transport, export, portable, import, report</em> all make sense.
+            </p>
+            <a href="#" class="cta-button">Download on App Store</a>
+        </section>
+
+        <!-- Demo -->
+        <section class="demo">
+            <h2>How It Works</h2>
+            <table class="demo-table">
+                <thead>
+                    <tr>
+                        <th>You See</th>
+                        <th>You Learn</th>
+                        <th>Now You Know</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>vid</td>
+                        <td>see</td>
+                        <td>video, vision, evident</td>
+                    </tr>
+                    <tr>
+                        <td>aud</td>
+                        <td>hear</td>
+                        <td>audio, audience, audition</td>
+                    </tr>
+                    <tr>
+                        <td>port</td>
+                        <td>carry</td>
+                        <td>transport, export, portable</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Insight -->
+        <section class="insight">
+            <h2>The Unfair Advantage</h2>
+            <div class="insight-content">
+                <p>
+                    Kids who grow up speaking <strong>French, Spanish, or Italian</strong> have a hidden edge
+                    with English vocabulary. Words like <em>incredible, transport,</em> and <em>vision</em>
+                    feel intuitive because their languages share Latin roots.
+                </p>
+                <p>
+                    <span class="highlight">You don't need to speak a Romance language to get this advantage.</span>
+                </p>
+                <p>
+                    Learn <strong>~200 roots</strong> and you can decode thousands of English words—even ones
+                    you've never seen before.
+                </p>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="features">
+            <h2>Built for Learning</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Spaced Repetition</h3>
+                    <p>Roots you know come back less often. Struggling ones appear more. Science-backed retention.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Daily Streaks</h3>
+                    <p>Build a habit with streak tracking. One quiz per day keeps vocabulary growing.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Word Packs</h3>
+                    <p>Core vocabulary free forever. Add Medical, Legal, SAT, GRE packs as you need them.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Root Web</h3>
+                    <p>See how roots connect. Tap to explore the network of word relationships.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="hero" style="min-height: auto; padding: 60px 0;">
+            <p class="value-prop">Start with the Core pack. Free forever.</p>
+            <a href="#" class="cta-button">Get Radix</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Radix. Made for learners everywhere.</p>
+    </footer>
+</body>
+</html>
