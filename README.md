@@ -45,7 +45,8 @@ Marketing source of truth for Radix vocabulary learning app.
 ├────────────────────────────────────────────────────────────────┤
 │  Core Page             ✅ Complete                             │
 │  Hero Section          ✅ "Stop memorizing. Start decoding."   │
-│  Screenshots           ✅ 5-screen marketing narrative         │
+│  Decode Animation      ✅ CSS sequence: word → roots → mastery │
+│  Screenshots           ✅ 5 device mockups                     │
 │  Privacy Badge         ✅ On-device, school-safe messaging     │
 │  Global Learners       ✅ Korean + Vietnamese hooks            │
 ├────────────────────────────────────────────────────────────────┤
@@ -60,13 +61,14 @@ Marketing source of truth for Radix vocabulary learning app.
 ### Landing Page Sections
 
 1. **Hero** — "Stop memorizing words. Start decoding them."
-2. **Demo Table** — vid/aud/port root examples
-3. **Screenshots** — 5-screen app walkthrough
-4. **Insight** — "Unfair Advantage" (Romance language parallel)
-5. **Features** — Spaced repetition, streaks, packs, Root Web
-6. **Privacy** — 100% on-device, GDPR/PIPA compliant
-7. **Global Learners** — Korean + Vietnamese localized hooks
-8. **CTA** — Download button
+2. **Decode Animation** — CSS sequence: INCREDIBLE → IN+CRED+IBLE → Mastery (8s loop)
+3. **Demo Table** — vid/aud/port root examples
+4. **Screenshots** — 5 device mockups
+5. **Insight** — "Unfair Advantage" (Romance language parallel)
+6. **Features** — Spaced repetition, streaks, packs, Root Web
+7. **Privacy** — 100% on-device, GDPR/PIPA compliant
+8. **Global Learners** — Korean + Vietnamese localized hooks
+9. **CTA** — Download button
 
 ---
 
@@ -75,11 +77,14 @@ Marketing source of truth for Radix vocabulary learning app.
 ```
 index.html              # Single-page landing
 images/
-├── mockup-dashboard.png   # Device mockups
+├── mockup-dashboard.png   # Device mockups (5)
 ├── mockup-quiz.png
 ├── mockup-etymology.png
 ├── mockup-result.png
-└── mockup-mastery.png
+├── mockup-mastery.png
+├── INCREDIBLE.png         # Decode animation (3)
+├── IN-CRED-IBLE.png
+└── INCREDIBLE-RESULT.png
 ```
 
 ## Deployment
