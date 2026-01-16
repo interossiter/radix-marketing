@@ -271,6 +271,78 @@
             font-style: italic;
         }
 
+        /* Decode Animation */
+        .decode-animation {
+            padding: 40px 0 60px;
+        }
+
+        .decode-animation h2 {
+            text-align: center;
+            font-size: 1.5rem;
+            color: var(--text-dim);
+            margin-bottom: 24px;
+        }
+
+        .decode-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            aspect-ratio: 1;
+            background: #000;
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .decode-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            opacity: 0;
+        }
+
+        .decode-frame-1 {
+            animation: frame1 8s infinite;
+        }
+
+        .decode-frame-2 {
+            animation: frame2 8s infinite;
+        }
+
+        .decode-frame-3 {
+            animation: frame3 8s infinite;
+        }
+
+        /* Frame 1: INCREDIBLE (0-2s) */
+        @keyframes frame1 {
+            0%, 25% { opacity: 1; }
+            25.1%, 100% { opacity: 0; }
+        }
+
+        /* Frame 2: IN-CRED-IBLE explosion (2-3s) */
+        @keyframes frame2 {
+            0%, 25% { opacity: 0; transform: scale(1); }
+            25.1% { opacity: 1; transform: scale(1.1); }
+            37.5% { opacity: 1; transform: scale(1); }
+            37.6%, 100% { opacity: 0; }
+        }
+
+        /* Frame 3: Result (3-8s) */
+        @keyframes frame3 {
+            0%, 37.5% { opacity: 0; }
+            37.6%, 100% { opacity: 1; }
+        }
+
+        .decode-caption {
+            text-align: center;
+            margin-top: 16px;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+
         /* Footer */
         footer {
             text-align: center;
@@ -349,6 +421,17 @@
                 <em>transport, export, portable, import, report</em> all make sense.
             </p>
             <a href="#" class="cta-button">Download on App Store</a>
+        </section>
+
+        <!-- Decode Animation -->
+        <section class="decode-animation">
+            <h2>See a word. Decode it. Master it.</h2>
+            <div class="decode-container">
+                <img src="images/INCREDIBLE.png" alt="INCREDIBLE - the whole word" class="decode-frame-1">
+                <img src="images/IN-CRED-IBLE.png" alt="IN + CRED + IBLE - decoded" class="decode-frame-2">
+                <img src="images/INCREDIBLE-RESULT.png" alt="12 words mastered" class="decode-frame-3">
+            </div>
+            <p class="decode-caption">IN (not) + CRED (believe) + IBLE (able) = "not able to be believed"</p>
         </section>
 
         <!-- Demo -->
