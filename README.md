@@ -75,11 +75,11 @@ Marketing source of truth for Radix vocabulary learning app.
 ```
 index.html              # Single-page landing
 images/
-├── home.png            # App screenshots
-├── quiz.png
-├── etymology.png
-├── rootweb.png
-└── complete.png
+├── mockup-dashboard.png   # Device mockups
+├── mockup-quiz.png
+├── mockup-etymology.png
+├── mockup-result.png
+└── mockup-mastery.png
 ```
 
 ## Deployment
