@@ -45,18 +45,28 @@
             padding: 60px 0;
         }
 
+        .hero .brand {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+        }
+
         .hero h1 {
-            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-size: clamp(2rem, 6vw, 3rem);
             font-weight: 700;
             margin-bottom: 24px;
             background: linear-gradient(135deg, var(--primary), #A78BFA);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            line-height: 1.2;
         }
 
         .hero .tagline {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             color: var(--text-dim);
             margin-bottom: 32px;
         }
@@ -189,6 +199,78 @@
             font-weight: 600;
         }
 
+        /* Privacy Badge */
+        .privacy {
+            padding: 48px 0;
+            text-align: center;
+        }
+
+        .privacy .badge {
+            display: inline-block;
+            background: rgba(76, 175, 80, 0.15);
+            color: var(--success);
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+        }
+
+        .privacy p {
+            color: var(--text-dim);
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .privacy .small {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        /* Global Learners */
+        .global {
+            padding: 60px 0;
+        }
+
+        .global h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+
+        .locale-hooks {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+        }
+
+        .locale {
+            background: var(--bg-card);
+            padding: 28px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .locale .flag {
+            font-size: 2.5rem;
+            display: block;
+            margin-bottom: 16px;
+        }
+
+        .locale .hook {
+            font-size: 1.15rem;
+            font-weight: 500;
+            color: var(--text);
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .locale .translation {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            font-style: italic;
+        }
+
         /* Footer */
         footer {
             text-align: center;
@@ -247,6 +329,11 @@
                 grid-template-columns: repeat(2, 1fr);
                 gap: 24px;
             }
+
+            .locale-hooks {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
         }
     </style>
 </head>
@@ -254,10 +341,11 @@
     <main class="container">
         <!-- Hero -->
         <section class="hero">
-            <h1>Radix</h1>
-            <p class="tagline">Learn word roots. Decode any word.</p>
+            <p class="brand">Radix</p>
+            <h1>Stop memorizing words.<br>Start decoding them.</h1>
+            <p class="tagline">One root unlocks 10+ words.</p>
             <p class="value-prop">
-                One root unlocks 10+ words. Learn that <strong>port</strong> means "carry" and suddenly
+                Learn that <strong>port</strong> means "carry" and suddenly
                 <em>transport, export, portable, import, report</em> all make sense.
             </p>
             <a href="#" class="cta-button">Download on App Store</a>
@@ -359,6 +447,30 @@
                 <div class="feature-card">
                     <h3>Root Web</h3>
                     <p>See how roots connect. Tap to explore the network of word relationships.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Badge -->
+        <section class="privacy">
+            <div class="badge">100% On-Device</div>
+            <p>Zero cloud. Zero tracking. School-safe by design.</p>
+            <p class="small">No data ever leaves your device. GDPR/PIPA compliant.</p>
+        </section>
+
+        <!-- Global Learners -->
+        <section class="global">
+            <h2>Built for Global Learners</h2>
+            <div class="locale-hooks">
+                <div class="locale">
+                    <span class="flag">🇰🇷</span>
+                    <p class="hook">수능 영어: 어휘는 '암기'가 아니라 '패턴'이다</p>
+                    <p class="translation">Suneung English: Vocabulary is a pattern, not brute force.</p>
+                </div>
+                <div class="locale">
+                    <span class="flag">🇻🇳</span>
+                    <p class="hook">Đừng học thuộc lòng. Hãy giải mã từ vựng.</p>
+                    <p class="translation">Don't memorize. Decode vocabulary.</p>
                 </div>
             </div>
         </section>
