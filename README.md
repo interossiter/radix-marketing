@@ -49,6 +49,7 @@ Marketing source of truth for Radix vocabulary learning app.
 │  Screenshots           ✅ 5 device mockups                     │
 │  Privacy Badge         ✅ On-device, school-safe messaging     │
 │  Global Learners       ✅ Korean + Vietnamese hooks            │
+│  X-Ray Theme           ✅ Neon Cyan + Naver Green palette      │
 ├────────────────────────────────────────────────────────────────┤
 │  App Store Link        📋 Placeholder (pending launch)         │
 │  SEO/Indexing          📋 noindex until launch                 │
@@ -69,6 +70,51 @@ Marketing source of truth for Radix vocabulary learning app.
 7. **Privacy** — 100% on-device, GDPR/PIPA compliant
 8. **Global Learners** — Korean + Vietnamese localized hooks
 9. **CTA** — Download button
+
+---
+
+## Design System: "Linguistic X-Ray"
+
+Unified dark theme across landing page and iOS app. Creates "proprietary tech" feel to differentiate from textbook-style competitors.
+
+### Color Palette
+
+| Element | Color | Hex | CSS Variable |
+|---------|-------|-----|--------------|
+| Background | Deep Slate | `#121212` | `--bg` |
+| Card Surface | Charcoal | `#1E1E1E` | `--bg-card` |
+| Primary | Neon Cyan | `#00F0FF` | `--primary` |
+| CTA Buttons | Naver Green | `#00C73C` | `--cta` |
+| Success | Naver Green | `#00C73C` | `--success` |
+| Text | White | `#FFFFFF` | `--text` |
+| Text Dim | Gray | `#A0A0A0` | `--text-dim` |
+
+### Why These Colors
+
+| Color | Strategic Purpose |
+|-------|-------------------|
+| **Deep Slate** | "Black Box" environment for X-Ray effects |
+| **Neon Cyan** | High-tech "decoding" accent, outdoor-readable for VN |
+| **Naver Green** | Trust signal for Korean market (matches Naver brand) |
+
+### Typography
+
+- **System fonts only** — Ensures Vietnamese diacritics render correctly
+- **Font stack:** `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`
+- **Monospace for roots** — `'SF Mono', Monaco, monospace` for "decoding" aesthetic
+
+### Design Consistency
+
+Landing page CSS variables must match iOS `Theme.swift`:
+
+```css
+:root {
+    --primary: #00F0FF;    /* Theme.primary */
+    --bg: #121212;         /* Theme.background */
+    --bg-card: #1E1E1E;    /* Theme.cardSurface */
+    --success: #00C73C;    /* Theme.success */
+}
+```
 
 ---
 
