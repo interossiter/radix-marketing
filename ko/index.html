@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <link rel="alternate" hreflang="en" href="https://radix-marketing.vercel.app/" />
     <link rel="alternate" hreflang="vi" href="https://radix-marketing.vercel.app/vn/" />
     <link rel="alternate" hreflang="ko" href="https://radix-marketing.vercel.app/ko/" />
-    <title>Radix - Learn Word Roots. Decode Any Word.</title>
+    <title>Radix - 어근을 배우세요. 모든 단어를 해독하세요.</title>
     <style>
         * {
             margin: 0;
@@ -39,6 +39,28 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 0 24px;
+        }
+
+        /* Language Selector */
+        .lang-selector {
+            text-align: right;
+            padding: 16px 0;
+            font-size: 0.9rem;
+        }
+
+        .lang-selector a {
+            color: var(--text-dim);
+            text-decoration: none;
+            padding: 4px 8px;
+        }
+
+        .lang-selector a:hover {
+            color: var(--primary);
+        }
+
+        .lang-selector a.active {
+            color: var(--primary);
+            font-weight: 600;
         }
 
         /* Hero */
@@ -233,144 +255,6 @@
             color: #666;
         }
 
-        /* Global Learners */
-        .global {
-            padding: 60px 0;
-        }
-
-        .global h2 {
-            text-align: center;
-            font-size: 2rem;
-            margin-bottom: 40px;
-        }
-
-        .locale-hooks {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 32px;
-        }
-
-        .locale {
-            background: var(--bg-card);
-            padding: 28px;
-            border-radius: 12px;
-            text-align: center;
-        }
-
-        .locale .flag {
-            font-size: 2.5rem;
-            display: block;
-            margin-bottom: 16px;
-        }
-
-        .locale .hook {
-            font-size: 1.15rem;
-            font-weight: 500;
-            color: var(--text);
-            margin-bottom: 12px;
-            line-height: 1.5;
-        }
-
-        .locale .translation {
-            font-size: 0.9rem;
-            color: var(--text-dim);
-            font-style: italic;
-        }
-
-        /* Decode Animation */
-        .decode-animation {
-            padding: 40px 0 60px;
-        }
-
-        .decode-animation h2 {
-            text-align: center;
-            font-size: 1.5rem;
-            color: var(--text-dim);
-            margin-bottom: 24px;
-        }
-
-        .decode-container {
-            position: relative;
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-            aspect-ratio: 1;
-            background: #000;
-            border-radius: 16px;
-            overflow: hidden;
-        }
-
-        .decode-container img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            opacity: 0;
-        }
-
-        .decode-frame-1 {
-            animation: frame1 8s infinite;
-        }
-
-        .decode-frame-2 {
-            animation: frame2 8s infinite;
-        }
-
-        .decode-frame-3 {
-            animation: frame3 8s infinite;
-        }
-
-        /* Frame 1: INCREDIBLE (0-2s) */
-        @keyframes frame1 {
-            0%, 25% { opacity: 1; }
-            25.1%, 100% { opacity: 0; }
-        }
-
-        /* Frame 2: IN-CRED-IBLE explosion (2-3s) */
-        @keyframes frame2 {
-            0%, 25% { opacity: 0; transform: scale(1); }
-            25.1% { opacity: 1; transform: scale(1.1); }
-            37.5% { opacity: 1; transform: scale(1); }
-            37.6%, 100% { opacity: 0; }
-        }
-
-        /* Frame 3: Result (3-8s) */
-        @keyframes frame3 {
-            0%, 37.5% { opacity: 0; }
-            37.6%, 100% { opacity: 1; }
-        }
-
-        .decode-caption {
-            text-align: center;
-            margin-top: 16px;
-            color: var(--text-dim);
-            font-size: 0.9rem;
-        }
-
-        /* Language Selector */
-        .lang-selector {
-            text-align: right;
-            padding: 16px 0;
-            font-size: 0.9rem;
-        }
-
-        .lang-selector a {
-            color: var(--text-dim);
-            text-decoration: none;
-            padding: 4px 8px;
-        }
-
-        .lang-selector a:hover {
-            color: var(--primary);
-        }
-
-        .lang-selector a.active {
-            color: var(--primary);
-            font-weight: 600;
-        }
-
         /* Footer */
         footer {
             text-align: center;
@@ -429,11 +313,6 @@
                 grid-template-columns: repeat(2, 1fr);
                 gap: 24px;
             }
-
-            .locale-hooks {
-                grid-template-columns: 1fr;
-                gap: 24px;
-            }
         }
     </style>
 </head>
@@ -441,57 +320,46 @@
     <main class="container">
         <!-- Language Selector -->
         <nav class="lang-selector">
-            <a href="/" class="active">EN</a> | <a href="/vn/">VN</a> | <a href="/ko/">KO</a>
+            <a href="/">EN</a> | <a href="/vn/">VN</a> | <a href="/ko/" class="active">KO</a>
         </nav>
 
         <!-- Hero -->
         <section class="hero">
             <p class="brand">Radix</p>
-            <h1>Stop memorizing words.<br>Start decoding them.</h1>
-            <p class="tagline">One root unlocks 10+ words.</p>
+            <h1>암기하지 마세요.<br>해독하세요.</h1>
+            <p class="tagline">하나의 어근이 10개 이상의 단어를 열어줍니다.</p>
             <p class="value-prop">
-                Learn that <strong>port</strong> means "carry" and suddenly
-                <em>transport, export, portable, import, report</em> all make sense.
+                <strong>port</strong>가 "나르다"라는 뜻을 배우면
+                <em>transport, export, portable, import, report</em>가 이해됩니다.
             </p>
-            <a href="#" class="cta-button">Download on App Store</a>
-        </section>
-
-        <!-- Decode Animation -->
-        <section class="decode-animation">
-            <h2>See a word. Decode it. Master it.</h2>
-            <div class="decode-container">
-                <img src="images/INCREDIBLE.png" alt="INCREDIBLE - the whole word" class="decode-frame-1">
-                <img src="images/IN-CRED-IBLE.png" alt="IN + CRED + IBLE - decoded" class="decode-frame-2">
-                <img src="images/INCREDIBLE-RESULT.png" alt="12 words mastered" class="decode-frame-3">
-            </div>
-            <p class="decode-caption">IN (not) + CRED (believe) + IBLE (able) = "not able to be believed"</p>
+            <a href="#" class="cta-button">App Store에서 다운로드</a>
         </section>
 
         <!-- Demo -->
         <section class="demo">
-            <h2>How It Works</h2>
+            <h2>작동 방식</h2>
             <table class="demo-table">
                 <thead>
                     <tr>
-                        <th>You See</th>
-                        <th>You Learn</th>
-                        <th>Now You Know</th>
+                        <th>보이는 것</th>
+                        <th>배우는 것</th>
+                        <th>알게 되는 것</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>vid</td>
-                        <td>see</td>
+                        <td>보다</td>
                         <td>video, vision, evident</td>
                     </tr>
                     <tr>
                         <td>aud</td>
-                        <td>hear</td>
+                        <td>듣다</td>
                         <td>audio, audience, audition</td>
                     </tr>
                     <tr>
                         <td>port</td>
-                        <td>carry</td>
+                        <td>나르다</td>
                         <td>transport, export, portable</td>
                     </tr>
                 </tbody>
@@ -500,106 +368,88 @@
 
         <!-- Screenshots -->
         <section class="screenshots">
-            <h2>See It in Action</h2>
+            <h2>앱 화면 보기</h2>
             <div class="screenshot-grid">
                 <div class="screenshot-item">
-                    <img src="images/en/en-01-entry.png" alt="Radix home screen">
-                    <p>Track your streak</p>
+                    <img src="../images/ko/ko-01-entry.png" alt="Radix 홈 화면">
+                    <p>연속 학습 추적</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/en/en-02-quiz.png" alt="Quiz screen">
-                    <p>Learn by typing</p>
+                    <img src="../images/ko/ko-02-quiz.png" alt="퀴즈 화면">
+                    <p>타이핑으로 학습</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/en/en-04-xray.png" alt="Etymology detail">
-                    <p>Deep etymology</p>
+                    <img src="../images/ko/ko-04-xray.png" alt="어원 상세">
+                    <p>깊은 어원 분석</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/en/en-03-result.png" alt="Quiz result">
-                    <p>Instant feedback</p>
+                    <img src="../images/ko/ko-03-result.png" alt="퀴즈 결과">
+                    <p>즉각적인 피드백</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/en/en-06-session.png" alt="Session complete">
-                    <p>See what you mastered</p>
+                    <img src="../images/ko/ko-06-session.png" alt="세션 완료">
+                    <p>학습 현황 확인</p>
                 </div>
             </div>
         </section>
 
         <!-- Insight -->
         <section class="insight">
-            <h2>The Unfair Advantage</h2>
+            <h2>불공평한 이점</h2>
             <div class="insight-content">
                 <p>
-                    Kids who grow up speaking <strong>French, Spanish, or Italian</strong> have a hidden edge
-                    with English vocabulary. Words like <em>incredible, transport,</em> and <em>vision</em>
-                    feel intuitive because their languages share Latin roots.
+                    <strong>프랑스어, 스페인어, 이탈리아어</strong>를 모국어로 사용하는 아이들은
+                    영어 어휘에서 숨겨진 이점을 가지고 있습니다. <em>incredible, transport,</em> 그리고 <em>vision</em> 같은
+                    단어가 직관적으로 느껴지는 이유는 그들의 언어가 라틴어 어근을 공유하기 때문입니다.
                 </p>
                 <p>
-                    <span class="highlight">You don't need to speak a Romance language to get this advantage.</span>
+                    <span class="highlight">로망스어를 할 줄 몰라도 이 이점을 얻을 수 있습니다.</span>
                 </p>
                 <p>
-                    Learn <strong>~200 roots</strong> and you can decode thousands of English words—even ones
-                    you've never seen before.
+                    <strong>약 200개의 어근</strong>을 배우면 수천 개의 영어 단어를 해독할 수 있습니다—처음 보는 단어도요.
                 </p>
             </div>
         </section>
 
         <!-- Features -->
         <section class="features">
-            <h2>Built for Learning</h2>
+            <h2>학습을 위해 설계됨</h2>
             <div class="feature-grid">
                 <div class="feature-card">
-                    <h3>Spaced Repetition</h3>
-                    <p>Roots you know come back less often. Struggling ones appear more. Science-backed retention.</p>
+                    <h3>간격 반복</h3>
+                    <p>아는 어근은 덜 나타나고, 어려운 어근은 더 자주 나타납니다. 과학적으로 검증된 기억법.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Daily Streaks</h3>
-                    <p>Build a habit with streak tracking. One quiz per day keeps vocabulary growing.</p>
+                    <h3>일일 연속 학습</h3>
+                    <p>연속 학습 추적으로 습관을 만드세요. 하루 한 번 퀴즈로 어휘력이 성장합니다.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Word Packs</h3>
-                    <p>Core vocabulary free forever. Add Medical, Legal, SAT, GRE packs as you need them.</p>
+                    <h3>단어 팩</h3>
+                    <p>Core 어휘는 영원히 무료. 필요할 때 의학, 법률, SAT, GRE 팩을 추가하세요.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Root Web</h3>
-                    <p>See how roots connect. Tap to explore the network of word relationships.</p>
+                    <h3>어근 네트워크</h3>
+                    <p>어근이 어떻게 연결되는지 확인하세요. 탭하여 단어 관계의 네트워크를 탐색하세요.</p>
                 </div>
             </div>
         </section>
 
         <!-- Privacy Badge -->
         <section class="privacy">
-            <div class="badge">100% On-Device</div>
-            <p>Zero cloud. Zero tracking. School-safe by design.</p>
-            <p class="small">No data ever leaves your device. GDPR/PIPA compliant.</p>
-        </section>
-
-        <!-- Global Learners -->
-        <section class="global">
-            <h2>Built for Global Learners</h2>
-            <div class="locale-hooks">
-                <div class="locale">
-                    <span class="flag">🇰🇷</span>
-                    <p class="hook">수능 영어: 어휘는 '암기'가 아니라 '패턴'이다</p>
-                    <p class="translation">Suneung English: Vocabulary is a pattern, not brute force.</p>
-                </div>
-                <div class="locale">
-                    <span class="flag">🇻🇳</span>
-                    <p class="hook">Đừng học thuộc lòng. Hãy giải mã từ vựng.</p>
-                    <p class="translation">Don't memorize. Decode vocabulary.</p>
-                </div>
-            </div>
+            <div class="badge">100% 기기 내 처리</div>
+            <p>클라우드 없음. 추적 없음. 학교에서 안전하게 사용.</p>
+            <p class="small">데이터가 기기를 떠나지 않습니다. GDPR/PIPA 준수.</p>
         </section>
 
         <!-- CTA -->
         <section class="hero" style="min-height: auto; padding: 60px 0;">
-            <p class="value-prop">Start with the Core pack. Free forever.</p>
-            <a href="#" class="cta-button">Get Radix</a>
+            <p class="value-prop">Core 팩으로 시작하세요. 영원히 무료.</p>
+            <a href="#" class="cta-button">Radix 받기</a>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Radix. Made for learners everywhere.</p>
+        <p>&copy; 2026 Radix. 전 세계 학습자를 위해 만들었습니다.</p>
     </footer>
 </body>
 </html>

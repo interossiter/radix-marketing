@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <link rel="alternate" hreflang="en" href="https://radix-marketing.vercel.app/" />
     <link rel="alternate" hreflang="vi" href="https://radix-marketing.vercel.app/vn/" />
     <link rel="alternate" hreflang="ko" href="https://radix-marketing.vercel.app/ko/" />
-    <title>Radix - Learn Word Roots. Decode Any Word.</title>
+    <title>Radix - Học Gốc Từ. Giải Mã Mọi Từ Vựng.</title>
     <style>
         * {
             margin: 0;
@@ -39,6 +39,28 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 0 24px;
+        }
+
+        /* Language Selector */
+        .lang-selector {
+            text-align: right;
+            padding: 16px 0;
+            font-size: 0.9rem;
+        }
+
+        .lang-selector a {
+            color: var(--text-dim);
+            text-decoration: none;
+            padding: 4px 8px;
+        }
+
+        .lang-selector a:hover {
+            color: var(--primary);
+        }
+
+        .lang-selector a.active {
+            color: var(--primary);
+            font-weight: 600;
         }
 
         /* Hero */
@@ -233,144 +255,6 @@
             color: #666;
         }
 
-        /* Global Learners */
-        .global {
-            padding: 60px 0;
-        }
-
-        .global h2 {
-            text-align: center;
-            font-size: 2rem;
-            margin-bottom: 40px;
-        }
-
-        .locale-hooks {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 32px;
-        }
-
-        .locale {
-            background: var(--bg-card);
-            padding: 28px;
-            border-radius: 12px;
-            text-align: center;
-        }
-
-        .locale .flag {
-            font-size: 2.5rem;
-            display: block;
-            margin-bottom: 16px;
-        }
-
-        .locale .hook {
-            font-size: 1.15rem;
-            font-weight: 500;
-            color: var(--text);
-            margin-bottom: 12px;
-            line-height: 1.5;
-        }
-
-        .locale .translation {
-            font-size: 0.9rem;
-            color: var(--text-dim);
-            font-style: italic;
-        }
-
-        /* Decode Animation */
-        .decode-animation {
-            padding: 40px 0 60px;
-        }
-
-        .decode-animation h2 {
-            text-align: center;
-            font-size: 1.5rem;
-            color: var(--text-dim);
-            margin-bottom: 24px;
-        }
-
-        .decode-container {
-            position: relative;
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-            aspect-ratio: 1;
-            background: #000;
-            border-radius: 16px;
-            overflow: hidden;
-        }
-
-        .decode-container img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            opacity: 0;
-        }
-
-        .decode-frame-1 {
-            animation: frame1 8s infinite;
-        }
-
-        .decode-frame-2 {
-            animation: frame2 8s infinite;
-        }
-
-        .decode-frame-3 {
-            animation: frame3 8s infinite;
-        }
-
-        /* Frame 1: INCREDIBLE (0-2s) */
-        @keyframes frame1 {
-            0%, 25% { opacity: 1; }
-            25.1%, 100% { opacity: 0; }
-        }
-
-        /* Frame 2: IN-CRED-IBLE explosion (2-3s) */
-        @keyframes frame2 {
-            0%, 25% { opacity: 0; transform: scale(1); }
-            25.1% { opacity: 1; transform: scale(1.1); }
-            37.5% { opacity: 1; transform: scale(1); }
-            37.6%, 100% { opacity: 0; }
-        }
-
-        /* Frame 3: Result (3-8s) */
-        @keyframes frame3 {
-            0%, 37.5% { opacity: 0; }
-            37.6%, 100% { opacity: 1; }
-        }
-
-        .decode-caption {
-            text-align: center;
-            margin-top: 16px;
-            color: var(--text-dim);
-            font-size: 0.9rem;
-        }
-
-        /* Language Selector */
-        .lang-selector {
-            text-align: right;
-            padding: 16px 0;
-            font-size: 0.9rem;
-        }
-
-        .lang-selector a {
-            color: var(--text-dim);
-            text-decoration: none;
-            padding: 4px 8px;
-        }
-
-        .lang-selector a:hover {
-            color: var(--primary);
-        }
-
-        .lang-selector a.active {
-            color: var(--primary);
-            font-weight: 600;
-        }
-
         /* Footer */
         footer {
             text-align: center;
@@ -429,11 +313,6 @@
                 grid-template-columns: repeat(2, 1fr);
                 gap: 24px;
             }
-
-            .locale-hooks {
-                grid-template-columns: 1fr;
-                gap: 24px;
-            }
         }
     </style>
 </head>
@@ -441,57 +320,46 @@
     <main class="container">
         <!-- Language Selector -->
         <nav class="lang-selector">
-            <a href="/" class="active">EN</a> | <a href="/vn/">VN</a> | <a href="/ko/">KO</a>
+            <a href="/">EN</a> | <a href="/vn/" class="active">VN</a> | <a href="/ko/">KO</a>
         </nav>
 
         <!-- Hero -->
         <section class="hero">
             <p class="brand">Radix</p>
-            <h1>Stop memorizing words.<br>Start decoding them.</h1>
-            <p class="tagline">One root unlocks 10+ words.</p>
+            <h1>Đừng học thuộc lòng.<br>Hãy giải mã từ vựng.</h1>
+            <p class="tagline">Một gốc từ mở khóa 10+ từ vựng.</p>
             <p class="value-prop">
-                Learn that <strong>port</strong> means "carry" and suddenly
-                <em>transport, export, portable, import, report</em> all make sense.
+                Học rằng <strong>port</strong> nghĩa là "mang" và bạn sẽ hiểu ngay
+                <em>transport, export, portable, import, report</em>.
             </p>
-            <a href="#" class="cta-button">Download on App Store</a>
-        </section>
-
-        <!-- Decode Animation -->
-        <section class="decode-animation">
-            <h2>See a word. Decode it. Master it.</h2>
-            <div class="decode-container">
-                <img src="images/INCREDIBLE.png" alt="INCREDIBLE - the whole word" class="decode-frame-1">
-                <img src="images/IN-CRED-IBLE.png" alt="IN + CRED + IBLE - decoded" class="decode-frame-2">
-                <img src="images/INCREDIBLE-RESULT.png" alt="12 words mastered" class="decode-frame-3">
-            </div>
-            <p class="decode-caption">IN (not) + CRED (believe) + IBLE (able) = "not able to be believed"</p>
+            <a href="#" class="cta-button">Tải về trên App Store</a>
         </section>
 
         <!-- Demo -->
         <section class="demo">
-            <h2>How It Works</h2>
+            <h2>Cách Hoạt Động</h2>
             <table class="demo-table">
                 <thead>
                     <tr>
-                        <th>You See</th>
-                        <th>You Learn</th>
-                        <th>Now You Know</th>
+                        <th>Bạn Thấy</th>
+                        <th>Bạn Học</th>
+                        <th>Bạn Biết Ngay</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>vid</td>
-                        <td>see</td>
+                        <td>nhìn</td>
                         <td>video, vision, evident</td>
                     </tr>
                     <tr>
                         <td>aud</td>
-                        <td>hear</td>
+                        <td>nghe</td>
                         <td>audio, audience, audition</td>
                     </tr>
                     <tr>
                         <td>port</td>
-                        <td>carry</td>
+                        <td>mang</td>
                         <td>transport, export, portable</td>
                     </tr>
                 </tbody>
@@ -500,106 +368,89 @@
 
         <!-- Screenshots -->
         <section class="screenshots">
-            <h2>See It in Action</h2>
+            <h2>Xem Ứng Dụng</h2>
             <div class="screenshot-grid">
                 <div class="screenshot-item">
-                    <img src="images/en/en-01-entry.png" alt="Radix home screen">
-                    <p>Track your streak</p>
+                    <img src="../images/vn/vn-01-entry.png" alt="Màn hình chính Radix">
+                    <p>Theo dõi chuỗi học</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/en/en-02-quiz.png" alt="Quiz screen">
-                    <p>Learn by typing</p>
+                    <img src="../images/vn/vn-02-quiz.png" alt="Màn hình quiz">
+                    <p>Học bằng cách gõ</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/en/en-04-xray.png" alt="Etymology detail">
-                    <p>Deep etymology</p>
+                    <img src="../images/vn/vn-04-xray.png" alt="Chi tiết từ nguyên">
+                    <p>Từ nguyên sâu</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/en/en-03-result.png" alt="Quiz result">
-                    <p>Instant feedback</p>
+                    <img src="../images/vn/vn-03-result.png" alt="Kết quả quiz">
+                    <p>Phản hồi tức thì</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/en/en-06-session.png" alt="Session complete">
-                    <p>See what you mastered</p>
+                    <img src="../images/vn/vn-06-session.png" alt="Hoàn thành phiên">
+                    <p>Xem tiến độ</p>
                 </div>
             </div>
         </section>
 
         <!-- Insight -->
         <section class="insight">
-            <h2>The Unfair Advantage</h2>
+            <h2>Lợi Thế Không Công Bằng</h2>
             <div class="insight-content">
                 <p>
-                    Kids who grow up speaking <strong>French, Spanish, or Italian</strong> have a hidden edge
-                    with English vocabulary. Words like <em>incredible, transport,</em> and <em>vision</em>
-                    feel intuitive because their languages share Latin roots.
+                    Trẻ em lớn lên nói <strong>tiếng Pháp, Tây Ban Nha, hoặc Ý</strong> có lợi thế ẩn
+                    với từ vựng tiếng Anh. Những từ như <em>incredible, transport,</em> và <em>vision</em>
+                    cảm thấy quen thuộc vì ngôn ngữ của họ có chung gốc Latin.
                 </p>
                 <p>
-                    <span class="highlight">You don't need to speak a Romance language to get this advantage.</span>
+                    <span class="highlight">Bạn không cần nói tiếng Romance để có được lợi thế này.</span>
                 </p>
                 <p>
-                    Learn <strong>~200 roots</strong> and you can decode thousands of English words—even ones
-                    you've never seen before.
+                    Học <strong>~200 gốc từ</strong> và bạn có thể giải mã hàng ngàn từ tiếng Anh—kể cả những từ
+                    bạn chưa từng thấy.
                 </p>
             </div>
         </section>
 
         <!-- Features -->
         <section class="features">
-            <h2>Built for Learning</h2>
+            <h2>Được Xây Dựng Để Học</h2>
             <div class="feature-grid">
                 <div class="feature-card">
-                    <h3>Spaced Repetition</h3>
-                    <p>Roots you know come back less often. Struggling ones appear more. Science-backed retention.</p>
+                    <h3>Lặp Lại Ngắt Quãng</h3>
+                    <p>Gốc từ bạn biết xuất hiện ít hơn. Gốc từ khó xuất hiện nhiều hơn. Ghi nhớ dựa trên khoa học.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Daily Streaks</h3>
-                    <p>Build a habit with streak tracking. One quiz per day keeps vocabulary growing.</p>
+                    <h3>Chuỗi Hàng Ngày</h3>
+                    <p>Xây dựng thói quen với theo dõi chuỗi. Một bài quiz mỗi ngày giúp từ vựng tăng trưởng.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Word Packs</h3>
-                    <p>Core vocabulary free forever. Add Medical, Legal, SAT, GRE packs as you need them.</p>
+                    <h3>Gói Từ Vựng</h3>
+                    <p>Gói Core miễn phí mãi mãi. Thêm gói Y học, Pháp luật, SAT, GRE khi bạn cần.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Root Web</h3>
-                    <p>See how roots connect. Tap to explore the network of word relationships.</p>
+                    <h3>Mạng Gốc Từ</h3>
+                    <p>Xem cách các gốc từ kết nối. Chạm để khám phá mạng lưới quan hệ từ vựng.</p>
                 </div>
             </div>
         </section>
 
         <!-- Privacy Badge -->
         <section class="privacy">
-            <div class="badge">100% On-Device</div>
-            <p>Zero cloud. Zero tracking. School-safe by design.</p>
-            <p class="small">No data ever leaves your device. GDPR/PIPA compliant.</p>
-        </section>
-
-        <!-- Global Learners -->
-        <section class="global">
-            <h2>Built for Global Learners</h2>
-            <div class="locale-hooks">
-                <div class="locale">
-                    <span class="flag">🇰🇷</span>
-                    <p class="hook">수능 영어: 어휘는 '암기'가 아니라 '패턴'이다</p>
-                    <p class="translation">Suneung English: Vocabulary is a pattern, not brute force.</p>
-                </div>
-                <div class="locale">
-                    <span class="flag">🇻🇳</span>
-                    <p class="hook">Đừng học thuộc lòng. Hãy giải mã từ vựng.</p>
-                    <p class="translation">Don't memorize. Decode vocabulary.</p>
-                </div>
-            </div>
+            <div class="badge">100% Trên Thiết Bị</div>
+            <p>Không đám mây. Không theo dõi. An toàn cho trường học.</p>
+            <p class="small">Không có dữ liệu nào rời khỏi thiết bị của bạn. Tuân thủ GDPR/PIPA.</p>
         </section>
 
         <!-- CTA -->
         <section class="hero" style="min-height: auto; padding: 60px 0;">
-            <p class="value-prop">Start with the Core pack. Free forever.</p>
-            <a href="#" class="cta-button">Get Radix</a>
+            <p class="value-prop">Bắt đầu với gói Core. Miễn phí mãi mãi.</p>
+            <a href="#" class="cta-button">Tải Radix</a>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Radix. Made for learners everywhere.</p>
+        <p>&copy; 2026 Radix. Được tạo ra cho người học khắp nơi.</p>
     </footer>
 </body>
 </html>
