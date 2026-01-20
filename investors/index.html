@@ -221,6 +221,58 @@
             font-size: 1rem;
         }
 
+        .cost-compare {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .cost-row {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .cost-label {
+            width: 80px;
+            font-size: 0.9rem;
+            color: var(--text-dim);
+        }
+
+        .cost-bar {
+            flex: 1;
+            height: 24px;
+            border-radius: 4px;
+            position: relative;
+        }
+
+        .cost-bar.rising {
+            background: linear-gradient(90deg, #FF6B6B 0%, #FF6B6B 100%);
+            clip-path: polygon(0 100%, 100% 0, 100% 100%);
+        }
+
+        .cost-bar.flat {
+            background: var(--success);
+            height: 4px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .cost-value {
+            width: 120px;
+            font-size: 0.85rem;
+            text-align: right;
+        }
+
+        .cost-row.competitor .cost-value {
+            color: #FF6B6B;
+        }
+
+        .cost-row.radix .cost-value {
+            color: var(--success);
+            font-weight: 600;
+        }
+
         /* Revenue Model */
         .revenue {
             padding: 60px 0;
@@ -428,14 +480,17 @@
                     </div>
                 </div>
                 <div class="advantage-visual">
-                    <div class="chart-placeholder">
-Cost per User
-│
-│  ╱ Duolingo
-│ ╱
-│╱_________ Radix ($0)
-└──────────────────
-        Users →
+                    <div class="cost-compare">
+                        <div class="cost-row competitor">
+                            <span class="cost-label">Duolingo</span>
+                            <span class="cost-bar rising"></span>
+                            <span class="cost-value">$0.50–2/user/mo</span>
+                        </div>
+                        <div class="cost-row radix">
+                            <span class="cost-label">Radix</span>
+                            <span class="cost-bar flat"></span>
+                            <span class="cost-value">$0 forever</span>
+                        </div>
                     </div>
                 </div>
             </div>
