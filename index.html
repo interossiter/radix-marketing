@@ -205,24 +205,91 @@
             font-weight: 600;
         }
 
-        /* Exam Prep */
-        .exam-prep {
+        /* Exam Target Bar */
+        .exam-bar {
+            padding: 20px 0;
+            margin: 40px 0;
+        }
+
+        .exam-bar-inner {
+            background: linear-gradient(90deg, rgba(30, 30, 30, 0.9) 0%, rgba(30, 30, 30, 0.7) 100%);
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .exam-bar-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .exam-bar-targets {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .exam-target {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .exam-target .name {
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--success);
+            text-shadow: 0 0 10px rgba(0, 199, 60, 0.5);
+        }
+
+        .exam-target .status {
+            font-size: 0.7rem;
+            color: var(--success);
+            background: rgba(0, 199, 60, 0.15);
+            padding: 2px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .exam-separator {
+            color: #444;
+            font-size: 1.2rem;
+        }
+
+        /* Global Mobility */
+        .mobility {
             padding: 60px 0;
             text-align: center;
         }
 
-        .exam-prep h2 {
+        .mobility h2 {
             font-size: 2rem;
             margin-bottom: 16px;
+            background: linear-gradient(135deg, var(--primary), #A78BFA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
-        .exam-prep .subtitle {
+        .mobility .subtitle {
             color: var(--text-dim);
             font-size: 1.1rem;
-            margin-bottom: 40px;
+            max-width: 550px;
+            margin: 0 auto 40px;
         }
 
-        .exam-grid {
+        .mobility-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 24px;
@@ -230,33 +297,27 @@
             margin: 0 auto;
         }
 
-        .exam-card {
+        .mobility-card {
             background: var(--bg-card);
             padding: 28px;
             border-radius: 12px;
             text-align: center;
         }
 
-        .exam-card .exam-name {
-            font-size: 1.5rem;
-            font-weight: 700;
+        .mobility-card .icon {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+
+        .mobility-card h3 {
+            font-size: 1.1rem;
             color: var(--primary);
             margin-bottom: 8px;
         }
 
-        .exam-card .exam-desc {
+        .mobility-card p {
             color: var(--text-dim);
             font-size: 0.95rem;
-            margin-bottom: 12px;
-        }
-
-        .exam-card .exam-season {
-            font-size: 0.85rem;
-            color: var(--text);
-            background: rgba(0, 240, 255, 0.1);
-            padding: 6px 12px;
-            border-radius: 16px;
-            display: inline-block;
         }
 
         /* Pricing */
@@ -657,13 +718,13 @@
                 max-width: 280px;
             }
 
-            .exam-grid {
-                grid-template-columns: 1fr;
-            }
-
             .compliance-grid {
                 grid-template-columns: 1fr;
                 text-align: left;
+            }
+
+            .mobility-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -679,7 +740,7 @@
         <section class="hero">
             <p class="brand">Radix</p>
             <h1>Stop memorizing words.<br>Start decoding them.</h1>
-            <p class="tagline">One root unlocks 10+ words.</p>
+            <p class="tagline">One root unlocks 10+ words. The unfair advantage for a generation that can't afford to fall behind.</p>
             <p class="value-prop">
                 Learn that <strong>port</strong> means "carry" and suddenly
                 <em>transport, export, portable, import, report</em> all make sense.
@@ -776,20 +837,50 @@
             </div>
         </section>
 
-        <!-- Exam Prep -->
-        <section class="exam-prep">
-            <h2>Test Prep</h2>
-            <p class="subtitle">Vocabulary isn't memorization. It's pattern recognition. Start now.</p>
-            <div class="exam-grid">
-                <div class="exam-card">
-                    <p class="exam-name">SAT / GRE</p>
-                    <p class="exam-desc">College & graduate admissions vocabulary</p>
-                    <span class="exam-season">Multiple dates</span>
+        <!-- Exam Target Bar -->
+        <section class="exam-bar">
+            <div class="exam-bar-inner">
+                <span class="exam-bar-label">Targets:</span>
+                <div class="exam-bar-targets">
+                    <span class="exam-target">
+                        <span class="name">SAT</span>
+                        <span class="status">Active</span>
+                    </span>
+                    <span class="exam-separator">•</span>
+                    <span class="exam-target">
+                        <span class="name">GRE</span>
+                        <span class="status">Active</span>
+                    </span>
+                    <span class="exam-separator">•</span>
+                    <span class="exam-target">
+                        <span class="name">TOEFL</span>
+                        <span class="status">Active</span>
+                    </span>
+                    <span class="exam-separator">•</span>
+                    <span class="exam-target">
+                        <span class="name">IELTS</span>
+                        <span class="status">Active</span>
+                    </span>
                 </div>
-                <div class="exam-card">
-                    <p class="exam-name">TOEFL / IELTS</p>
-                    <p class="exam-desc">International English proficiency</p>
-                    <span class="exam-season">Year-round</span>
+            </div>
+        </section>
+
+        <!-- Global Mobility -->
+        <section class="mobility">
+            <h2>English is Your Passport. Radix is the Key.</h2>
+            <p class="subtitle">
+                Whether it's a student visa, a global tech job, or a medical degree—vocabulary is the barrier. We break it down.
+            </p>
+            <div class="mobility-grid">
+                <div class="mobility-card">
+                    <div class="icon">⚕️</div>
+                    <h3>Professional Jargon</h3>
+                    <p>Medical, legal, and technical vocabulary decoded through roots.</p>
+                </div>
+                <div class="mobility-card">
+                    <div class="icon">✈️</div>
+                    <h3>Global Mobility</h3>
+                    <p>Pass IELTS/TOEFL requirements. Open doors worldwide.</p>
                 </div>
             </div>
         </section>
