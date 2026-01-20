@@ -205,9 +205,113 @@
             font-weight: 600;
         }
 
+        /* Pricing */
+        .pricing {
+            padding: 60px 0;
+        }
+
+        .pricing h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .pricing .subtitle {
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .pricing-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .pricing-card {
+            background: var(--bg-card);
+            padding: 28px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .pricing-card.highlight {
+            border: 2px solid var(--primary);
+            position: relative;
+        }
+
+        .pricing-card.highlight::before {
+            content: "Best Value";
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary);
+            color: var(--bg);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .pricing-card .label {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-bottom: 8px;
+        }
+
+        .pricing-card .price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .pricing-card.highlight .price {
+            color: var(--primary);
+        }
+
+        .pricing-card .period {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-bottom: 16px;
+        }
+
+        .pricing-card .detail {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+        }
+
+        .pricing-card .detail strong {
+            color: var(--text);
+        }
+
+        .pricing-card.faded {
+            opacity: 0.6;
+        }
+
+        .pricing-card.faded .price {
+            text-decoration: line-through;
+            text-decoration-color: var(--text-dim);
+        }
+
+        .pricing-note {
+            text-align: center;
+            margin-top: 32px;
+            color: var(--text-dim);
+            font-size: 0.95rem;
+        }
+
+        .pricing-note .highlight {
+            color: var(--success);
+        }
+
         /* Privacy Badge */
         .privacy {
-            padding: 48px 0;
+            padding: 60px 0;
             text-align: center;
         }
 
@@ -219,7 +323,12 @@
             border-radius: 20px;
             font-weight: 600;
             font-size: 0.95rem;
-            margin-bottom: 16px;
+            margin-bottom: 20px;
+        }
+
+        .privacy h2 {
+            font-size: 1.75rem;
+            margin-bottom: 24px;
         }
 
         .privacy p {
@@ -231,6 +340,27 @@
         .privacy .small {
             font-size: 0.85rem;
             color: #666;
+        }
+
+        .compliance-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            max-width: 500px;
+            margin: 24px auto 0;
+        }
+
+        .compliance-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.95rem;
+            color: var(--text-dim);
+        }
+
+        .compliance-item .check {
+            color: var(--success);
+            font-weight: bold;
         }
 
         /* Global Learners */
@@ -467,6 +597,16 @@
                 grid-template-columns: 1fr;
                 gap: 24px;
             }
+
+            .pricing-comparison {
+                grid-template-columns: 1fr;
+                max-width: 280px;
+            }
+
+            .compliance-grid {
+                grid-template-columns: 1fr;
+                text-align: left;
+            }
         }
     </style>
 </head>
@@ -601,11 +741,53 @@
             </div>
         </section>
 
-        <!-- Privacy Badge -->
+        <!-- Pricing -->
+        <section class="pricing">
+            <h2>Own It Forever</h2>
+            <p class="subtitle">One purchase. No subscriptions. No recurring fees.</p>
+            <div class="pricing-comparison">
+                <div class="pricing-card faded">
+                    <p class="label">Typical Vocab Apps</p>
+                    <p class="price">$7/mo</p>
+                    <p class="period">billed monthly</p>
+                    <p class="detail"><strong>$252</strong> over 3 years</p>
+                </div>
+                <div class="pricing-card highlight">
+                    <p class="label">Radix Premium</p>
+                    <p class="price">$15</p>
+                    <p class="period">one time</p>
+                    <p class="detail"><strong>Lifetime</strong> access</p>
+                </div>
+            </div>
+            <p class="pricing-note">
+                Elements pack is <span class="highlight">free forever</span>. Premium unlocks all current and future packs.
+            </p>
+        </section>
+
+        <!-- Privacy & Compliance -->
         <section class="privacy">
             <div class="badge">100% On-Device</div>
-            <p>Zero cloud. Zero tracking. School-safe by design.</p>
-            <p class="small">No data ever leaves your device. GDPR/PIPA compliant.</p>
+            <h2>Zero Data Liability</h2>
+            <p>Your learning stays on your device. Nothing is ever uploaded, tracked, or shared.</p>
+            <div class="compliance-grid">
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>No account required</span>
+                </div>
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>No server logs</span>
+                </div>
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>No tracking pixels</span>
+                </div>
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>No cross-border data</span>
+                </div>
+            </div>
+            <p class="small" style="margin-top: 20px;">Automatic GDPR/PIPA compliance. Deploy in schools without a Data Protection Officer.</p>
         </section>
 
         <!-- Global Learners -->

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Radix for Schools - Zero Data Liability English Vocabulary</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #00F0FF;
+            --primary-dim: #00C4D4;
+            --bg: #121212;
+            --bg-card: #1E1E1E;
+            --text: #FFFFFF;
+            --text-dim: #A0A0A0;
+            --success: #00C73C;
+            --cta: #00C73C;
+            --cta-hover: #00A832;
+            --danger: #FF4757;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        nav .brand {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        nav .back {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        nav .back:hover {
+            color: var(--primary);
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 80px 0 60px;
+        }
+
+        .hero .badge {
+            display: inline-block;
+            background: rgba(0, 199, 60, 0.15);
+            color: var(--success);
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 2.75rem);
+            font-weight: 700;
+            margin-bottom: 24px;
+            line-height: 1.2;
+        }
+
+        .hero h1 span {
+            background: linear-gradient(135deg, var(--primary), #A78BFA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-dim);
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--cta);
+            color: white;
+            padding: 16px 48px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background 0.2s;
+        }
+
+        .cta-button:hover {
+            background: var(--cta-hover);
+        }
+
+        .cta-button.secondary {
+            background: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+            margin-left: 16px;
+        }
+
+        .cta-button.secondary:hover {
+            background: rgba(0, 240, 255, 0.1);
+        }
+
+        /* Problem Statement */
+        .problem {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .problem h2 {
+            font-size: 1.75rem;
+            margin-bottom: 32px;
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .problem-card {
+            background: var(--bg-card);
+            padding: 24px;
+            border-radius: 12px;
+            border-left: 3px solid var(--danger);
+        }
+
+        .problem-card h3 {
+            color: var(--danger);
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        .problem-card p {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+        }
+
+        /* Compliance Comparison */
+        .compliance {
+            padding: 60px 0;
+        }
+
+        .compliance h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .compliance .subtitle {
+            text-align: center;
+            color: var(--text-dim);
+            margin-bottom: 40px;
+        }
+
+        .compliance-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--bg-card);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .compliance-table th,
+        .compliance-table td {
+            padding: 16px 20px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+
+        .compliance-table th {
+            background: #252525;
+            color: var(--text-dim);
+            font-weight: 500;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .compliance-table th:first-child {
+            width: 40%;
+        }
+
+        .compliance-table td:first-child {
+            font-weight: 500;
+        }
+
+        .compliance-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .check {
+            color: var(--success);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .cross {
+            color: var(--danger);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .maybe {
+            color: #FFA502;
+            font-size: 0.85rem;
+        }
+
+        /* Benefits */
+        .benefits {
+            padding: 60px 0;
+        }
+
+        .benefits h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 48px;
+        }
+
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+
+        .benefit-card {
+            background: var(--bg-card);
+            padding: 28px;
+            border-radius: 12px;
+        }
+
+        .benefit-card h3 {
+            color: var(--primary);
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+        }
+
+        .benefit-card p {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+        }
+
+        /* How It Works */
+        .how-it-works {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .how-it-works h2 {
+            font-size: 2rem;
+            margin-bottom: 48px;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .step {
+            text-align: center;
+        }
+
+        .step .number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background: var(--primary);
+            color: var(--bg);
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 1.25rem;
+            margin-bottom: 16px;
+        }
+
+        .step h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .step p {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+        }
+
+        /* Pricing */
+        .pricing {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .pricing h2 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .pricing .subtitle {
+            color: var(--text-dim);
+            margin-bottom: 40px;
+        }
+
+        .pricing-options {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .pricing-card {
+            background: var(--bg-card);
+            padding: 32px;
+            border-radius: 12px;
+            text-align: left;
+        }
+
+        .pricing-card.featured {
+            border: 2px solid var(--primary);
+        }
+
+        .pricing-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+
+        .pricing-card .price {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 16px;
+        }
+
+        .pricing-card .price span {
+            font-size: 1rem;
+            color: var(--text-dim);
+            font-weight: 400;
+        }
+
+        .pricing-card ul {
+            list-style: none;
+            margin-bottom: 24px;
+        }
+
+        .pricing-card ul li {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+            padding: 8px 0;
+            padding-left: 24px;
+            position: relative;
+        }
+
+        .pricing-card ul li::before {
+            content: "✓";
+            color: var(--success);
+            position: absolute;
+            left: 0;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .cta-section p {
+            color: var(--text-dim);
+            font-size: 1.1rem;
+            margin-bottom: 32px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            border-top: 1px solid #333;
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .problem-grid,
+            .benefit-grid,
+            .steps,
+            .pricing-options {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-button.secondary {
+                margin-left: 0;
+                margin-top: 16px;
+                display: block;
+            }
+
+            .compliance-table {
+                font-size: 0.9rem;
+            }
+
+            .compliance-table th,
+            .compliance-table td {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <nav>
+            <a href="/" class="brand">RADIX</a>
+            <a href="/" class="back">&larr; Back to main site</a>
+        </nav>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="badge">For Schools & Institutions</div>
+            <h1>Zero Data Liability.<br><span>100% School-Safe.</span></h1>
+            <p class="subtitle">
+                The only vocabulary app you can deploy without a Data Protection Officer.
+                No accounts, no servers, no compliance headaches.
+            </p>
+            <a href="mailto:schools@radix.app" class="cta-button">Request Volume Pricing</a>
+            <a href="/" class="cta-button secondary">See the App</a>
+        </section>
+
+        <!-- Problem -->
+        <section class="problem">
+            <h2>EdTech Compliance is a Nightmare</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <h3>GDPR/PIPA Risk</h3>
+                    <p>Most EdTech apps collect student data on foreign servers, creating cross-border transfer liability.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>IT Overhead</h3>
+                    <p>Account management, password resets, data deletion requests—your IT team becomes app support.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>Vendor Lock-in</h3>
+                    <p>Monthly subscriptions that grow with enrollment. Cancel and lose all student progress data.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compliance Comparison -->
+        <section class="compliance">
+            <h2>Compliance Comparison</h2>
+            <p class="subtitle">See how Radix compares to typical vocabulary apps</p>
+            <table class="compliance-table">
+                <thead>
+                    <tr>
+                        <th>Requirement</th>
+                        <th>Radix</th>
+                        <th>Typical Apps</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>No student accounts required</td>
+                        <td><span class="check">✓</span></td>
+                        <td><span class="cross">✗</span></td>
+                    </tr>
+                    <tr>
+                        <td>No PII collection</td>
+                        <td><span class="check">✓</span></td>
+                        <td><span class="cross">✗</span></td>
+                    </tr>
+                    <tr>
+                        <td>No server logs</td>
+                        <td><span class="check">✓</span></td>
+                        <td><span class="cross">✗</span></td>
+                    </tr>
+                    <tr>
+                        <td>No cross-border data transfer</td>
+                        <td><span class="check">✓</span></td>
+                        <td><span class="cross">✗</span></td>
+                    </tr>
+                    <tr>
+                        <td>No tracking pixels / analytics</td>
+                        <td><span class="check">✓</span></td>
+                        <td><span class="cross">✗</span></td>
+                    </tr>
+                    <tr>
+                        <td>Works offline</td>
+                        <td><span class="check">✓</span></td>
+                        <td><span class="maybe">Sometimes</span></td>
+                    </tr>
+                    <tr>
+                        <td>GDPR Article 44 compliant</td>
+                        <td><span class="check">✓</span> Auto</td>
+                        <td><span class="maybe">Requires DPA</span></td>
+                    </tr>
+                    <tr>
+                        <td>Korea PIPA compliant</td>
+                        <td><span class="check">✓</span> Auto</td>
+                        <td><span class="maybe">Requires audit</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Benefits -->
+        <section class="benefits">
+            <h2>Why Schools Choose Radix</h2>
+            <div class="benefit-grid">
+                <div class="benefit-card">
+                    <h3>Deploy in Minutes</h3>
+                    <p>No IT integration required. Students download from App Store and start learning. No accounts, no setup, no support tickets.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>One-Time Purchase</h3>
+                    <p>Volume licenses that don't expire. No annual renewals, no per-seat billing surprises. Budget once, benefit forever.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Works Everywhere</h3>
+                    <p>100% offline capable. Perfect for schools with limited connectivity or device restrictions. Learning continues without WiFi.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Proven Methodology</h3>
+                    <p>Root-based vocabulary acquisition backed by morphological awareness research. Students decode words, not just memorize them.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="how-it-works">
+            <h2>How Volume Licensing Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="number">1</div>
+                    <h3>Request Quote</h3>
+                    <p>Tell us your student count and we'll provide volume pricing with tiered discounts.</p>
+                </div>
+                <div class="step">
+                    <div class="number">2</div>
+                    <h3>Receive Codes</h3>
+                    <p>Get App Store redemption codes for your institution. Distribute via email or MDM.</p>
+                </div>
+                <div class="step">
+                    <div class="number">3</div>
+                    <h3>Students Learn</h3>
+                    <p>Students redeem codes and start learning immediately. No accounts, no data collected.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section class="pricing">
+            <h2>Volume Pricing</h2>
+            <p class="subtitle">One-time purchase. No subscriptions. No per-seat renewals.</p>
+            <div class="pricing-options">
+                <div class="pricing-card">
+                    <h3>Classroom</h3>
+                    <div class="price">$10 <span>/ student</span></div>
+                    <ul>
+                        <li>20-99 licenses</li>
+                        <li>Lifetime Premium access</li>
+                        <li>All current & future packs</li>
+                        <li>App Store redemption codes</li>
+                    </ul>
+                    <a href="mailto:schools@radix.app?subject=Classroom License Inquiry" class="cta-button" style="width: 100%; text-align: center;">Get Quote</a>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Institution</h3>
+                    <div class="price">$7 <span>/ student</span></div>
+                    <ul>
+                        <li>100+ licenses</li>
+                        <li>Lifetime Premium access</li>
+                        <li>All current & future packs</li>
+                        <li>MDM deployment support</li>
+                        <li>Priority email support</li>
+                    </ul>
+                    <a href="mailto:schools@radix.app?subject=Institution License Inquiry" class="cta-button" style="width: 100%; text-align: center;">Get Quote</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <h2>Ready to Simplify EdTech Compliance?</h2>
+            <p>See why schools trust Radix for vocabulary instruction without the data liability.</p>
+            <a href="mailto:schools@radix.app" class="cta-button">Contact Us</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Radix. Built for learners. Designed for compliance.</p>
+    </footer>
+</body>
+</html>

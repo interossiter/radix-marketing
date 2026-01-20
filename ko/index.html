@@ -227,9 +227,112 @@
             font-weight: 600;
         }
 
+        /* Pricing */
+        .pricing {
+            padding: 60px 0;
+        }
+
+        .pricing h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .pricing .subtitle {
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .pricing-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .pricing-card {
+            background: var(--bg-card);
+            padding: 28px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .pricing-card.highlight {
+            border: 2px solid var(--primary);
+            position: relative;
+        }
+
+        .pricing-card.highlight::before {
+            content: "최고의 가치";
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary);
+            color: var(--bg);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .pricing-card .label {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-bottom: 8px;
+        }
+
+        .pricing-card .price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .pricing-card.highlight .price {
+            color: var(--primary);
+        }
+
+        .pricing-card .period {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-bottom: 16px;
+        }
+
+        .pricing-card .detail {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+        }
+
+        .pricing-card .detail strong {
+            color: var(--text);
+        }
+
+        .pricing-card.faded {
+            opacity: 0.6;
+        }
+
+        .pricing-card.faded .price {
+            text-decoration: line-through;
+            text-decoration-color: var(--text-dim);
+        }
+
+        .pricing-note {
+            text-align: center;
+            margin-top: 32px;
+            color: var(--text-dim);
+            font-size: 0.95rem;
+        }
+
+        .pricing-note .highlight {
+            color: var(--success);
+        }
+
         /* Privacy Badge */
         .privacy {
-            padding: 48px 0;
+            padding: 60px 0;
             text-align: center;
         }
 
@@ -241,7 +344,12 @@
             border-radius: 20px;
             font-weight: 600;
             font-size: 0.95rem;
-            margin-bottom: 16px;
+            margin-bottom: 20px;
+        }
+
+        .privacy h2 {
+            font-size: 1.75rem;
+            margin-bottom: 24px;
         }
 
         .privacy p {
@@ -253,6 +361,27 @@
         .privacy .small {
             font-size: 0.85rem;
             color: #666;
+        }
+
+        .compliance-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            max-width: 500px;
+            margin: 24px auto 0;
+        }
+
+        .compliance-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.95rem;
+            color: var(--text-dim);
+        }
+
+        .compliance-item .check {
+            color: var(--success);
+            font-weight: bold;
         }
 
         /* Footer */
@@ -312,6 +441,16 @@
             .screenshot-grid {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 24px;
+            }
+
+            .pricing-comparison {
+                grid-template-columns: 1fr;
+                max-width: 280px;
+            }
+
+            .compliance-grid {
+                grid-template-columns: 1fr;
+                text-align: left;
             }
         }
     </style>
@@ -434,11 +573,53 @@
             </div>
         </section>
 
-        <!-- Privacy Badge -->
+        <!-- Pricing -->
+        <section class="pricing">
+            <h2>평생 소유하세요</h2>
+            <p class="subtitle">한 번 결제. 구독료 없음. 반복 결제 없음.</p>
+            <div class="pricing-comparison">
+                <div class="pricing-card faded">
+                    <p class="label">일반 어휘 앱</p>
+                    <p class="price">₩9,900/월</p>
+                    <p class="period">매월 결제</p>
+                    <p class="detail">3년간 <strong>₩356,400</strong></p>
+                </div>
+                <div class="pricing-card highlight">
+                    <p class="label">Radix 프리미엄</p>
+                    <p class="price">₩22,000</p>
+                    <p class="period">1회 결제</p>
+                    <p class="detail"><strong>평생</strong> 이용</p>
+                </div>
+            </div>
+            <p class="pricing-note">
+                Elements 팩은 <span class="highlight">영원히 무료</span>. 프리미엄으로 현재와 미래의 모든 팩을 해제하세요.
+            </p>
+        </section>
+
+        <!-- Privacy & Compliance -->
         <section class="privacy">
             <div class="badge">100% 기기 내 처리</div>
-            <p>클라우드 없음. 추적 없음. 학교에서 안전하게 사용.</p>
-            <p class="small">데이터가 기기를 떠나지 않습니다. GDPR/PIPA 준수.</p>
+            <h2>데이터 책임 제로</h2>
+            <p>학습 데이터는 기기에만 저장됩니다. 업로드, 추적, 공유 없음.</p>
+            <div class="compliance-grid">
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>계정 불필요</span>
+                </div>
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>서버 로그 없음</span>
+                </div>
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>추적 픽셀 없음</span>
+                </div>
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>국경 간 데이터 없음</span>
+                </div>
+            </div>
+            <p class="small" style="margin-top: 20px;">GDPR/PIPA 자동 준수. 개인정보보호책임자 없이 학원/학교에서 바로 사용 가능.</p>
         </section>
 
         <!-- CTA -->

@@ -227,9 +227,112 @@
             font-weight: 600;
         }
 
+        /* Pricing */
+        .pricing {
+            padding: 60px 0;
+        }
+
+        .pricing h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .pricing .subtitle {
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .pricing-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .pricing-card {
+            background: var(--bg-card);
+            padding: 28px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .pricing-card.highlight {
+            border: 2px solid var(--primary);
+            position: relative;
+        }
+
+        .pricing-card.highlight::before {
+            content: "Giá Tốt Nhất";
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary);
+            color: var(--bg);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .pricing-card .label {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-bottom: 8px;
+        }
+
+        .pricing-card .price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .pricing-card.highlight .price {
+            color: var(--primary);
+        }
+
+        .pricing-card .period {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-bottom: 16px;
+        }
+
+        .pricing-card .detail {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+        }
+
+        .pricing-card .detail strong {
+            color: var(--text);
+        }
+
+        .pricing-card.faded {
+            opacity: 0.6;
+        }
+
+        .pricing-card.faded .price {
+            text-decoration: line-through;
+            text-decoration-color: var(--text-dim);
+        }
+
+        .pricing-note {
+            text-align: center;
+            margin-top: 32px;
+            color: var(--text-dim);
+            font-size: 0.95rem;
+        }
+
+        .pricing-note .highlight {
+            color: var(--success);
+        }
+
         /* Privacy Badge */
         .privacy {
-            padding: 48px 0;
+            padding: 60px 0;
             text-align: center;
         }
 
@@ -241,7 +344,12 @@
             border-radius: 20px;
             font-weight: 600;
             font-size: 0.95rem;
-            margin-bottom: 16px;
+            margin-bottom: 20px;
+        }
+
+        .privacy h2 {
+            font-size: 1.75rem;
+            margin-bottom: 24px;
         }
 
         .privacy p {
@@ -253,6 +361,27 @@
         .privacy .small {
             font-size: 0.85rem;
             color: #666;
+        }
+
+        .compliance-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            max-width: 500px;
+            margin: 24px auto 0;
+        }
+
+        .compliance-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.95rem;
+            color: var(--text-dim);
+        }
+
+        .compliance-item .check {
+            color: var(--success);
+            font-weight: bold;
         }
 
         /* Footer */
@@ -312,6 +441,16 @@
             .screenshot-grid {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 24px;
+            }
+
+            .pricing-comparison {
+                grid-template-columns: 1fr;
+                max-width: 280px;
+            }
+
+            .compliance-grid {
+                grid-template-columns: 1fr;
+                text-align: left;
             }
         }
     </style>
@@ -435,11 +574,53 @@
             </div>
         </section>
 
-        <!-- Privacy Badge -->
+        <!-- Pricing -->
+        <section class="pricing">
+            <h2>Sở Hữu Vĩnh Viễn</h2>
+            <p class="subtitle">Mua một lần. Không đăng ký. Không phí định kỳ.</p>
+            <div class="pricing-comparison">
+                <div class="pricing-card faded">
+                    <p class="label">Ứng dụng từ vựng khác</p>
+                    <p class="price">179K/th</p>
+                    <p class="period">thanh toán hàng tháng</p>
+                    <p class="detail"><strong>6.4 triệu</strong> trong 3 năm</p>
+                </div>
+                <div class="pricing-card highlight">
+                    <p class="label">Radix Premium</p>
+                    <p class="price">379K</p>
+                    <p class="period">một lần</p>
+                    <p class="detail">Truy cập <strong>trọn đời</strong></p>
+                </div>
+            </div>
+            <p class="pricing-note">
+                Gói Elements <span class="highlight">miễn phí mãi mãi</span>. Premium mở khóa tất cả gói hiện tại và tương lai.
+            </p>
+        </section>
+
+        <!-- Privacy & Compliance -->
         <section class="privacy">
             <div class="badge">100% Trên Thiết Bị</div>
-            <p>Không đám mây. Không theo dõi. An toàn cho trường học.</p>
-            <p class="small">Không có dữ liệu nào rời khỏi thiết bị của bạn. Tuân thủ GDPR/PIPA.</p>
+            <h2>Không Rủi Ro Dữ Liệu</h2>
+            <p>Dữ liệu học tập ở trên thiết bị của bạn. Không tải lên, theo dõi, hay chia sẻ.</p>
+            <div class="compliance-grid">
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>Không cần tài khoản</span>
+                </div>
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>Không có log máy chủ</span>
+                </div>
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>Không pixel theo dõi</span>
+                </div>
+                <div class="compliance-item">
+                    <span class="check">✓</span>
+                    <span>Không chuyển dữ liệu xuyên biên giới</span>
+                </div>
+            </div>
+            <p class="small" style="margin-top: 20px;">Tự động tuân thủ GDPR/PIPA. Triển khai trong trường học mà không cần Chuyên viên Bảo vệ Dữ liệu.</p>
         </section>
 
         <!-- CTA -->

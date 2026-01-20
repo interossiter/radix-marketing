@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Radix - Investor Overview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #00F0FF;
+            --primary-dim: #00C4D4;
+            --bg: #121212;
+            --bg-card: #1E1E1E;
+            --text: #FFFFFF;
+            --text-dim: #A0A0A0;
+            --success: #00C73C;
+            --cta: #00C73C;
+            --cta-hover: #00A832;
+            --accent: #A78BFA;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        nav .brand {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        nav .back {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        nav .back:hover {
+            color: var(--primary);
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 80px 0 60px;
+        }
+
+        .hero .badge {
+            display: inline-block;
+            background: rgba(167, 139, 250, 0.15);
+            color: var(--accent);
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 2.75rem);
+            font-weight: 700;
+            margin-bottom: 24px;
+            line-height: 1.2;
+        }
+
+        .hero h1 span {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-dim);
+            max-width: 650px;
+            margin: 0 auto 40px;
+        }
+
+        /* Key Metrics */
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 40px 0;
+        }
+
+        .metric {
+            text-align: center;
+            padding: 24px;
+            background: var(--bg-card);
+            border-radius: 12px;
+        }
+
+        .metric .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 4px;
+        }
+
+        .metric .label {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Section Headers */
+        .section-header {
+            text-align: center;
+            padding: 60px 0 40px;
+        }
+
+        .section-header h2 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .section-header p {
+            color: var(--text-dim);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Advantage Cards */
+        .advantages {
+            padding: 20px 0 60px;
+        }
+
+        .advantage {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            align-items: center;
+            padding: 48px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        .advantage:last-child {
+            border-bottom: none;
+        }
+
+        .advantage.reverse {
+            direction: rtl;
+        }
+
+        .advantage.reverse > * {
+            direction: ltr;
+        }
+
+        .advantage-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+            color: var(--primary);
+        }
+
+        .advantage-content p {
+            color: var(--text-dim);
+            font-size: 1.05rem;
+            margin-bottom: 16px;
+        }
+
+        .advantage-content .highlight {
+            background: var(--bg-card);
+            padding: 16px 20px;
+            border-radius: 8px;
+            border-left: 3px solid var(--primary);
+            font-size: 0.95rem;
+        }
+
+        .advantage-visual {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 32px;
+            text-align: center;
+        }
+
+        .advantage-visual .chart-placeholder {
+            font-family: 'SF Mono', Monaco, monospace;
+            font-size: 0.85rem;
+            color: var(--text-dim);
+            white-space: pre-line;
+            line-height: 1.4;
+        }
+
+        .advantage-visual .big-number {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .advantage-visual .big-label {
+            color: var(--text-dim);
+            font-size: 1rem;
+        }
+
+        /* Data Asset */
+        .data-asset {
+            padding: 60px 0;
+        }
+
+        .data-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .data-card {
+            background: var(--bg-card);
+            padding: 28px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .data-card .icon {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+
+        .data-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .data-card p {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+
+        /* Revenue Model */
+        .revenue {
+            padding: 60px 0;
+        }
+
+        .revenue-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+        }
+
+        .revenue-card {
+            background: var(--bg-card);
+            padding: 32px;
+            border-radius: 12px;
+        }
+
+        .revenue-card.highlight {
+            border: 2px solid var(--success);
+        }
+
+        .revenue-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+        }
+
+        .revenue-card .stat {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        .revenue-card .stat:last-child {
+            border-bottom: none;
+        }
+
+        .revenue-card .stat .label {
+            color: var(--text-dim);
+        }
+
+        .revenue-card .stat .value {
+            font-weight: 600;
+        }
+
+        .revenue-card .stat .value.good {
+            color: var(--success);
+        }
+
+        .revenue-card .stat .value.bad {
+            color: #FF6B6B;
+        }
+
+        /* Exit Strategy */
+        .exit {
+            padding: 60px 0;
+        }
+
+        .exit-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+
+        .exit-card {
+            background: var(--bg-card);
+            padding: 28px;
+            border-radius: 12px;
+        }
+
+        .exit-card h3 {
+            color: var(--accent);
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+        }
+
+        .exit-card p {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+        }
+
+        /* CTA */
+        .cta-section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .cta-section p {
+            color: var(--text-dim);
+            font-size: 1.1rem;
+            margin-bottom: 32px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--cta);
+            color: white;
+            padding: 16px 48px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background 0.2s;
+        }
+
+        .cta-button:hover {
+            background: var(--cta-hover);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            border-top: 1px solid #333;
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .metrics {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .advantage {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .advantage.reverse {
+                direction: ltr;
+            }
+
+            .data-grid,
+            .revenue-comparison,
+            .exit-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <nav>
+            <a href="/" class="brand">RADIX</a>
+            <a href="/" class="back">&larr; Back to main site</a>
+        </nav>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="badge">Investor Overview</div>
+            <h1>High-Tech Product.<br><span>Zero-Infrastructure Cost.</span></h1>
+            <p class="subtitle">
+                A vocabulary learning app architected for infinite scale without increasing operational costs.
+                100% on-device processing. No servers to maintain.
+            </p>
+        </section>
+
+        <!-- Key Metrics -->
+        <section class="metrics">
+            <div class="metric">
+                <div class="value">$0</div>
+                <div class="label">Server Cost</div>
+            </div>
+            <div class="metric">
+                <div class="value">100%</div>
+                <div class="label">On-Device</div>
+            </div>
+            <div class="metric">
+                <div class="value">$15</div>
+                <div class="label">Lifetime LTV</div>
+            </div>
+            <div class="metric">
+                <div class="value">Day 1</div>
+                <div class="label">Revenue Capture</div>
+            </div>
+        </section>
+
+        <!-- Structural Advantages -->
+        <div class="section-header">
+            <h2>Structural Advantages</h2>
+            <p>Architecture designed for profitability, not VC runway dependency</p>
+        </div>
+
+        <section class="advantages">
+            <!-- Zero Marginal Cost -->
+            <div class="advantage">
+                <div class="advantage-content">
+                    <h3>Zero Marginal Cost Scaling</h3>
+                    <p>
+                        Unlike competitors who pay per-user for cloud compute and database storage,
+                        Radix leverages the Neural Engine in the user's pocket. Apple pays for iCloud sync.
+                    </p>
+                    <p>
+                        As user base grows from 1,000 to 1,000,000, infrastructure costs stay flat at zero.
+                    </p>
+                    <div class="highlight">
+                        <strong>Competitor model:</strong> Revenue grows linearly, costs grow linearly.<br>
+                        <strong>Radix model:</strong> Revenue grows linearly, costs stay fixed.
+                    </div>
+                </div>
+                <div class="advantage-visual">
+                    <div class="chart-placeholder">
+Cost per User
+│
+│  ╱ Duolingo
+│ ╱
+│╱_________ Radix ($0)
+└──────────────────
+        Users →
+                    </div>
+                </div>
+            </div>
+
+            <!-- Front-Loaded Revenue -->
+            <div class="advantage reverse">
+                <div class="advantage-content">
+                    <h3>Front-Loaded Revenue Model</h3>
+                    <p>
+                        One-time lifetime purchase captures 100% of customer value on Day 1.
+                        No churn to fight. No retention campaigns. No subscription fatigue.
+                    </p>
+                    <p>
+                        This enables aggressive paid acquisition without needing months of
+                        subscription revenue to reach payback.
+                    </p>
+                    <div class="highlight">
+                        <strong>CAC Payback:</strong> Immediate (Day 1)<br>
+                        <strong>Churn Rate:</strong> N/A (lifetime purchase)
+                    </div>
+                </div>
+                <div class="advantage-visual">
+                    <div class="big-number">100%</div>
+                    <div class="big-label">LTV captured on purchase</div>
+                </div>
+            </div>
+
+            <!-- Regulatory Moat -->
+            <div class="advantage">
+                <div class="advantage-content">
+                    <h3>Regulatory Moat</h3>
+                    <p>
+                        Zero data collection means automatic GDPR/PIPA compliance.
+                        No Data Protection Officer required. No cross-border transfer concerns.
+                    </p>
+                    <p>
+                        This opens B2B channels (schools, hagwons, institutions) that competitors
+                        cannot enter without expensive compliance infrastructure.
+                    </p>
+                    <div class="highlight">
+                        <strong>Sales pitch to schools:</strong> "The only EdTech app you can deploy
+                        without a Data Protection Officer."
+                    </div>
+                </div>
+                <div class="advantage-visual">
+                    <div class="chart-placeholder">
+Compliance Checklist
+────────────────────
+✓ No PII collection
+✓ No server logs
+✓ No tracking pixels
+✓ No cross-border data
+✓ GDPR Article 44 auto
+✓ Korea PIPA auto
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Asset -->
+        <div class="section-header">
+            <h2>The Data Asset</h2>
+            <p>Proprietary dataset on how humans learn (and fail) at English vocabulary</p>
+        </div>
+
+        <section class="data-asset">
+            <div class="data-grid">
+                <div class="data-card">
+                    <div class="icon">🧠</div>
+                    <h3>Confusion Mapping</h3>
+                    <p>Track which roots users confuse (BENE vs MALE, VID vs AUD). Maps the "difficulty curve" of English.</p>
+                </div>
+                <div class="data-card">
+                    <div class="icon">⏱️</div>
+                    <h3>Response Latency</h3>
+                    <p>Millisecond-level timing data reveals recognition speed vs. recall struggle.</p>
+                </div>
+                <div class="data-card">
+                    <div class="icon">🌍</div>
+                    <h3>L1 Interference</h3>
+                    <p>Compare learning patterns across native languages. Korean vs Vietnamese vs Spanish learners.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 32px; color: var(--text-dim);">
+                <p>At 100K users: ~60 million learning events annually. This data is an asset separate from the app itself.</p>
+            </div>
+        </section>
+
+        <!-- Revenue Model Comparison -->
+        <div class="section-header">
+            <h2>Revenue Model</h2>
+            <p>Lifetime purchase vs. subscription economics</p>
+        </div>
+
+        <section class="revenue">
+            <div class="revenue-comparison">
+                <div class="revenue-card">
+                    <h3>Subscription Model (Competitors)</h3>
+                    <div class="stat">
+                        <span class="label">Monthly Price</span>
+                        <span class="value">$7/mo</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Average Retention</span>
+                        <span class="value bad">4 months</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Effective LTV</span>
+                        <span class="value">$28</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">CAC Payback</span>
+                        <span class="value bad">2-3 months</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Server Costs</span>
+                        <span class="value bad">$0.50-2/user/mo</span>
+                    </div>
+                </div>
+                <div class="revenue-card highlight">
+                    <h3>Radix Lifetime Model</h3>
+                    <div class="stat">
+                        <span class="label">One-Time Price</span>
+                        <span class="value">$15</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Retention Concern</span>
+                        <span class="value good">N/A</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">LTV</span>
+                        <span class="value">$15 (100% captured)</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">CAC Payback</span>
+                        <span class="value good">Day 1</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Server Costs</span>
+                        <span class="value good">$0</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Exit Strategy -->
+        <div class="section-header">
+            <h2>Exit-Ready Architecture</h2>
+            <p>Built modular for acquisition, not spaghetti code</p>
+        </div>
+
+        <section class="exit">
+            <div class="exit-grid">
+                <div class="exit-card">
+                    <h3>Instant Reskin</h3>
+                    <p>All styling centralized in Theme.swift. A buyer can rebrand the app (logo, colors, fonts) in under 24 hours.</p>
+                </div>
+                <div class="exit-card">
+                    <h3>Modular Content</h3>
+                    <p>Word packs are isolated JSON files. Swap vocabulary sets without touching app code. Add Korean SAT pack, remove GRE pack.</p>
+                </div>
+                <div class="exit-card">
+                    <h3>No Backend Migration</h3>
+                    <p>Zero server infrastructure to transfer. No database migration. No DevOps handoff. The app IS the product.</p>
+                </div>
+                <div class="exit-card">
+                    <h3>Target Acquirers</h3>
+                    <p>Megastudy (Korea), Kaplan, Pearson, Duolingo. White-label ready for enterprise EdTech portfolios.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <h2>Interested in Learning More?</h2>
+            <p>Request a detailed pitch deck or schedule a call.</p>
+            <a href="mailto:investors@radix.app" class="cta-button">Contact Us</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Radix. Confidential investor materials.</p>
+    </footer>
+</body>
+</html>
