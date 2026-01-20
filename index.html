@@ -277,72 +277,105 @@
             font-style: italic;
         }
 
-        /* Decode Animation */
-        .decode-animation {
+        /* ILLUMINATE Animation */
+        .illuminate-animation {
             padding: 40px 0 60px;
         }
 
-        .decode-animation h2 {
+        .illuminate-animation h2 {
             text-align: center;
             font-size: 1.5rem;
             color: var(--text-dim);
             margin-bottom: 24px;
         }
 
-        .decode-container {
+        .illuminate-container {
             position: relative;
             width: 100%;
             max-width: 600px;
             margin: 0 auto;
-            aspect-ratio: 1;
+            height: 200px;
             background: #000;
             border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             overflow: hidden;
         }
 
-        .decode-container img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
+        .illuminate-word {
+            display: flex;
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: clamp(2rem, 8vw, 3.5rem);
+            font-weight: 700;
+        }
+
+        .illuminate-prefix,
+        .illuminate-suffix {
+            color: #333;
+            animation: flyOut 8s infinite;
+        }
+
+        .illuminate-prefix {
+            animation-name: flyOutLeft;
+        }
+
+        .illuminate-suffix {
+            animation-name: flyOutRight;
+        }
+
+        .illuminate-root {
+            color: #333;
+            animation: glowRoot 8s infinite;
+            text-shadow: none;
+        }
+
+        .illuminate-meaning {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: var(--primary);
             opacity: 0;
+            margin-top: 16px;
+            animation: showMeaning 8s infinite;
         }
 
-        .decode-frame-1 {
-            animation: frame1 8s infinite;
+        /* Timeline: 0-2s initial, 2s highlight, 2.5s explode, 3s meaning, hold until 7s, reset */
+        @keyframes glowRoot {
+            0%, 25% { color: #333; text-shadow: none; }
+            25.1%, 87.5% {
+                color: var(--primary);
+                text-shadow:
+                    0 0 20px rgba(0, 240, 255, 0.8),
+                    0 0 40px rgba(0, 240, 255, 0.5),
+                    0 0 60px rgba(0, 240, 255, 0.3);
+            }
+            87.6%, 100% { color: #333; text-shadow: none; }
         }
 
-        .decode-frame-2 {
-            animation: frame2 8s infinite;
+        @keyframes flyOutLeft {
+            0%, 31% { transform: translateX(0); opacity: 1; }
+            37.5% { transform: translateX(-100px); opacity: 0; }
+            87.5% { transform: translateX(-100px); opacity: 0; }
+            87.6%, 100% { transform: translateX(0); opacity: 1; }
         }
 
-        .decode-frame-3 {
-            animation: frame3 8s infinite;
+        @keyframes flyOutRight {
+            0%, 31% { transform: translateX(0); opacity: 1; }
+            37.5% { transform: translateX(100px); opacity: 0; }
+            87.5% { transform: translateX(100px); opacity: 0; }
+            87.6%, 100% { transform: translateX(0); opacity: 1; }
         }
 
-        /* Frame 1: INCREDIBLE (0-2s) */
-        @keyframes frame1 {
-            0%, 25% { opacity: 1; }
-            25.1%, 100% { opacity: 0; }
+        @keyframes showMeaning {
+            0%, 37.5% { opacity: 0; transform: scale(0.8); }
+            43.75% { opacity: 0.7; transform: scale(1); }
+            87.5% { opacity: 0.7; transform: scale(1); }
+            87.6%, 100% { opacity: 0; transform: scale(0.8); }
         }
 
-        /* Frame 2: IN-CRED-IBLE explosion (2-3s) */
-        @keyframes frame2 {
-            0%, 25% { opacity: 0; transform: scale(1); }
-            25.1% { opacity: 1; transform: scale(1.1); }
-            37.5% { opacity: 1; transform: scale(1); }
-            37.6%, 100% { opacity: 0; }
-        }
-
-        /* Frame 3: Result (3-8s) */
-        @keyframes frame3 {
-            0%, 37.5% { opacity: 0; }
-            37.6%, 100% { opacity: 1; }
-        }
-
-        .decode-caption {
+        .illuminate-caption {
             text-align: center;
             margin-top: 16px;
             color: var(--text-dim);
@@ -456,15 +489,16 @@
             <a href="#" class="cta-button">Download on App Store</a>
         </section>
 
-        <!-- Decode Animation -->
-        <section class="decode-animation">
+        <!-- ILLUMINATE Animation -->
+        <section class="illuminate-animation">
             <h2>See a word. Decode it. Master it.</h2>
-            <div class="decode-container">
-                <img src="images/INCREDIBLE.png" alt="INCREDIBLE - the whole word" class="decode-frame-1">
-                <img src="images/IN-CRED-IBLE.png" alt="IN + CRED + IBLE - decoded" class="decode-frame-2">
-                <img src="images/INCREDIBLE-RESULT.png" alt="12 words mastered" class="decode-frame-3">
+            <div class="illuminate-container">
+                <div class="illuminate-word">
+                    <span class="illuminate-prefix">IL</span><span class="illuminate-root">LUMIN</span><span class="illuminate-suffix">ATE</span>
+                </div>
+                <span class="illuminate-meaning">= light</span>
             </div>
-            <p class="decode-caption">IN (not) + CRED (believe) + IBLE (able) = "not able to be believed"</p>
+            <p class="illuminate-caption">IL (into) + LUMIN (light) + ATE (verb) → "to light up"</p>
         </section>
 
         <!-- Demo -->
@@ -504,23 +538,23 @@
             <div class="screenshot-grid">
                 <div class="screenshot-item">
                     <img src="images/en/en-01-entry.png" alt="Radix home screen">
-                    <p>Track your streak</p>
+                    <p>Start your daily quiz</p>
                 </div>
                 <div class="screenshot-item">
                     <img src="images/en/en-02-quiz.png" alt="Quiz screen">
-                    <p>Learn by typing</p>
+                    <p>Type the meaning</p>
                 </div>
                 <div class="screenshot-item">
                     <img src="images/en/en-04-xray.png" alt="Etymology detail">
-                    <p>Deep etymology</p>
+                    <p>Explore the root</p>
                 </div>
                 <div class="screenshot-item">
                     <img src="images/en/en-03-result.png" alt="Quiz result">
-                    <p>Instant feedback</p>
+                    <p>Know instantly</p>
                 </div>
                 <div class="screenshot-item">
                     <img src="images/en/en-06-session.png" alt="Session complete">
-                    <p>See what you mastered</p>
+                    <p>Track your progress</p>
                 </div>
             </div>
         </section>
@@ -558,7 +592,7 @@
                 </div>
                 <div class="feature-card">
                     <h3>Word Packs</h3>
-                    <p>Core vocabulary free forever. Add Medical, Legal, SAT, GRE packs as you need them.</p>
+                    <p>Elements pack free forever. Add Medical, Legal, SAT, GRE packs as you need them.</p>
                 </div>
                 <div class="feature-card">
                     <h3>Root Web</h3>
@@ -593,7 +627,7 @@
 
         <!-- CTA -->
         <section class="hero" style="min-height: auto; padding: 60px 0;">
-            <p class="value-prop">Start with the Core pack. Free forever.</p>
+            <p class="value-prop">Start with the Elements pack. Free forever.</p>
             <a href="#" class="cta-button">Get Radix</a>
         </section>
     </main>
