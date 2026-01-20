@@ -205,6 +205,60 @@
             font-weight: 600;
         }
 
+        /* Exam Prep */
+        .exam-prep {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .exam-prep h2 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .exam-prep .subtitle {
+            color: var(--text-dim);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .exam-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .exam-card {
+            background: var(--bg-card);
+            padding: 28px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .exam-card .exam-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .exam-card .exam-desc {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+
+        .exam-card .exam-season {
+            font-size: 0.85rem;
+            color: var(--text);
+            background: rgba(0, 240, 255, 0.1);
+            padding: 6px 12px;
+            border-radius: 16px;
+            display: inline-block;
+        }
+
         /* Pricing */
         .pricing {
             padding: 60px 0;
@@ -603,6 +657,10 @@
                 max-width: 280px;
             }
 
+            .exam-grid {
+                grid-template-columns: 1fr;
+            }
+
             .compliance-grid {
                 grid-template-columns: 1fr;
                 text-align: left;
@@ -715,6 +773,24 @@
                     Learn <strong>~200 roots</strong> and you can decode thousands of English words—even ones
                     you've never seen before.
                 </p>
+            </div>
+        </section>
+
+        <!-- Exam Prep -->
+        <section class="exam-prep">
+            <h2>Test Prep</h2>
+            <p class="subtitle">Vocabulary isn't memorization. It's pattern recognition. Start now.</p>
+            <div class="exam-grid">
+                <div class="exam-card">
+                    <p class="exam-name">SAT / GRE</p>
+                    <p class="exam-desc">College & graduate admissions vocabulary</p>
+                    <span class="exam-season">Multiple dates</span>
+                </div>
+                <div class="exam-card">
+                    <p class="exam-name">TOEFL / IELTS</p>
+                    <p class="exam-desc">International English proficiency</p>
+                    <span class="exam-season">Year-round</span>
+                </div>
             </div>
         </section>
 
