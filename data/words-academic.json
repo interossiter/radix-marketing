@@ -540,8 +540,14 @@
           "type": "root"
         },
         {
+          "fragment_id": "vol",
+          "morpheme": "vol",
+          "position": 4,
+          "type": "root"
+        },
+        {
           "fragment_id": "ent_suffix",
-          "morpheme": "ant",
+          "morpheme": "ent",
           "position": 7,
           "type": "bound"
         }
