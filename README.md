@@ -125,7 +125,7 @@ index.html              # Single-page landing
 images/
 ├── mockup-dashboard.png   # Device mockups (5)
 ├── mockup-quiz.png
-├── mockup-etymology.png
+├── mockup-origin.png
 ├── mockup-result.png
 ├── mockup-mastery.png
 ├── INCREDIBLE.png         # Decode animation (3)
