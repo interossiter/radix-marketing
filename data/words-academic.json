@@ -508,8 +508,20 @@
       ]
     },
     "beneficial": {
-      "morpheme_count": 2,
+      "morpheme_count": 3,
       "roots": [
+        {
+          "fragment_id": "bene",
+          "morpheme": "bene",
+          "position": 0,
+          "type": "root"
+        },
+        {
+          "fragment_id": "fic",
+          "morpheme": "fic",
+          "position": 4,
+          "type": "root"
+        },
         {
           "fragment_id": "al_fr",
           "morpheme": "al",
