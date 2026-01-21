@@ -1,0 +1,3062 @@
+{
+  "fragments": [
+    {
+      "id": "thorac",
+      "forms": [
+        "thorac",
+        "thoraco"
+      ],
+      "meaning": "chest",
+      "synonyms": [
+        "chest",
+        "thorax"
+      ],
+      "examples": [
+        "thoracic",
+        "thoracotomy",
+        "pneumothorax"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"thorax,\" meaning chest or breastplate. In medicine, it refers to the chest cavity containing the heart and lungs.",
+      "translations": {
+        "ko": {
+          "meaning": "가슴",
+          "explanation": "그리스어 'thorax'에서 유래된 단어로, 가슴이나 갑옷을 의미합니다. 의학에서 이는 심장과 폐가 있는 가슴 공간을 가리킵니다.",
+          "synonyms": [
+            "가슴",
+            "흉부"
+          ]
+        },
+        "vi": {
+          "meaning": "ngực",
+          "explanation": "Từ tiếng Hy Lạp \"thorax\", có nghĩa là ngực hoặc áo giáp ngực. Trong y học, nó chỉ khoang ngực chứa tim và phổi.",
+          "synonyms": [
+            "ngực",
+            "lồng ngực"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lapar",
+      "forms": [
+        "lapar",
+        "laparo"
+      ],
+      "meaning": "abdomen",
+      "synonyms": [
+        "abdomen",
+        "belly",
+        "abdominal wall"
+      ],
+      "examples": [
+        "laparoscopy",
+        "laparotomy",
+        "laparoscopic"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"lapara,\" meaning flank or loin. Modern medicine uses it to refer to the abdominal wall, as in laparoscopic surgery.",
+      "translations": {
+        "ko": {
+          "meaning": "복부",
+          "explanation": "그리스어 '라파라(lapara)'에서 유래되었으며, 이는 옆구리 또는 허리를 의미합니다. 현대 의학에서는 복벽을 지칭하는 데 사용되며, 예를 들어 복강경 수술에서 사용됩니다.",
+          "synonyms": [
+            "복부",
+            "배",
+            "복벽"
+          ]
+        },
+        "vi": {
+          "meaning": "bụng",
+          "explanation": "Từ gốc Hy Lạp \"lapara\" có nghĩa là sườn hoặc thắt lưng. Y học hiện đại sử dụng từ này để chỉ thành bụng, như trong phẫu thuật nội soi bụng.",
+          "synonyms": [
+            "bụng",
+            "thành bụng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "crani",
+      "forms": [
+        "crani",
+        "cranio"
+      ],
+      "meaning": "skull",
+      "synonyms": [
+        "skull",
+        "cranium"
+      ],
+      "examples": [
+        "cranial",
+        "craniotomy",
+        "intracranial"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"kranion,\" meaning skull. Used extensively in neurology and neurosurgery to describe structures and procedures involving the skull.",
+      "translations": {
+        "ko": {
+          "meaning": "두개골",
+          "explanation": "그리스어 '크라니온(kranion)'에서 유래된 말로, 두개골을 의미합니다. 신경학 및 신경외과에서 두개골과 관련된 구조 및 절차를 설명하는 데 널리 사용됩니다.",
+          "synonyms": [
+            "두개골",
+            "두개"
+          ]
+        },
+        "vi": {
+          "meaning": "xương sọ",
+          "explanation": "Từ tiếng Hy Lạp \"kranion\", có nghĩa là xương sọ. Được sử dụng rộng rãi trong thần kinh học và phẫu thuật thần kinh để mô tả các cấu trúc và quy trình liên quan đến xương sọ.",
+          "synonyms": [
+            "xương sọ",
+            "cranium"
+          ]
+        }
+      }
+    },
+    {
+      "id": "angi",
+      "forms": [
+        "angi",
+        "angio"
+      ],
+      "meaning": "vessel",
+      "synonyms": [
+        "vessel",
+        "blood vessel"
+      ],
+      "examples": [
+        "angiogram",
+        "angioplasty",
+        "angiogenesis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"angeion,\" meaning vessel or container. In medicine, it specifically refers to blood vessels, as in angioplasty (vessel repair).",
+      "translations": {
+        "ko": {
+          "meaning": "혈관",
+          "explanation": "그리스어 'angeion'에서 유래된 단어로, 용기나 그릇을 의미합니다. 의학에서는 특히 혈관을 가리키며, 예를 들어 혈관 수술을 의미하는 'angioplasty'와 같은 용어에서 사용됩니다.",
+          "synonyms": [
+            "혈관",
+            "혈액관"
+          ]
+        },
+        "vi": {
+          "meaning": "mạch",
+          "explanation": "Từ gốc Hy Lạp \"angeion\", có nghĩa là mạch hoặc chứa đựng. Trong y học, nó đặc biệt chỉ đến mạch máu, như trong từ \"angioplasty\" (sửa chữa mạch).",
+          "synonyms": [
+            "mạch",
+            "mạch máu"
+          ]
+        }
+      }
+    },
+    {
+      "id": "arthr",
+      "forms": [
+        "arthr",
+        "arthro"
+      ],
+      "meaning": "joint",
+      "synonyms": [
+        "joint",
+        "articulate"
+      ],
+      "examples": [
+        "arthritis",
+        "arthroscopy",
+        "arthropod"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"arthron,\" meaning joint. Found in arthritis (joint inflammation) and arthroscopy (joint examination with a scope).",
+      "translations": {
+        "ko": {
+          "meaning": "관절",
+          "explanation": "그리스어 'arthron'에서 유래된 단어로, 관절을 의미합니다. 관절 염증을 뜻하는 '관절염(arthritis)'이나 관절을 검사하는 '관절경(arthroscopy)'에서 사용됩니다.",
+          "synonyms": [
+            "관절"
+          ]
+        },
+        "vi": {
+          "meaning": "khớp",
+          "explanation": "Từ gốc Hy Lạp \"arthron\" có nghĩa là khớp. Từ này xuất hiện trong các từ như viêm khớp (viêm ở khớp) và nội soi khớp (kiểm tra khớp bằng ống soi).",
+          "synonyms": [
+            "khớp"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cysto",
+      "forms": [
+        "cyst",
+        "cysto"
+      ],
+      "meaning": "bladder",
+      "synonyms": [
+        "bladder",
+        "sac"
+      ],
+      "examples": [
+        "cystitis",
+        "cystoscopy",
+        "cholecystectomy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"kystis,\" meaning bladder or sac. Used for the urinary bladder and other sac-like structures, as in cholecystectomy (gallbladder removal).",
+      "translations": {
+        "ko": {
+          "meaning": "방광",
+          "explanation": "그리스어 'kystis'에서 유래된 단어로, 방광이나 주머니를 의미합니다. 주로 요도 방광과 같은 주머니 모양의 구조물에 사용되며, 담낭 제거 수술인 '담낭절제술(cholecystectomy)'과 같은 용어에서 볼 수 있습니다.",
+          "synonyms": [
+            "방광",
+            "주머니"
+          ]
+        },
+        "vi": {
+          "meaning": "bàng quang",
+          "explanation": "Từ tiếng Hy Lạp \"kystis,\" có nghĩa là bàng quang hoặc túi. Được sử dụng cho bàng quang tiểu tiện và các cấu trúc giống như túi khác, như trong từ cholecystectomy (phẫu thuật cắt bỏ túi mật).",
+          "synonyms": [
+            "bàng quang",
+            "túi"
+          ]
+        }
+      }
+    },
+    {
+      "id": "encephal",
+      "forms": [
+        "encephal",
+        "encephalo"
+      ],
+      "meaning": "brain",
+      "synonyms": [
+        "cerebral",
+        "brain"
+      ],
+      "examples": [
+        "encephalitis",
+        "encephalopathy",
+        "electroencephalogram"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"enkephalos,\" meaning within the head. The medical term for the brain, found in EEG (electroencephalogram) and encephalitis.",
+      "translations": {
+        "ko": {
+          "meaning": "뇌",
+          "explanation": "그리스어 'enkephalos'에서 유래되었으며, '머리 안에'라는 뜻입니다. EEG(뇌파 검사)와 뇌염에서 발견되는 뇌에 대한 의학 용어입니다.",
+          "synonyms": [
+            "뇌"
+          ]
+        },
+        "vi": {
+          "meaning": "não",
+          "explanation": "Từ gốc tiếng Hy Lạp \"enkephalos\" có nghĩa là bên trong đầu. Đây là thuật ngữ y học chỉ về não, được tìm thấy trong EEG (điện não đồ) và viêm não.",
+          "synonyms": [
+            "não"
+          ]
+        }
+      }
+    },
+    {
+      "id": "oste",
+      "forms": [
+        "oste",
+        "osteo"
+      ],
+      "meaning": "bone",
+      "synonyms": [
+        "bone",
+        "skeletal"
+      ],
+      "examples": [
+        "osteoporosis",
+        "osteology",
+        "osteoarthritis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"osteon,\" meaning bone. Central to orthopedics, as in osteoporosis (porous bones) and osteomyelitis (bone infection).",
+      "translations": {
+        "ko": {
+          "meaning": "뼈",
+          "explanation": "그리스어 'osteon'에서 유래된 단어로, 뼈를 의미합니다. 정형외과에서 중요한 개념으로, 골다공증(구멍이 많은 뼈)과 골수염(뼈 감염)과 같은 용어에 사용됩니다.",
+          "synonyms": [
+            "뼈"
+          ]
+        },
+        "vi": {
+          "meaning": "xương",
+          "explanation": "Từ gốc Hy Lạp \"osteon\" có nghĩa là xương. Liên quan đến chuyên ngành chỉnh hình, như trong bệnh loãng xương (xương xốp) và viêm xương tủy (nhiễm trùng xương).",
+          "synonyms": [
+            "xương"
+          ]
+        }
+      }
+    },
+    {
+      "id": "myel",
+      "forms": [
+        "myel",
+        "myelo"
+      ],
+      "meaning": "spinal cord",
+      "synonyms": [
+        "spinal cord",
+        "bone marrow",
+        "marrow"
+      ],
+      "examples": [
+        "myelitis",
+        "myeloma",
+        "poliomyelitis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"myelos,\" meaning marrow. Can refer to either bone marrow or spinal cord depending on context, as in multiple myeloma or myelitis.",
+      "translations": {
+        "ko": {
+          "meaning": "척수",
+          "explanation": "그리스어 'myelos'에서 유래된 단어로, 골수를 의미합니다. 문맥에 따라 골수나 척수를 가리킬 수 있으며, 예를 들어 다발성 골수종(myeloma)이나 척수염(myelitis)과 같은 경우가 있습니다.",
+          "synonyms": [
+            "척수",
+            "골수",
+            "골수"
+          ]
+        },
+        "vi": {
+          "meaning": "tủy sống",
+          "explanation": "Từ tiếng Hy Lạp \"myelos\" có nghĩa là tủy. Có thể chỉ đến tủy xương hoặc tủy sống tùy thuộc vào ngữ cảnh, như trong bệnh đa tủy hoặc viêm tủy.",
+          "synonyms": [
+            "tủy sống",
+            "tủy xương",
+            "tủy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ectomy",
+      "forms": [
+        "ectomy"
+      ],
+      "meaning": "surgical removal",
+      "synonyms": [
+        "removal",
+        "excision",
+        "cutting out"
+      ],
+      "examples": [
+        "appendectomy",
+        "mastectomy",
+        "tonsillectomy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 9,
+      "explanation": "From Greek \"ektome,\" meaning excision. The standard suffix for surgical removal procedures: appendectomy removes the appendix, mastectomy removes the breast.",
+      "translations": {
+        "ko": {
+          "meaning": "외과적 제거",
+          "explanation": "그리스어 'ektome'에서 유래된 단어로, 절제를 의미합니다. 외과적 제거 절차의 표준 접미사입니다: 맹장절제술은 맹장을 제거하고, 유방절제술은 유방을 제거합니다.",
+          "synonyms": [
+            "제거",
+            "절제"
+          ]
+        },
+        "vi": {
+          "meaning": "cắt bỏ",
+          "explanation": "Từ gốc Hy Lạp \"ektome\", có nghĩa là cắt bỏ. Đây là hậu tố tiêu chuẩn cho các thủ tục cắt bỏ phẫu thuật: appendectomy (cắt bỏ ruột thừa) cắt bỏ ruột thừa, mastectomy (cắt bỏ vú) cắt bỏ vú.",
+          "synonyms": [
+            "loại bỏ",
+            "cắt xén"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ostomy",
+      "forms": [
+        "ostomy",
+        "stomy"
+      ],
+      "meaning": "surgical opening",
+      "synonyms": [
+        "opening",
+        "mouth",
+        "creating an opening"
+      ],
+      "examples": [
+        "colostomy",
+        "tracheostomy",
+        "gastrostomy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 7,
+      "explanation": "From Greek \"stoma,\" meaning mouth or opening. Used for procedures that create an artificial opening, like colostomy (opening in the colon).",
+      "translations": {
+        "ko": {
+          "meaning": "수술적 개구부",
+          "explanation": "그리스어 'stoma'에서 유래되었으며, 이는 입 또는 개구부를 의미합니다. 인공적인 개구부를 만드는 절차에 사용되며, 예를 들어 대장루(colostomy)는 대장에서의 개구부를 의미합니다.",
+          "synonyms": [
+            "개구부",
+            "입",
+            "개구부 만들기"
+          ]
+        },
+        "vi": {
+          "meaning": "mở phẫu thuật",
+          "explanation": "Từ tiếng Hy Lạp \"stoma\", có nghĩa là miệng hoặc lỗ mở. Được sử dụng cho các thủ tục tạo ra một lỗ mở nhân tạo, như colostomy (lỗ mở trong ruột già).",
+          "synonyms": [
+            "mở",
+            "miệng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "plasty",
+      "forms": [
+        "plasty"
+      ],
+      "meaning": "surgical repair",
+      "synonyms": [
+        "repair",
+        "reconstruction",
+        "molding"
+      ],
+      "examples": [
+        "rhinoplasty",
+        "angioplasty",
+        "arthroplasty"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 8,
+      "explanation": "From Greek \"plassein,\" meaning to mold or form. The suffix for reconstructive or repair surgeries: rhinoplasty reshapes the nose, arthroplasty repairs a joint.",
+      "translations": {
+        "ko": {
+          "meaning": "외과적 수리",
+          "explanation": "그리스어 'plassein'에서 유래된 것으로, '형성하다' 또는 '모양을 만들다'라는 의미입니다. 재건 또는 수리 수술의 접미사로 사용됩니다: 코 성형술(rhinoplasty)은 코의 모양을 바꾸고, 관절 성형술(arthroplasty)은 관절을 수리합니다.",
+          "synonyms": [
+            "수리",
+            "재건",
+            "형성"
+          ]
+        },
+        "vi": {
+          "meaning": "sửa chữa phẫu thuật",
+          "explanation": "Từ tiếng Hy Lạp \"plassein\", có nghĩa là tạo hình hoặc định hình. Đây là hậu tố cho các phẫu thuật tái tạo hoặc sửa chữa: phẫu thuật nâng mũi (rhinoplasty) định hình lại mũi, phẫu thuật khớp (arthroplasty) sửa chữa một khớp.",
+          "synonyms": [
+            "sửa chữa",
+            "tái tạo"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nephr",
+      "forms": [
+        "nephr",
+        "nephro"
+      ],
+      "meaning": "kidney",
+      "synonyms": [
+        "kidney",
+        "renal"
+      ],
+      "examples": [
+        "nephritis",
+        "nephrology",
+        "nephrectomy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"nephros,\" meaning kidney. A nephrologist treats kidney diseases, and nephritis is kidney inflammation.",
+      "translations": {
+        "ko": {
+          "meaning": "신장",
+          "explanation": "그리스어 'nephros'에서 유래된 단어로, 신장을 의미합니다. 신장 전문의는 신장 질환을 치료하며, 신염은 신장의 염증을 뜻합니다.",
+          "synonyms": [
+            "신장",
+            "신장과 관련된"
+          ]
+        },
+        "vi": {
+          "meaning": "thận",
+          "explanation": "Từ tiếng Hy Lạp \"nephros\" có nghĩa là thận. Một bác sĩ chuyên khoa thận (nephrologist) điều trị các bệnh về thận, và viêm thận (nephritis) là tình trạng viêm của thận.",
+          "synonyms": [
+            "thận",
+            "thuộc về thận"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hepat",
+      "forms": [
+        "hepat",
+        "hepato"
+      ],
+      "meaning": "liver",
+      "synonyms": [
+        "hepatic",
+        "liver"
+      ],
+      "examples": [
+        "hepatitis",
+        "hepatology",
+        "hepatomegaly"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"hepar,\" meaning liver. Hepatitis is liver inflammation, and hepatomegaly is an enlarged liver.",
+      "translations": {
+        "ko": {
+          "meaning": "간",
+          "explanation": "그리스어 'hepar'에서 유래된 단어로, 간을 의미합니다. 간염은 간의 염증을 뜻하고, 간비대는 간이 커진 상태를 나타냅니다.",
+          "synonyms": [
+            "간"
+          ]
+        },
+        "vi": {
+          "meaning": "gan",
+          "explanation": "Từ tiếng Hy Lạp \"hepar,\" có nghĩa là gan. Viêm gan (hepatitis) là tình trạng viêm của gan, và gan to (hepatomegaly) là tình trạng gan bị phình to.",
+          "synonyms": [
+            "gan"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pneum",
+      "forms": [
+        "pneum",
+        "pneumo",
+        "pulmon"
+      ],
+      "meaning": "lung",
+      "synonyms": [
+        "lung",
+        "air",
+        "breath"
+      ],
+      "examples": [
+        "pneumonia",
+        "pneumothorax",
+        "pulmonary"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"pneumon,\" meaning lung. Pneumonia is lung infection, and pneumothorax is air in the chest cavity. Latin \"pulmo\" gives us pulmonary.",
+      "translations": {
+        "ko": {
+          "meaning": "폐",
+          "explanation": "그리스어 'pneumon'에서 유래된 단어로, 폐를 의미합니다. 폐렴은 폐의 감염을 의미하고, 기흉은 흉강 내의 공기를 의미합니다. 라틴어 'pulmo'는 '폐'와 관련된 단어인 'pulmonary'를 제공합니다.",
+          "synonyms": [
+            "폐",
+            "공기",
+            "호흡"
+          ]
+        },
+        "vi": {
+          "meaning": "phổi",
+          "explanation": "Từ tiếng Hy Lạp \"pneumon\" có nghĩa là phổi. Viêm phổi (pneumonia) là bệnh nhiễm trùng phổi, và tràn khí màng phổi (pneumothorax) là không khí trong khoang ngực. Từ Latin \"pulmo\" cho chúng ta từ liên quan đến phổi là \"pulmonary\".",
+          "synonyms": [
+            "phổi",
+            "không khí",
+            "hơi thở"
+          ]
+        }
+      }
+    },
+    {
+      "id": "derm",
+      "forms": [
+        "derm",
+        "derma",
+        "dermat"
+      ],
+      "meaning": "skin",
+      "synonyms": [
+        "skin",
+        "dermal"
+      ],
+      "examples": [
+        "dermatology",
+        "epidermis",
+        "dermatitis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"derma,\" meaning skin. A dermatologist treats skin conditions, and the epidermis is the outer skin layer.",
+      "translations": {
+        "ko": {
+          "meaning": "피부",
+          "explanation": "그리스어 'derma'에서 유래한 것으로, 피부를 의미합니다. 피부과 의사는 피부 질환을 치료하며, 표피는 피부의 바깥층입니다.",
+          "synonyms": [
+            "피부"
+          ]
+        },
+        "vi": {
+          "meaning": "da",
+          "explanation": "Từ gốc Hy Lạp \"derma\" có nghĩa là da. Bác sĩ da liễu điều trị các vấn đề về da, và biểu bì là lớp da bên ngoài.",
+          "synonyms": [
+            "da"
+          ]
+        }
+      }
+    },
+    {
+      "id": "neur",
+      "forms": [
+        "neur",
+        "neuro"
+      ],
+      "meaning": "nerve",
+      "synonyms": [
+        "nerve",
+        "nervous system"
+      ],
+      "examples": [
+        "neurology",
+        "neuron",
+        "neuropathy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 9,
+      "explanation": "From Greek \"neuron,\" meaning nerve or sinew. Neurology is the study of the nervous system, and neuropathy is nerve disease.",
+      "translations": {
+        "ko": {
+          "meaning": "신경",
+          "explanation": "그리스어 'neuron'에서 유래된 단어로, 신경이나 힘줄을 의미합니다. 신경학은 신경계를 연구하는 학문이며, 신경병증은 신경 질환을 뜻합니다.",
+          "synonyms": [
+            "신경",
+            "신경계"
+          ]
+        },
+        "vi": {
+          "meaning": "dây thần kinh",
+          "explanation": "Từ tiếng Hy Lạp \"neuron\", có nghĩa là dây thần kinh hoặc gân. Thần kinh học là nghiên cứu về hệ thần kinh, và bệnh thần kinh là bệnh liên quan đến dây thần kinh.",
+          "synonyms": [
+            "dây thần kinh",
+            "hệ thần kinh"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gastr",
+      "forms": [
+        "gastr",
+        "gastro"
+      ],
+      "meaning": "stomach",
+      "synonyms": [
+        "stomach",
+        "gastric"
+      ],
+      "examples": [
+        "gastritis",
+        "gastroenterology",
+        "gastric"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"gaster,\" meaning stomach or belly. Gastroenterology covers the digestive system, and gastritis is stomach inflammation.",
+      "translations": {
+        "ko": {
+          "meaning": "위",
+          "explanation": "그리스어 'gaster'에서 유래된 단어로, 위나 배를 의미합니다. 위장병학은 소화 시스템을 다루며, 위염은 위의 염증을 뜻합니다.",
+          "synonyms": [
+            "위"
+          ]
+        },
+        "vi": {
+          "meaning": "dạ dày",
+          "explanation": "Từ gốc Hy Lạp \"gaster\" có nghĩa là dạ dày hoặc bụng. Gastroenterology (nội soi tiêu hóa) liên quan đến hệ tiêu hóa, và gastritis (viêm dạ dày) là tình trạng viêm của dạ dày.",
+          "synonyms": [
+            "dạ dày"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hem",
+      "forms": [
+        "hem",
+        "hemo",
+        "hemat"
+      ],
+      "meaning": "blood",
+      "synonyms": [
+        "bloody",
+        "blood"
+      ],
+      "examples": [
+        "hemorrhage",
+        "hematology",
+        "anemia"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 9,
+      "explanation": "From Greek \"haima,\" meaning blood. Hematology is the study of blood, and hemorrhage is severe bleeding.",
+      "translations": {
+        "ko": {
+          "meaning": "혈액",
+          "explanation": "그리스어 '하이마(haima)'에서 유래된 것으로, 혈액을 의미합니다. 혈액학(hematology)은 혈액을 연구하는 학문이며, 출혈(hemorrhage)은 심한 출혈을 뜻합니다.",
+          "synonyms": [
+            "혈액"
+          ]
+        },
+        "vi": {
+          "meaning": "máu",
+          "explanation": "Từ gốc Hy Lạp \"haima\" có nghĩa là máu. Huyết học là nghiên cứu về máu, và xuất huyết là tình trạng chảy máu nghiêm trọng.",
+          "synonyms": [
+            "máu"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cardi",
+      "forms": [
+        "cardi",
+        "cardio"
+      ],
+      "meaning": "heart",
+      "synonyms": [
+        "heart",
+        "cardiac"
+      ],
+      "examples": [
+        "cardiology",
+        "cardiovascular",
+        "bradycardia"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 9,
+      "explanation": "From Greek \"kardia,\" meaning heart. Cardiology is heart medicine, and bradycardia means slow heart rate.",
+      "translations": {
+        "ko": {
+          "meaning": "심장",
+          "explanation": "그리스어 'kardia'에서 유래된 단어로, 심장을 의미합니다. 심장학은 심장에 관한 의학이며, 서맥(bradycardia)은 느린 심박수를 뜻합니다.",
+          "synonyms": [
+            "심장",
+            "심장 관련의"
+          ]
+        },
+        "vi": {
+          "meaning": "tim",
+          "explanation": "Từ gốc tiếng Hy Lạp \"kardia\", có nghĩa là tim. Tim mạch học là ngành y học về tim, và bradycardia có nghĩa là nhịp tim chậm.",
+          "synonyms": [
+            "tim",
+            "tim mạch"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ophthalm",
+      "forms": [
+        "ophthalm",
+        "ophthalmo"
+      ],
+      "meaning": "eye",
+      "synonyms": [
+        "visual",
+        "eye",
+        "ocular"
+      ],
+      "examples": [
+        "ophthalmology",
+        "ophthalmoscope",
+        "ophthalmic"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"ophthalmos,\" meaning eye. An ophthalmologist is an eye doctor, distinct from an optometrist.",
+      "translations": {
+        "ko": {
+          "meaning": "눈",
+          "explanation": "그리스어 'ophthalmos'에서 유래된 것으로, 눈을 의미합니다. 안과 의사는 눈을 전문으로 치료하는 의사로, 시력 검사 전문의와는 다릅니다.",
+          "synonyms": [
+            "눈"
+          ]
+        },
+        "vi": {
+          "meaning": "mắt",
+          "explanation": "Từ tiếng Hy Lạp \"ophthalmos\" có nghĩa là mắt. Bác sĩ nhãn khoa (ophthalmologist) là bác sĩ chuyên về mắt, khác với bác sĩ đo thị lực (optometrist).",
+          "synonyms": [
+            "mắt"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ot",
+      "forms": [
+        "ot",
+        "oto"
+      ],
+      "meaning": "ear",
+      "synonyms": [
+        "ear",
+        "auditory"
+      ],
+      "examples": [
+        "otitis",
+        "otology",
+        "otoscope"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"ous, otos,\" meaning ear. Otitis is ear inflammation, and an otoscope is used to examine the ear.",
+      "translations": {
+        "ko": {
+          "meaning": "귀",
+          "explanation": "그리스어 'ous, otos'에서 유래된 것으로, 귀를 의미합니다. 'Otitis'는 귀의 염증을 뜻하며, 'otoscope'는 귀를 검사하는 데 사용되는 도구입니다.",
+          "synonyms": [
+            "귀"
+          ]
+        },
+        "vi": {
+          "meaning": "tai",
+          "explanation": "Từ gốc tiếng Hy Lạp \"ous, otos\" có nghĩa là tai. Viêm tai (otitis) là tình trạng viêm nhiễm ở tai, và ống soi tai (otoscope) được sử dụng để kiểm tra tai.",
+          "synonyms": [
+            "tai"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rhin",
+      "forms": [
+        "rhin",
+        "rhino"
+      ],
+      "meaning": "nose",
+      "synonyms": [
+        "nose",
+        "nasal"
+      ],
+      "examples": [
+        "rhinitis",
+        "rhinoplasty",
+        "rhinoceros"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"rhis, rhinos,\" meaning nose. Rhinitis is nose inflammation (runny nose), and rhinoplasty is a nose job.",
+      "translations": {
+        "ko": {
+          "meaning": "코",
+          "explanation": "그리스어 'rhis, rhinos'에서 유래된 말로, 코를 의미합니다. 비염은 코의 염증(콧물)을 의미하며, 코 성형수술은 코를 다듬는 수술을 뜻합니다.",
+          "synonyms": [
+            "코",
+            "비강"
+          ]
+        },
+        "vi": {
+          "meaning": "mũi",
+          "explanation": "Từ tiếng Hy Lạp \"rhis, rhinos\" có nghĩa là mũi. Viêm mũi (rhinitis) là tình trạng viêm của mũi (chảy nước mũi), và phẫu thuật mũi (rhinoplasty) là một ca phẫu thuật để chỉnh sửa mũi.",
+          "synonyms": [
+            "mũi",
+            "mũi mũi"
+          ]
+        }
+      }
+    },
+    {
+      "id": "myo",
+      "forms": [
+        "my",
+        "myo"
+      ],
+      "meaning": "muscle",
+      "synonyms": [
+        "muscular",
+        "muscle"
+      ],
+      "examples": [
+        "myocardial",
+        "myopathy",
+        "myalgia"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"mys,\" meaning muscle. Myocardial refers to heart muscle, and myalgia is muscle pain.",
+      "translations": {
+        "ko": {
+          "meaning": "근육",
+          "explanation": "그리스어 'mys'에서 유래된 단어로, 근육을 의미합니다. 심근(myocardial)은 심장 근육을 가리키며, 근육통(myalgia)은 근육의 통증을 뜻합니다.",
+          "synonyms": [
+            "근육"
+          ]
+        },
+        "vi": {
+          "meaning": "cơ bắp",
+          "explanation": "Từ gốc tiếng Hy Lạp \"mys\" có nghĩa là cơ bắp. Từ \"myocardial\" chỉ cơ bắp của tim, và \"myalgia\" là đau cơ.",
+          "synonyms": [
+            "cơ bắp"
+          ]
+        }
+      }
+    },
+    {
+      "id": "enter",
+      "forms": [
+        "enter",
+        "entero"
+      ],
+      "meaning": "intestine",
+      "synonyms": [
+        "intestine",
+        "gut",
+        "bowel"
+      ],
+      "examples": [
+        "enteritis",
+        "gastroenterology",
+        "dysentery"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"enteron,\" meaning intestine. Gastroenterology covers both stomach and intestines, and enteritis is intestinal inflammation.",
+      "translations": {
+        "ko": {
+          "meaning": "장",
+          "explanation": "그리스어 'enteron'에서 유래된 단어로, 장을 의미합니다. 위장병학은 위와 장을 모두 다루며, 장염은 장의 염증을 뜻합니다.",
+          "synonyms": [
+            "장",
+            "내장",
+            "창자"
+          ]
+        },
+        "vi": {
+          "meaning": "ruột",
+          "explanation": "Từ gốc tiếng Hy Lạp \"enteron\" có nghĩa là ruột. Ngành gastroenterology (tiêu hóa) bao gồm cả dạ dày và ruột, và enteritis (viêm ruột) là tình trạng viêm của ruột.",
+          "synonyms": [
+            "ruột",
+            "đường ruột"
+          ]
+        }
+      }
+    },
+    {
+      "id": "col",
+      "forms": [
+        "col",
+        "colo",
+        "colon"
+      ],
+      "meaning": "colon",
+      "synonyms": [
+        "colon",
+        "large intestine"
+      ],
+      "examples": [
+        "colitis",
+        "colonoscopy",
+        "colostomy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"kolon,\" meaning large intestine. A colonoscopy examines the colon, and colitis is colon inflammation.",
+      "translations": {
+        "ko": {
+          "meaning": "대장",
+          "explanation": "그리스어 '콜론(kolon)'에서 유래된 것으로, 대장을 의미합니다. 대장내시경은 대장을 검사하며, 대장염(colitis)은 대장의 염증을 나타냅니다.",
+          "synonyms": [
+            "대장",
+            "큰창자"
+          ]
+        },
+        "vi": {
+          "meaning": "ruột già",
+          "explanation": "Từ tiếng Hy Lạp \"kolon\", có nghĩa là ruột già. Một cuộc nội soi đại tràng (colonoscopy) kiểm tra ruột già, và viêm đại tràng (colitis) là tình trạng viêm của ruột già.",
+          "synonyms": [
+            "ruột già",
+            "đại tràng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "phleb",
+      "forms": [
+        "phleb",
+        "phlebo"
+      ],
+      "meaning": "vein",
+      "synonyms": [
+        "vein"
+      ],
+      "examples": [
+        "phlebotomy",
+        "phlebitis",
+        "thrombophlebitis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"phleps,\" meaning vein. Phlebotomy is drawing blood from a vein, and phlebitis is vein inflammation.",
+      "translations": {
+        "ko": {
+          "meaning": "정맥",
+          "explanation": "그리스어 'phleps'에서 유래된 단어로, 정맥을 의미합니다. '피내 채혈'은 정맥에서 피를 뽑는 것이고, '정맥염'은 정맥의 염증을 뜻합니다.",
+          "synonyms": [
+            "정맥"
+          ]
+        },
+        "vi": {
+          "meaning": "tĩnh mạch",
+          "explanation": "Từ gốc tiếng Hy Lạp \"phleps\" có nghĩa là tĩnh mạch. Phlebotomy (lấy máu) là quá trình lấy máu từ một tĩnh mạch, và phlebitis (viêm tĩnh mạch) là tình trạng viêm của tĩnh mạch.",
+          "synonyms": [
+            "tĩnh mạch"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cerebr",
+      "forms": [
+        "cerebr",
+        "cerebro"
+      ],
+      "meaning": "brain",
+      "synonyms": [
+        "brain",
+        "cerebrum"
+      ],
+      "examples": [
+        "cerebral",
+        "cerebrovascular",
+        "cerebrospinal"
+      ],
+      "origin": "Latin",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Latin \"cerebrum,\" meaning brain. Cerebral refers to the brain, and cerebrovascular involves brain blood vessels (as in stroke).",
+      "translations": {
+        "ko": {
+          "meaning": "뇌",
+          "explanation": "라틴어 'cerebrum'에서 유래된 단어로, 뇌를 의미합니다. 'Cerebral'은 뇌와 관련된 것을 나타내며, 'cerebrovascular'는 뇌의 혈관과 관련이 있습니다 (예: 뇌졸중).",
+          "synonyms": [
+            "뇌",
+            "대뇌"
+          ]
+        },
+        "vi": {
+          "meaning": "não",
+          "explanation": "Từ gốc Latin \"cerebrum\" có nghĩa là não. Từ \"cerebral\" liên quan đến não, và \"cerebrovascular\" liên quan đến các mạch máu trong não (như trong đột quỵ).",
+          "synonyms": [
+            "não",
+            "bộ não"
+          ]
+        }
+      }
+    },
+    {
+      "id": "splen",
+      "forms": [
+        "splen",
+        "spleno"
+      ],
+      "meaning": "spleen",
+      "synonyms": [
+        "spleen"
+      ],
+      "examples": [
+        "splenectomy",
+        "splenomegaly",
+        "splenic"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 5,
+      "explanation": "From Greek \"splen,\" meaning spleen. A splenectomy removes the spleen, and splenomegaly is an enlarged spleen.",
+      "translations": {
+        "ko": {
+          "meaning": "비장",
+          "explanation": "그리스어 'splen'에서 유래된 비장이라는 뜻입니다. 비장 절제술은 비장을 제거하는 수술이며, 비장 비대는 비장이 커진 상태를 의미합니다.",
+          "synonyms": [
+            "비장"
+          ]
+        },
+        "vi": {
+          "meaning": "lá lách",
+          "explanation": "Từ tiếng Hy Lạp \"splen\" có nghĩa là lá lách. Phẫu thuật cắt bỏ lá lách gọi là splenectomy, và tình trạng lá lách to gọi là splenomegaly.",
+          "synonyms": [
+            "lá lách"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pancreat",
+      "forms": [
+        "pancreat",
+        "pancreato"
+      ],
+      "meaning": "pancreas",
+      "synonyms": [
+        "pancreas"
+      ],
+      "examples": [
+        "pancreatitis",
+        "pancreatic",
+        "pancreatectomy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"pankreas,\" meaning all flesh (pan + kreas). Pancreatitis is pancreas inflammation, common in gallstone disease.",
+      "translations": {
+        "ko": {
+          "meaning": "췌장",
+          "explanation": "그리스어 'pankreas'에서 유래되었으며, '모든 살'을 의미합니다 (pan + kreas). 췌장염은 췌장의 염증으로, 담석 질환에서 흔히 발생합니다.",
+          "synonyms": [
+            "췌장"
+          ]
+        },
+        "vi": {
+          "meaning": "tuyến tụy",
+          "explanation": "Từ gốc tiếng Hy Lạp \"pankreas\", có nghĩa là tất cả thịt (pan + kreas). Viêm tuyến tụy (pancreatitis) là tình trạng viêm của tuyến tụy, thường gặp trong bệnh sỏi mật.",
+          "synonyms": [
+            "tuyến tụy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "chol",
+      "forms": [
+        "chol",
+        "chole",
+        "cholecyst"
+      ],
+      "meaning": "bile",
+      "synonyms": [
+        "bile",
+        "gallbladder",
+        "gall"
+      ],
+      "examples": [
+        "cholesterol",
+        "cholecystitis",
+        "cholangitis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"chole,\" meaning bile. Cholecystitis is gallbladder inflammation, and cholesterol was first found in gallstones.",
+      "translations": {
+        "ko": {
+          "meaning": "담즙",
+          "explanation": "그리스어 'chole'에서 유래된 단어로, 담즙을 의미합니다. 담낭염(cholecystitis)은 담낭의 염증을 나타내며, 콜레스테롤은 처음에 담석에서 발견되었습니다.",
+          "synonyms": [
+            "담즙",
+            "담낭"
+          ]
+        },
+        "vi": {
+          "meaning": "mật",
+          "explanation": "Từ tiếng Hy Lạp \"chole\" có nghĩa là mật. Viêm túi mật (cholecystitis) là tình trạng viêm của túi mật, và cholesterol lần đầu tiên được tìm thấy trong sỏi mật.",
+          "synonyms": [
+            "mật",
+            "túi mật"
+          ]
+        }
+      }
+    },
+    {
+      "id": "aden",
+      "forms": [
+        "aden",
+        "adeno"
+      ],
+      "meaning": "gland",
+      "synonyms": [
+        "gland"
+      ],
+      "examples": [
+        "adenoma",
+        "adenoid",
+        "adenocarcinoma"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"aden,\" meaning gland. An adenoma is a gland tumor, and adenoids are gland-like tissue in the throat.",
+      "translations": {
+        "ko": {
+          "meaning": "샘",
+          "explanation": "그리스어 'aden'에서 유래된 것으로, 샘을 의미합니다. '샘종'은 샘의 종양을 의미하며, '아데노이드'는 목에 있는 샘과 유사한 조직을 나타냅니다.",
+          "synonyms": [
+            "샘"
+          ]
+        },
+        "vi": {
+          "meaning": "tuyến",
+          "explanation": "Từ gốc Hy Lạp \"aden\" có nghĩa là tuyến. Một adenoma là khối u ở tuyến, và adenoid là mô giống như tuyến trong họng.",
+          "synonyms": [
+            "tuyến"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cost",
+      "forms": [
+        "cost",
+        "costo"
+      ],
+      "meaning": "rib",
+      "synonyms": [
+        "rib"
+      ],
+      "examples": [
+        "costal",
+        "intercostal",
+        "costochondritis"
+      ],
+      "origin": "Latin",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Latin \"costa,\" meaning rib. Intercostal muscles are between the ribs, and costochondritis is rib cartilage inflammation.",
+      "translations": {
+        "ko": {
+          "meaning": "갈비",
+          "explanation": "라틴어 'costa'에서 유래된 단어로, 갈비를 의미합니다. 갈비 사이에 위치한 근육을 '늑간근(intercostal muscles)'이라고 하며, 갈비 연골의 염증을 '갈비연골염(costochondritis)'이라고 합니다.",
+          "synonyms": [
+            "갈비"
+          ]
+        },
+        "vi": {
+          "meaning": "xương sườn",
+          "explanation": "Từ gốc Latin \"costa,\" có nghĩa là xương sườn. Các cơ liên sườn nằm giữa các xương sườn, và viêm sụn xương sườn (costochondritis) là tình trạng viêm của sụn ở xương sườn.",
+          "synonyms": [
+            "xương sườn"
+          ]
+        }
+      }
+    },
+    {
+      "id": "spondyl",
+      "forms": [
+        "spondyl",
+        "spondylo"
+      ],
+      "meaning": "vertebra",
+      "synonyms": [
+        "vertebra",
+        "spine"
+      ],
+      "examples": [
+        "spondylitis",
+        "spondylolisthesis",
+        "spondylosis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"spondylos,\" meaning vertebra. Spondylitis is vertebral inflammation, and spondylolisthesis is vertebral slippage.",
+      "translations": {
+        "ko": {
+          "meaning": "척추",
+          "explanation": "그리스어 '스폰딜로스(spondylos)'에서 유래된 단어로, 척추를 의미합니다. 척추염(spondylitis)은 척추의 염증을 의미하며, 척추전위증(spondylolisthesis)은 척추의 위치가 어긋나는 것을 의미합니다.",
+          "synonyms": [
+            "척추",
+            "척추뼈"
+          ]
+        },
+        "vi": {
+          "meaning": "đốt sống",
+          "explanation": "Từ tiếng Hy Lạp \"spondylos\", có nghĩa là đốt sống. Viêm đốt sống (spondylitis) là tình trạng viêm của đốt sống, và trượt đốt sống (spondylolisthesis) là tình trạng đốt sống bị trượt.",
+          "synonyms": [
+            "đốt sống",
+            "cột sống"
+          ]
+        }
+      }
+    },
+    {
+      "id": "laryng",
+      "forms": [
+        "laryng",
+        "laryngo"
+      ],
+      "meaning": "larynx",
+      "synonyms": [
+        "larynx",
+        "voice box"
+      ],
+      "examples": [
+        "laryngitis",
+        "laryngoscopy",
+        "laryngeal"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"larynx,\" meaning voice box. Laryngitis is voice box inflammation causing hoarseness.",
+      "translations": {
+        "ko": {
+          "meaning": "후두",
+          "explanation": "그리스어 'larynx'에서 유래된 단어로, 음성 상자를 의미합니다. 후두염은 후두의 염증으로 인해 목소리가 쉰해지는 증상을 나타냅니다.",
+          "synonyms": [
+            "후두",
+            "음성 상자"
+          ]
+        },
+        "vi": {
+          "meaning": "thanh quản",
+          "explanation": "Từ tiếng Hy Lạp \"larynx\", có nghĩa là hộp thoại. Viêm thanh quản là tình trạng viêm của thanh quản gây ra khàn tiếng.",
+          "synonyms": [
+            "thanh quản",
+            "hộp thoại"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pharyng",
+      "forms": [
+        "pharyng",
+        "pharyngo"
+      ],
+      "meaning": "throat",
+      "synonyms": [
+        "throat",
+        "pharynx"
+      ],
+      "examples": [
+        "pharyngitis",
+        "nasopharynx",
+        "pharyngeal"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"pharynx,\" meaning throat. Pharyngitis is a sore throat, and the nasopharynx connects nose to throat.",
+      "translations": {
+        "ko": {
+          "meaning": "목",
+          "explanation": "그리스어 'pharynx'에서 유래된 단어로, 목을 의미합니다. 인두염은 목이 아픈 상태를 말하며, 비인두는 코와 목을 연결하는 부분입니다.",
+          "synonyms": [
+            "목",
+            "인두"
+          ]
+        },
+        "vi": {
+          "meaning": "họng",
+          "explanation": "Từ gốc tiếng Hy Lạp \"pharynx\" có nghĩa là họng. Viêm họng (pharyngitis) là tình trạng đau họng, và hầu mũi (nasopharynx) kết nối mũi với họng.",
+          "synonyms": [
+            "họng",
+            "hầu"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itis",
+      "forms": [
+        "itis"
+      ],
+      "meaning": "inflammation",
+      "synonyms": [
+        "inflammation",
+        "swelling"
+      ],
+      "examples": [
+        "arthritis",
+        "bronchitis",
+        "appendicitis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 10,
+      "explanation": "From Greek \"-itis,\" meaning inflammation. The most common medical suffix: arthritis (joint inflammation), tonsillitis (tonsil inflammation).",
+      "translations": {
+        "ko": {
+          "meaning": "염증",
+          "explanation": "그리스어 '-itis'에서 유래된 것으로, 염증을 의미합니다. 가장 일반적인 의학적 접미사로, 관절염(관절의 염증), 편도염(편도의 염증) 등이 있습니다.",
+          "synonyms": [
+            "염증",
+            "부기"
+          ]
+        },
+        "vi": {
+          "meaning": "viêm",
+          "explanation": "Từ gốc tiếng Hy Lạp \"-itis\" có nghĩa là viêm. Đây là hậu tố y học phổ biến nhất: viêm khớp (viêm khớp), viêm amidan (viêm amidan).",
+          "synonyms": [
+            "viêm",
+            "sưng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "emia",
+      "forms": [
+        "emia",
+        "hemia",
+        "aemia"
+      ],
+      "meaning": "blood condition",
+      "synonyms": [
+        "blood condition",
+        "in the blood"
+      ],
+      "examples": [
+        "anemia",
+        "leukemia",
+        "septicemia"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 8,
+      "explanation": "From Greek \"haima,\" meaning blood. Indicates a blood condition: anemia (lack of blood), leukemia (white blood cell cancer).",
+      "translations": {
+        "ko": {
+          "meaning": "혈액 상태",
+          "explanation": "그리스어 '하이마(haima)'에서 유래하며, '혈액'을 의미합니다. 혈액 상태를 나타내며, 예를 들어 빈혈(혈액 부족), 백혈병(백혈구 암) 등이 있습니다.",
+          "synonyms": [
+            "혈액 상태",
+            "혈액 내"
+          ]
+        },
+        "vi": {
+          "meaning": "tình trạng máu",
+          "explanation": "Từ tiếng Hy Lạp \"haima\", có nghĩa là máu. Chỉ ra một tình trạng liên quan đến máu: thiếu máu (thiếu máu), bệnh bạch cầu (ung thư tế bào máu trắng).",
+          "synonyms": [
+            "tình trạng máu",
+            "trong máu"
+          ]
+        }
+      }
+    },
+    {
+      "id": "osis",
+      "forms": [
+        "osis"
+      ],
+      "meaning": "abnormal condition",
+      "synonyms": [
+        "condition",
+        "disease",
+        "abnormal state"
+      ],
+      "examples": [
+        "stenosis",
+        "sclerosis",
+        "necrosis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 9,
+      "explanation": "From Greek \"-osis,\" indicating a condition or disease. Stenosis is abnormal narrowing, necrosis is tissue death.",
+      "translations": {
+        "ko": {
+          "meaning": "비정상적인 상태",
+          "explanation": "그리스어 '-osis'에서 유래된 것으로, 상태나 질병을 나타냅니다. 협착증(stenosis)은 비정상적인 좁아짐을 의미하고, 괴사(necrosis)는 조직의 죽음을 의미합니다.",
+          "synonyms": [
+            "상태",
+            "질병"
+          ]
+        },
+        "vi": {
+          "meaning": "tình trạng bất thường",
+          "explanation": "Từ tiếng Hy Lạp \"-osis\", chỉ một tình trạng hoặc bệnh. Stenosis là sự hẹp bất thường, necrosis là sự chết mô.",
+          "synonyms": [
+            "tình trạng",
+            "bệnh",
+            "trạng thái bất thường"
+          ]
+        }
+      }
+    },
+    {
+      "id": "algia",
+      "forms": [
+        "algia",
+        "algesia"
+      ],
+      "meaning": "pain",
+      "synonyms": [
+        "pain",
+        "ache"
+      ],
+      "examples": [
+        "neuralgia",
+        "myalgia",
+        "analgesic"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 8,
+      "explanation": "From Greek \"algos,\" meaning pain. Neuralgia is nerve pain, myalgia is muscle pain, and an analgesic relieves pain.",
+      "translations": {
+        "ko": {
+          "meaning": "통증",
+          "explanation": "그리스어 '알고스(algos)'에서 유래된 것으로, 통증을 의미합니다. 신경통은 신경의 통증을, 근육통은 근육의 통증을 의미하며, 진통제는 통증을 완화시킵니다.",
+          "synonyms": [
+            "고통",
+            "아픔"
+          ]
+        },
+        "vi": {
+          "meaning": "đau",
+          "explanation": "Từ gốc Hy Lạp \"algos\" có nghĩa là đau. Neuralgia là đau dây thần kinh, myalgia là đau cơ, và thuốc giảm đau (analgesic) giúp làm giảm cơn đau.",
+          "synonyms": [
+            "đau",
+            "cảm giác đau"
+          ]
+        }
+      }
+    },
+    {
+      "id": "penia",
+      "forms": [
+        "penia"
+      ],
+      "meaning": "deficiency",
+      "synonyms": [
+        "deficiency",
+        "lack",
+        "poverty"
+      ],
+      "examples": [
+        "leukopenia",
+        "thrombocytopenia",
+        "osteopenia"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 7,
+      "explanation": "From Greek \"penia,\" meaning poverty or lack. Leukopenia is low white blood cells, thrombocytopenia is low platelets.",
+      "translations": {
+        "ko": {
+          "meaning": "결핍",
+          "explanation": "그리스어 'penia'에서 유래된 단어로, 가난이나 부족을 의미합니다. 백혈구가 적은 상태를 나타내는 '백혈구감소증(leukopenia)'과 혈소판이 적은 상태를 나타내는 '혈소판감소증(thrombocytopenia)'이 있습니다.",
+          "synonyms": [
+            "결핍",
+            "부족",
+            "가난"
+          ]
+        },
+        "vi": {
+          "meaning": "sự thiếu hụt",
+          "explanation": "Từ tiếng Hy Lạp \"penia\", có nghĩa là nghèo khổ hoặc thiếu thốn. Leukopenia là tình trạng số lượng bạch cầu thấp, thrombocytopenia là tình trạng số lượng tiểu cầu thấp.",
+          "synonyms": [
+            "thiếu hụt",
+            "thiếu thốn",
+            "nghèo khổ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "trophy",
+      "forms": [
+        "trophy",
+        "trophia"
+      ],
+      "meaning": "nourishment",
+      "synonyms": [
+        "nourishment",
+        "growth",
+        "development"
+      ],
+      "examples": [
+        "atrophy",
+        "hypertrophy",
+        "dystrophy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 7,
+      "explanation": "From Greek \"trophe,\" meaning nourishment. Atrophy is wasting away, hypertrophy is overgrowth, dystrophy is abnormal growth.",
+      "translations": {
+        "ko": {
+          "meaning": "영양",
+          "explanation": "그리스어 'trophe'에서 유래된 영양을 의미합니다. 위축(atrophy)은 쇠퇴하는 것을, 비대(hypertrophy)는 과도한 성장을, 이상형성(dystrophy)은 비정상적인 성장을 나타냅니다.",
+          "synonyms": [
+            "영양",
+            "성장",
+            "발달"
+          ]
+        },
+        "vi": {
+          "meaning": "dinh dưỡng",
+          "explanation": "Từ tiếng Hy Lạp \"trophe\" có nghĩa là dinh dưỡng. Atrophy (teo cơ) là sự suy giảm, hypertrophy (phì đại) là sự phát triển quá mức, dystrophy (rối loạn phát triển) là sự phát triển bất thường.",
+          "synonyms": [
+            "dinh dưỡng",
+            "tăng trưởng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "phagia",
+      "forms": [
+        "phagia",
+        "phage"
+      ],
+      "meaning": "eating",
+      "synonyms": [
+        "eating",
+        "swallowing",
+        "consuming"
+      ],
+      "examples": [
+        "dysphagia",
+        "polyphagia",
+        "esophageal"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 6,
+      "explanation": "From Greek \"phagein,\" meaning to eat. Dysphagia is difficulty swallowing, polyphagia is excessive eating.",
+      "translations": {
+        "ko": {
+          "meaning": "먹는 것",
+          "explanation": "그리스어 'phagein'에서 유래되어 먹는 것을 의미합니다. 'Dysphagia'는 삼키는 데 어려움을 겪는 것이고, 'polyphagia'는 과도하게 먹는 것을 의미합니다.",
+          "synonyms": [
+            "먹기",
+            "삼키기",
+            "소비하기"
+          ]
+        },
+        "vi": {
+          "meaning": "ăn",
+          "explanation": "Từ tiếng Hy Lạp \"phagein,\" có nghĩa là ăn. Dysphagia là khó khăn trong việc nuốt, polyphagia là ăn uống quá mức.",
+          "synonyms": [
+            "ăn",
+            "nuốt",
+            "tiêu thụ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "plegia",
+      "forms": [
+        "plegia",
+        "plegic"
+      ],
+      "meaning": "paralysis",
+      "synonyms": [
+        "paralysis",
+        "stroke"
+      ],
+      "examples": [
+        "paraplegia",
+        "quadriplegia",
+        "hemiplegia"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 7,
+      "explanation": "From Greek \"plege,\" meaning stroke or blow. Paraplegia is lower body paralysis, quadriplegia is all four limbs.",
+      "translations": {
+        "ko": {
+          "meaning": "마비",
+          "explanation": "그리스어 'plege'에서 유래된 것으로, 타격이나 충격을 의미합니다. 하반신 마비는 '하반신 마비(paraplegia)'로, 전신 마비는 '사지 마비(quadriplegia)'로 표현됩니다.",
+          "synonyms": [
+            "마비",
+            "뇌졸중"
+          ]
+        },
+        "vi": {
+          "meaning": "liệt",
+          "explanation": "Từ gốc Hy Lạp \"plege\" có nghĩa là cú đánh hoặc cú sốc. Liệt nửa người dưới là liệt phần thân dưới, liệt tứ chi là liệt cả bốn chi.",
+          "synonyms": [
+            "liệt",
+            "đột quỵ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "megaly",
+      "forms": [
+        "megaly"
+      ],
+      "meaning": "enlargement",
+      "synonyms": [
+        "enlargement",
+        "large"
+      ],
+      "examples": [
+        "cardiomegaly",
+        "hepatomegaly",
+        "splenomegaly"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 7,
+      "explanation": "From Greek \"megas,\" meaning large. Cardiomegaly is enlarged heart, hepatomegaly is enlarged liver.",
+      "translations": {
+        "ko": {
+          "meaning": "확대",
+          "explanation": "그리스어 '메가스(megas)'에서 유래된 것으로, '큰'이라는 뜻입니다. 심장비대(cardiomegaly)는 심장이 확대된 상태를 의미하고, 간비대(hepatomegaly)는 간이 확대된 상태를 의미합니다.",
+          "synonyms": [
+            "확대",
+            "큰"
+          ]
+        },
+        "vi": {
+          "meaning": "sự phình to",
+          "explanation": "Từ gốc Hy Lạp 'megas', có nghĩa là lớn. 'Cardiomegaly' là tình trạng tim phình to, 'hepatomegaly' là tình trạng gan phình to.",
+          "synonyms": [
+            "sự phình to",
+            "lớn"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sclerosis",
+      "forms": [
+        "sclerosis",
+        "sclero"
+      ],
+      "meaning": "hardening",
+      "synonyms": [
+        "hardening",
+        "hard"
+      ],
+      "examples": [
+        "atherosclerosis",
+        "sclerotherapy",
+        "multiple sclerosis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 7,
+      "explanation": "From Greek \"skleros,\" meaning hard. Atherosclerosis is artery hardening, and multiple sclerosis involves hardened nerve tissue.",
+      "translations": {
+        "ko": {
+          "meaning": "경화",
+          "explanation": "그리스어 '스클레로스'(skleros)에서 유래된 단어로, '딱딱한'이라는 의미를 가지고 있습니다. 동맥경화증은 동맥의 경화를 의미하며, 다발성 경화증은 경화된 신경 조직과 관련이 있습니다.",
+          "synonyms": [
+            "경화",
+            "딱딱함"
+          ]
+        },
+        "vi": {
+          "meaning": "sự cứng lại",
+          "explanation": "Từ tiếng Hy Lạp \"skleros\" có nghĩa là cứng. Atherosclerosis là sự cứng lại của động mạch, và bệnh đa xơ cứng liên quan đến mô thần kinh bị cứng lại.",
+          "synonyms": [
+            "cứng lại",
+            "cứng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "centesis",
+      "forms": [
+        "centesis"
+      ],
+      "meaning": "puncture",
+      "synonyms": [
+        "puncture",
+        "tap"
+      ],
+      "examples": [
+        "amniocentesis",
+        "thoracentesis",
+        "paracentesis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 6,
+      "explanation": "From Greek \"kentesis,\" meaning puncture. Amniocentesis samples amniotic fluid, thoracentesis drains chest fluid.",
+      "translations": {
+        "ko": {
+          "meaning": "천자",
+          "explanation": "그리스어 'kentesis'에서 유래된 단어로, '천자'라는 의미를 가지고 있습니다. 양수천자(amnio-centesis)는 양수 샘플을 채취하고, 흉막천자(thoracentesis)는 흉부의 액체를 배출합니다.",
+          "synonyms": [
+            "천자",
+            "탭"
+          ]
+        },
+        "vi": {
+          "meaning": "chọc",
+          "explanation": "Từ tiếng Hy Lạp \"kentesis\", có nghĩa là chọc. Amniocentesis lấy mẫu dịch ối, thoracentesis thoát dịch trong ngực.",
+          "synonyms": [
+            "chọc",
+            "rút"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tripsy",
+      "forms": [
+        "tripsy"
+      ],
+      "meaning": "crushing",
+      "synonyms": [
+        "crushing",
+        "breaking"
+      ],
+      "examples": [
+        "lithotripsy",
+        "neurotripsy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 5,
+      "explanation": "From Greek \"tripsis,\" meaning rubbing or crushing. Lithotripsy crushes kidney stones using sound waves.",
+      "translations": {
+        "ko": {
+          "meaning": "부수는",
+          "explanation": "그리스어 'tripsis'에서 유래된 것으로, 문지르거나 부수는 것을 의미합니다. 리소트립시는 소리 파장을 이용하여 신장 결석을 부수는 방법입니다.",
+          "synonyms": [
+            "부수기",
+            "깨뜨리기"
+          ]
+        },
+        "vi": {
+          "meaning": "nghiền nát",
+          "explanation": "Từ tiếng Hy Lạp \"tripsis\" có nghĩa là cọ xát hoặc nghiền nát. Lithotripsy là phương pháp nghiền nát sỏi thận bằng sóng âm.",
+          "synonyms": [
+            "nghiền",
+            "phá vỡ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lysis",
+      "forms": [
+        "lysis",
+        "lytic"
+      ],
+      "meaning": "breakdown",
+      "synonyms": [
+        "breakdown",
+        "destruction",
+        "dissolving"
+      ],
+      "examples": [
+        "hemolysis",
+        "paralysis",
+        "dialysis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 8,
+      "explanation": "From Greek \"lysis,\" meaning loosening. Hemolysis is red blood cell breakdown, dialysis filters blood when kidneys fail.",
+      "translations": {
+        "ko": {
+          "meaning": "분해",
+          "explanation": "그리스어 'lysis'에서 유래된 것으로, '느슨하게 하다'라는 의미입니다. 용혈(hemolysis)은 적혈구의 분해를 의미하고, 투석(dialysis)은 신장이 기능을 잃었을 때 혈액을 걸러내는 과정을 말합니다.",
+          "synonyms": [
+            "분해",
+            "파괴",
+            "용해"
+          ]
+        },
+        "vi": {
+          "meaning": "phân hủy",
+          "explanation": "Từ tiếng Hy Lạp \"lysis\" có nghĩa là làm lỏng. Hemolysis là quá trình phân hủy tế bào máu đỏ, còn dialysis là quá trình lọc máu khi thận không hoạt động.",
+          "synonyms": [
+            "phân hủy",
+            "hủy diệt",
+            "tan rã"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stasis",
+      "forms": [
+        "stasis",
+        "static"
+      ],
+      "meaning": "standing still",
+      "synonyms": [
+        "standing",
+        "stopping",
+        "stable"
+      ],
+      "examples": [
+        "homeostasis",
+        "hemostasis",
+        "metastasis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 7,
+      "explanation": "From Greek \"stasis,\" meaning standing. Homeostasis is body equilibrium, hemostasis stops bleeding. Metastasis means cancer has \"moved to stand\" elsewhere.",
+      "translations": {
+        "ko": {
+          "meaning": "정지",
+          "explanation": "그리스어 'stasis'에서 유래된 것으로, '서 있다'는 의미입니다. 항상성(홈오스타시스)은 신체의 균형을 의미하고, 지혈(헤모스타시스)은 출혈을 멈추는 것을 의미합니다. 전이(메타스타시스)는 암이 다른 곳으로 '이동하여 서 있다'는 뜻입니다.",
+          "synonyms": [
+            "정지",
+            "멈춤",
+            "안정"
+          ]
+        },
+        "vi": {
+          "meaning": "đứng yên",
+          "explanation": "Từ gốc Hy Lạp 'stasis' có nghĩa là đứng yên. Homeostasis là sự cân bằng trong cơ thể, hemostasis là quá trình ngừng chảy máu. Metastasis có nghĩa là ung thư đã 'di chuyển để đứng' ở nơi khác.",
+          "synonyms": [
+            "đứng",
+            "dừng lại",
+            "ổn định"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rrhea",
+      "forms": [
+        "rrhea",
+        "rrhoea"
+      ],
+      "meaning": "flow",
+      "synonyms": [
+        "flow",
+        "discharge"
+      ],
+      "examples": [
+        "diarrhea",
+        "rhinorrhea",
+        "amenorrhea"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 7,
+      "explanation": "From Greek \"rhein,\" meaning to flow. Diarrhea is intestinal flow, rhinorrhea is runny nose, amenorrhea is absent menstrual flow.",
+      "translations": {
+        "ko": {
+          "meaning": "흐름",
+          "explanation": "그리스어 'rhein'에서 유래되었으며, 흐르다라는 뜻입니다. 설사는 장에서의 흐름을 의미하고, 비염은 콧물이 흐르는 것을, 무월경은 생리의 흐름이 없음을 나타냅니다.",
+          "synonyms": [
+            "흐름",
+            "배출"
+          ]
+        },
+        "vi": {
+          "meaning": "dòng chảy",
+          "explanation": "Từ tiếng Hy Lạp \"rhein\", có nghĩa là chảy. Tiêu chảy là dòng chảy trong ruột, chảy mũi (rhinorrhea) là mũi chảy nước, không có kinh nguyệt (amenorrhea) là không có dòng chảy kinh nguyệt.",
+          "synonyms": [
+            "dòng chảy",
+            "tiết ra"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rrhagia",
+      "forms": [
+        "rrhagia",
+        "rrhage"
+      ],
+      "meaning": "bleeding",
+      "synonyms": [
+        "bleeding",
+        "bursting forth",
+        "hemorrhage"
+      ],
+      "examples": [
+        "hemorrhage",
+        "menorrhagia",
+        "otorrhagia"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 6,
+      "explanation": "From Greek \"rhegnynai,\" meaning to burst forth. Hemorrhage is severe bleeding, menorrhagia is heavy menstrual bleeding.",
+      "translations": {
+        "ko": {
+          "meaning": "출혈",
+          "explanation": "그리스어 'rhegnynai'에서 유래되었으며, '터져 나가다'라는 의미입니다. 출혈은 심한 출혈을 의미하며, 월경과다증은 월경 중에 발생하는 심한 출혈을 뜻합니다.",
+          "synonyms": [
+            "출혈",
+            "터져 나옴"
+          ]
+        },
+        "vi": {
+          "meaning": "chảy máu",
+          "explanation": "Từ tiếng Hy Lạp \"rhegnynai\", có nghĩa là vỡ ra. Xuất huyết là chảy máu nghiêm trọng, rong kinh là chảy máu kinh nguyệt nhiều.",
+          "synonyms": [
+            "chảy máu",
+            "vỡ ra",
+            "xuất huyết"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pexy",
+      "forms": [
+        "pexy"
+      ],
+      "meaning": "surgical fixation",
+      "synonyms": [
+        "fixation",
+        "anchoring"
+      ],
+      "examples": [
+        "nephropexy",
+        "gastropexy",
+        "orchiopexy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 5,
+      "explanation": "From Greek \"pexis,\" meaning fixation. Nephropexy fixes a floating kidney, gastropexy anchors the stomach.",
+      "translations": {
+        "ko": {
+          "meaning": "수술적 고정",
+          "explanation": "그리스어 'pexis'에서 유래된 고정이라는 뜻입니다. 신장 고정술(nephropexy)은 떠 있는 신장을 고정하고, 위 고정술(gastropexy)은 위를 고정합니다.",
+          "synonyms": [
+            "고정",
+            "앵커링"
+          ]
+        },
+        "vi": {
+          "meaning": "cố định phẫu thuật",
+          "explanation": "Từ tiếng Hy Lạp \"pexis,\" có nghĩa là cố định. Nephropexy cố định thận lơ lửng, gastropexy neo dạ dày.",
+          "synonyms": [
+            "cố định",
+            "neo"
+          ]
+        }
+      }
+    },
+    {
+      "id": "otomy",
+      "forms": [
+        "otomy",
+        "tomy"
+      ],
+      "meaning": "incision",
+      "synonyms": [
+        "incision",
+        "cutting into"
+      ],
+      "examples": [
+        "laparotomy",
+        "craniotomy",
+        "tracheotomy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "suffix",
+      "frequency": 8,
+      "explanation": "From Greek \"tome,\" meaning cutting. Unlike -ectomy (removal), -otomy just cuts into: a tracheotomy opens the windpipe.",
+      "translations": {
+        "ko": {
+          "meaning": "절개",
+          "explanation": "그리스어 '톰'(tome)에서 유래된 것으로, '자르다'라는 의미입니다. -ectomy(제거)와는 달리 -otomy는 단순히 자르는 것을 의미합니다: 기관절개술(tracheotomy)은 기관지를 여는 것입니다.",
+          "synonyms": [
+            "절개",
+            "자르기"
+          ]
+        },
+        "vi": {
+          "meaning": "cắt",
+          "explanation": "Từ tiếng Hy Lạp \"tome\" có nghĩa là cắt. Khác với -ectomy (cắt bỏ), -otomy chỉ là cắt vào: một phẫu thuật tracheotomy mở khí quản.",
+          "synonyms": [
+            "cắt",
+            "mổ vào"
+          ]
+        }
+      }
+    },
+    {
+      "id": "brady",
+      "forms": [
+        "brady"
+      ],
+      "meaning": "slow",
+      "synonyms": [
+        "sluggish",
+        "slow"
+      ],
+      "examples": [
+        "bradycardia",
+        "bradypnea",
+        "bradykinesia"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "prefix",
+      "frequency": 7,
+      "explanation": "From Greek \"bradys,\" meaning slow. Bradycardia is slow heart rate, bradypnea is slow breathing.",
+      "translations": {
+        "ko": {
+          "meaning": "느린",
+          "explanation": "그리스어 'bradys'에서 유래된 단어로, 느리다는 뜻입니다. 서맥(bradycardia)은 느린 심박수를 의미하고, 서호흡(bradypnea)은 느린 호흡을 의미합니다.",
+          "synonyms": [
+            "느린"
+          ]
+        },
+        "vi": {
+          "meaning": "chậm",
+          "explanation": "Từ gốc tiếng Hy Lạp \"bradys\", có nghĩa là chậm. Bradycardia là nhịp tim chậm, bradypnea là hơi thở chậm.",
+          "synonyms": [
+            "chậm"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tachy",
+      "forms": [
+        "tachy"
+      ],
+      "meaning": "fast",
+      "synonyms": [
+        "fast",
+        "rapid"
+      ],
+      "examples": [
+        "tachycardia",
+        "tachypnea",
+        "tachyarrhythmia"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "prefix",
+      "frequency": 7,
+      "explanation": "From Greek \"tachys,\" meaning swift. Tachycardia is fast heart rate, tachypnea is rapid breathing.",
+      "translations": {
+        "ko": {
+          "meaning": "빠른",
+          "explanation": "그리스어 'tachys'에서 유래된 말로, '신속한'이라는 뜻입니다. 예를 들어, '빈맥(tachycardia)'은 빠른 심박수를 의미하고, '빈호흡(tachypnea)'은 빠른 호흡을 의미합니다.",
+          "synonyms": [
+            "빠른",
+            "신속한"
+          ]
+        },
+        "vi": {
+          "meaning": "nhanh",
+          "explanation": "Từ gốc tiếng Hy Lạp \"tachys\" có nghĩa là nhanh chóng. Tachycardia là tình trạng nhịp tim nhanh, tachypnea là hơi thở nhanh.",
+          "synonyms": [
+            "nhanh",
+            "mau"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bronch",
+      "forms": [
+        "bronch",
+        "broncho"
+      ],
+      "meaning": "windpipe",
+      "synonyms": [
+        "windpipe",
+        "airway",
+        "bronchus"
+      ],
+      "examples": [
+        "bronchitis",
+        "bronchoscopy",
+        "bronchodilator"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"bronchos,\" meaning windpipe. Bronchitis is inflammation of the airways; a bronchodilator opens the airways.",
+      "translations": {
+        "ko": {
+          "meaning": "기관",
+          "explanation": "그리스어 'bronchos'에서 유래된 것으로, 기관을 의미합니다. 기관염은 기도의 염증을 의미하며, 기관지 확장제는 기도를 열어줍니다.",
+          "synonyms": [
+            "기관",
+            "기도",
+            "기관지"
+          ]
+        },
+        "vi": {
+          "meaning": "khí quản",
+          "explanation": "Từ tiếng Hy Lạp \"bronchos,\" có nghĩa là khí quản. Viêm khí quản là tình trạng viêm của các đường hô hấp; thuốc giãn phế quản giúp mở rộng các đường hô hấp.",
+          "synonyms": [
+            "khí quản",
+            "đường hô hấp"
+          ]
+        }
+      }
+    },
+    {
+      "id": "trache",
+      "forms": [
+        "trache",
+        "tracheo"
+      ],
+      "meaning": "windpipe",
+      "synonyms": [
+        "windpipe",
+        "trachea"
+      ],
+      "examples": [
+        "trachea",
+        "tracheotomy",
+        "tracheostomy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"tracheia,\" meaning rough (artery). The trachea is the main airway; tracheotomy cuts into it for breathing.",
+      "translations": {
+        "ko": {
+          "meaning": "기관",
+          "explanation": "그리스어 'tracheia'에서 유래되었으며, '거친 (동맥)'이라는 뜻입니다. 기관은 주요 기도이며, 기관절개술은 호흡을 위해 기관을 절개하는 수술입니다.",
+          "synonyms": [
+            "기관",
+            "기관"
+          ]
+        },
+        "vi": {
+          "meaning": "khí quản",
+          "explanation": "Từ tiếng Hy Lạp \"tracheia\" có nghĩa là thô (động mạch). Khí quản là đường dẫn khí chính; phẫu thuật mở khí quản là cắt vào nó để thở.",
+          "synonyms": [
+            "khí quản",
+            "trachea"
+          ]
+        }
+      }
+    },
+    {
+      "id": "esophag",
+      "forms": [
+        "esophag",
+        "oesophag"
+      ],
+      "meaning": "gullet",
+      "synonyms": [
+        "gullet",
+        "food pipe",
+        "esophagus"
+      ],
+      "examples": [
+        "esophagus",
+        "esophageal",
+        "esophagitis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"oisophagos,\" meaning gullet. The esophagus carries food from throat to stomach.",
+      "translations": {
+        "ko": {
+          "meaning": "식도",
+          "explanation": "그리스어 '오이소파고스(οἰσοφάγος)'에서 유래된 단어로, 식도를 의미합니다. 식도는 목에서 위로 음식을 운반하는 역할을 합니다.",
+          "synonyms": [
+            "식도",
+            "음식관"
+          ]
+        },
+        "vi": {
+          "meaning": "thực quản",
+          "explanation": "Từ tiếng Hy Lạp \"oisophagos\", có nghĩa là thực quản. Thực quản mang thức ăn từ họng đến dạ dày.",
+          "synonyms": [
+            "thực quản",
+            "ống dẫn thức ăn"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rect",
+      "forms": [
+        "rect",
+        "recto"
+      ],
+      "meaning": "rectum",
+      "synonyms": [
+        "rectum",
+        "straight"
+      ],
+      "examples": [
+        "rectal",
+        "rectum",
+        "rectocele"
+      ],
+      "origin": "Latin",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Latin \"rectum,\" meaning straight. The rectum is the straight portion of the large intestine before the anus.",
+      "translations": {
+        "ko": {
+          "meaning": "직장",
+          "explanation": "라틴어 'rectum'에서 유래된 단어로, 곧다는 의미를 가지고 있습니다. 직장은 항문 앞에 위치한 대장의 곧은 부분입니다.",
+          "synonyms": [
+            "직장",
+            "곧은"
+          ]
+        },
+        "vi": {
+          "meaning": "trực tràng",
+          "explanation": "Từ tiếng Latin \"rectum\", có nghĩa là thẳng. Trực tràng là phần thẳng của ruột già trước khi đến hậu môn.",
+          "synonyms": [
+            "trực tràng",
+            "thẳng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "proct",
+      "forms": [
+        "proct",
+        "procto"
+      ],
+      "meaning": "anus",
+      "synonyms": [
+        "anus",
+        "rectum"
+      ],
+      "examples": [
+        "proctology",
+        "proctoscope",
+        "proctitis"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 5,
+      "explanation": "From Greek \"proktos,\" meaning anus. Proctology is the medical specialty dealing with the rectum and anus.",
+      "translations": {
+        "ko": {
+          "meaning": "항문",
+          "explanation": "그리스어 '프로크토스(proktos)'에서 유래하며, 항문을 의미합니다. 프로크톨로지(proctology)는 직장과 항문을 다루는 의학 전문 분야입니다.",
+          "synonyms": [
+            "항문",
+            "직장"
+          ]
+        },
+        "vi": {
+          "meaning": "hậu môn",
+          "explanation": "Từ tiếng Hy Lạp \"proktos\", có nghĩa là hậu môn. Chuyên ngành proctology là lĩnh vực y học liên quan đến trực tràng và hậu môn.",
+          "synonyms": [
+            "hậu môn",
+            "trực tràng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "uter",
+      "forms": [
+        "uter",
+        "utero"
+      ],
+      "meaning": "uterus",
+      "synonyms": [
+        "uterus",
+        "womb"
+      ],
+      "examples": [
+        "uterus",
+        "uterine",
+        "intrauterine"
+      ],
+      "origin": "Latin",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Latin \"uterus,\" meaning womb. Uterine refers to the uterus; intrauterine means within the uterus.",
+      "translations": {
+        "ko": {
+          "meaning": "자궁",
+          "explanation": "라틴어 'uterus'에서 유래된 단어로, 자궁을 의미합니다. 자궁과 관련된 것은 '자궁의'라고 하며, '자궁 내'는 자궁 안에 있다는 뜻입니다.",
+          "synonyms": [
+            "자궁",
+            "모체"
+          ]
+        },
+        "vi": {
+          "meaning": "tử cung",
+          "explanation": "Từ gốc Latin \"uterus\" có nghĩa là tử cung. Từ \"tử cung\" liên quan đến tử cung; \"nội tử cung\" có nghĩa là bên trong tử cung.",
+          "synonyms": [
+            "tử cung",
+            "buồng tử"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hyster",
+      "forms": [
+        "hyster",
+        "hystero"
+      ],
+      "meaning": "uterus",
+      "synonyms": [
+        "uterus",
+        "womb"
+      ],
+      "examples": [
+        "hysterectomy",
+        "hysteroscopy",
+        "hysteria"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"hystera,\" meaning womb. Hysterectomy removes the uterus. Hysteria was once blamed on the wandering womb.",
+      "translations": {
+        "ko": {
+          "meaning": "자궁",
+          "explanation": "그리스어 'hystera'에서 유래된 단어로, 자궁을 의미합니다. 자궁적출술은 자궁을 제거하는 수술입니다. 히스테리는 한때 방황하는 자궁 때문이라고 여겨졌습니다.",
+          "synonyms": [
+            "자궁",
+            "모체"
+          ]
+        },
+        "vi": {
+          "meaning": "tử cung",
+          "explanation": "Từ tiếng Hy Lạp \"hystera,\" có nghĩa là buồng tử. Phẫu thuật cắt tử cung (hysterectomy) loại bỏ tử cung. Cơn cuồng loạn (hysteria) từng được cho là do tử cung lang thang.",
+          "synonyms": [
+            "tử cung",
+            "buồng tử"
+          ]
+        }
+      }
+    },
+    {
+      "id": "oophor",
+      "forms": [
+        "oophor",
+        "ovari"
+      ],
+      "meaning": "ovary",
+      "synonyms": [
+        "ovary",
+        "egg-bearing"
+      ],
+      "examples": [
+        "oophorectomy",
+        "ovarian",
+        "ovary"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"oophoron,\" meaning egg-bearing. Oophorectomy removes an ovary; ovarian relates to the ovaries.",
+      "translations": {
+        "ko": {
+          "meaning": "난소",
+          "explanation": "그리스어 'oophoron'에서 유래된 것으로, '알을 생산하는'이라는 의미입니다. 난소 절제술은 난소를 제거하는 수술이며, 난소와 관련된 것은 '난소의'라는 뜻입니다.",
+          "synonyms": [
+            "난소",
+            "알을 생산하는"
+          ]
+        },
+        "vi": {
+          "meaning": "buồng trứng",
+          "explanation": "Từ tiếng Hy Lạp \"oophoron\", có nghĩa là mang trứng. Phẫu thuật cắt bỏ buồng trứng (oophorectomy) là việc loại bỏ một buồng trứng; từ \"buồng trứng\" (ovarian) liên quan đến các buồng trứng.",
+          "synonyms": [
+            "buồng trứng",
+            "mang trứng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "orchi",
+      "forms": [
+        "orchi",
+        "orchid"
+      ],
+      "meaning": "testis",
+      "synonyms": [
+        "testis",
+        "testicle"
+      ],
+      "examples": [
+        "orchitis",
+        "orchiectomy",
+        "orchiopexy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 5,
+      "explanation": "From Greek \"orchis,\" meaning testicle. Orchitis is testis inflammation; orchiectomy removes a testis. Orchids were named for their root shape.",
+      "translations": {
+        "ko": {
+          "meaning": "고환",
+          "explanation": "그리스어 '오르키스(orchis)'에서 유래된 단어로, 고환을 의미합니다. 오르키티스(orchitis)는 고환의 염증을 나타내며, 오르키에크토미(orchiectomy)는 고환을 제거하는 수술입니다. 난초(orchid)는 그 뿌리 모양 때문에 이러한 이름이 붙여졌습니다.",
+          "synonyms": [
+            "고환",
+            "정소"
+          ]
+        },
+        "vi": {
+          "meaning": "tinh hoàn",
+          "explanation": "Từ tiếng Hy Lạp \"orchis\" có nghĩa là tinh hoàn. Viêm tinh hoàn (orchitis) là tình trạng viêm của tinh hoàn; cắt bỏ tinh hoàn (orchiectomy) là phẫu thuật loại bỏ một tinh hoàn. Hoa lan (orchids) được đặt tên theo hình dạng của rễ.",
+          "synonyms": [
+            "tinh hoàn",
+            "hòn dái"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mast",
+      "forms": [
+        "mast",
+        "masto"
+      ],
+      "meaning": "breast",
+      "synonyms": [
+        "breast"
+      ],
+      "examples": [
+        "mastectomy",
+        "mastitis",
+        "mammography"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"mastos,\" meaning breast. Mastectomy removes breast tissue; mastitis is breast inflammation.",
+      "translations": {
+        "ko": {
+          "meaning": "유방",
+          "explanation": "그리스어 'mastos'에서 유래된 단어로, 유방을 의미합니다. 유방 절제술(mastectomy)은 유방 조직을 제거하는 수술이며, 유방염(mastitis)은 유방의 염증을 뜻합니다.",
+          "synonyms": [
+            "유방"
+          ]
+        },
+        "vi": {
+          "meaning": "vú",
+          "explanation": "Từ tiếng Hy Lạp \"mastos,\" có nghĩa là vú. Phẫu thuật cắt bỏ vú (mastectomy) loại bỏ mô vú; viêm vú (mastitis) là tình trạng viêm ở vú.",
+          "synonyms": [
+            "vú"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mamm",
+      "forms": [
+        "mamm",
+        "mammo"
+      ],
+      "meaning": "breast",
+      "synonyms": [
+        "breast"
+      ],
+      "examples": [
+        "mammary",
+        "mammogram",
+        "mammoplasty"
+      ],
+      "origin": "Latin",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Latin \"mamma,\" meaning breast. Mammary glands produce milk; a mammogram images the breast.",
+      "translations": {
+        "ko": {
+          "meaning": "유방",
+          "explanation": "라틴어 'mamma'에서 유래된 단어로, 유방을 의미합니다. 유선은 우유를 생산하며, 유방촬영술은 유방의 이미지를 촬영하는 검사입니다.",
+          "synonyms": [
+            "유방"
+          ]
+        },
+        "vi": {
+          "meaning": "vú",
+          "explanation": "Từ gốc Latin \"mamma\" có nghĩa là vú. Tuyến vú sản xuất sữa; một bức ảnh chụp vú gọi là mammogram.",
+          "synonyms": [
+            "vú"
+          ]
+        }
+      }
+    },
+    {
+      "id": "thyr",
+      "forms": [
+        "thyr",
+        "thyro"
+      ],
+      "meaning": "thyroid",
+      "synonyms": [
+        "thyroid",
+        "shield"
+      ],
+      "examples": [
+        "thyroid",
+        "thyroidectomy",
+        "hypothyroid"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"thyreos,\" meaning shield (from its shape). The thyroid gland regulates metabolism.",
+      "translations": {
+        "ko": {
+          "meaning": "갑상선",
+          "explanation": "그리스어 'thyreos'에서 유래되었으며, 방패 모양을 의미합니다. 갑상선은 신진대사를 조절하는 역할을 합니다.",
+          "synonyms": [
+            "갑상선",
+            "방패"
+          ]
+        },
+        "vi": {
+          "meaning": "tuyến giáp",
+          "explanation": "Từ tiếng Hy Lạp 'thyreos', có nghĩa là lá chắn (do hình dạng của nó). Tuyến giáp điều chỉnh sự trao đổi chất.",
+          "synonyms": [
+            "tuyến giáp",
+            "lá chắn"
+          ]
+        }
+      }
+    },
+    {
+      "id": "adren",
+      "forms": [
+        "adren",
+        "adreno"
+      ],
+      "meaning": "adrenal",
+      "synonyms": [
+        "adrenal",
+        "near kidney"
+      ],
+      "examples": [
+        "adrenal",
+        "adrenaline",
+        "adrenalectomy"
+      ],
+      "origin": "Latin",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Latin \"ad\" (near) + \"renes\" (kidneys). Adrenal glands sit atop the kidneys and produce adrenaline.",
+      "translations": {
+        "ko": {
+          "meaning": "부신",
+          "explanation": "라틴어 'ad'(근처)와 'renes'(신장)에서 유래되었습니다. 부신은 신장 위에 위치하며 아드레날린을 생성합니다.",
+          "synonyms": [
+            "부신",
+            "신장 근처"
+          ]
+        },
+        "vi": {
+          "meaning": "thượng thận",
+          "explanation": "Từ tiếng Latin \"ad\" (gần) + \"renes\" (thận). Tuyến thượng thận nằm trên đỉnh của thận và sản xuất adrenaline.",
+          "synonyms": [
+            "thượng thận",
+            "gần thận"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pituitar",
+      "forms": [
+        "pituitar",
+        "hypophys"
+      ],
+      "meaning": "pituitary",
+      "synonyms": [
+        "pituitary",
+        "master gland"
+      ],
+      "examples": [
+        "pituitary",
+        "hypophysis",
+        "hypopituitarism"
+      ],
+      "origin": "Latin",
+      "category": "medical",
+      "position": "root",
+      "frequency": 5,
+      "explanation": "From Latin \"pituita,\" meaning phlegm (once thought to secrete mucus). The pituitary is the master hormone gland.",
+      "translations": {
+        "ko": {
+          "meaning": "뇌하수체",
+          "explanation": "라틴어 'pituita'에서 유래되었으며, 이는 점액을 의미합니다 (한때 점액을 분비한다고 생각되었습니다). 뇌하수체는 주요 호르몬 선입니다.",
+          "synonyms": [
+            "뇌하수체",
+            "주요선"
+          ]
+        },
+        "vi": {
+          "meaning": "tuyến yên",
+          "explanation": "Từ Latin \"pituita\", có nghĩa là đờm (trước đây được cho là tiết ra chất nhầy). Tuyến yên là tuyến hormone chính.",
+          "synonyms": [
+            "tuyến yên",
+            "tuyến chính"
+          ]
+        }
+      }
+    },
+    {
+      "id": "glyc",
+      "forms": [
+        "glyc",
+        "glyco",
+        "gluc"
+      ],
+      "meaning": "sugar",
+      "synonyms": [
+        "sugar",
+        "sweet"
+      ],
+      "examples": [
+        "glucose",
+        "glycogen",
+        "hypoglycemia"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"glykys,\" meaning sweet. Glucose is blood sugar; glycogen stores sugar; hypoglycemia is low blood sugar.",
+      "translations": {
+        "ko": {
+          "meaning": "당",
+          "explanation": "그리스어 'glykys'에서 유래된 것으로, '달콤한'이라는 뜻입니다. 포도당은 혈당이며, 글리코겐은 당을 저장하고, 저혈당증은 혈당이 낮은 상태를 의미합니다.",
+          "synonyms": [
+            "당",
+            "달콤한"
+          ]
+        },
+        "vi": {
+          "meaning": "đường",
+          "explanation": "Từ tiếng Hy Lạp \"glykys,\" có nghĩa là ngọt. Glucose là đường trong máu; glycogen lưu trữ đường; hạ đường huyết là tình trạng đường huyết thấp.",
+          "synonyms": [
+            "đường",
+            "ngọt"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lip",
+      "forms": [
+        "lip",
+        "lipo"
+      ],
+      "meaning": "fat",
+      "synonyms": [
+        "fat",
+        "lipid"
+      ],
+      "examples": [
+        "lipid",
+        "liposuction",
+        "lipoma"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"lipos,\" meaning fat. Lipids are fats; liposuction removes fat; a lipoma is a fatty tumor.",
+      "translations": {
+        "ko": {
+          "meaning": "지방",
+          "explanation": "그리스어 '리포스(lipos)'에서 유래된 단어로, 지방을 의미합니다. 지질은 지방의 일종이며, 지방흡입술은 지방을 제거하는 수술입니다. 지방종은 지방으로 이루어진 종양입니다.",
+          "synonyms": [
+            "지방",
+            "지질"
+          ]
+        },
+        "vi": {
+          "meaning": "mỡ",
+          "explanation": "Từ tiếng Hy Lạp \"lipos\", có nghĩa là mỡ. Lipid là chất béo; hút mỡ (liposuction) là quá trình loại bỏ mỡ; lipoma là một khối u có mỡ.",
+          "synonyms": [
+            "mỡ",
+            "lipid"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leuk",
+      "forms": [
+        "leuk",
+        "leuco"
+      ],
+      "meaning": "white",
+      "synonyms": [
+        "white"
+      ],
+      "examples": [
+        "leukocyte",
+        "leukemia",
+        "leukopenia"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"leukos,\" meaning white. Leukocytes are white blood cells; leukemia is cancer of white blood cells.",
+      "translations": {
+        "ko": {
+          "meaning": "흰색",
+          "explanation": "그리스어 'leukos'에서 유래된 것으로, 흰색을 의미합니다. 백혈구는 흰색 혈액 세포이며, 백혈병은 백혈구의 암입니다.",
+          "synonyms": [
+            "흰색"
+          ]
+        },
+        "vi": {
+          "meaning": "trắng",
+          "explanation": "Từ gốc tiếng Hy Lạp \"leukos\" có nghĩa là trắng. Bạch cầu là tế bào máu trắng; bệnh bạch cầu là ung thư của tế bào máu trắng.",
+          "synonyms": [
+            "trắng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "erythr",
+      "forms": [
+        "erythr",
+        "erythro"
+      ],
+      "meaning": "red",
+      "synonyms": [
+        "red"
+      ],
+      "examples": [
+        "erythrocyte",
+        "erythema",
+        "erythropoietin"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"erythros,\" meaning red. Erythrocytes are red blood cells; erythema is skin redness.",
+      "translations": {
+        "ko": {
+          "meaning": "붉은",
+          "explanation": "그리스어 'erythros'에서 유래된 것으로, 붉은 색을 의미합니다. 적혈구(erythrocyte)는 붉은 색의 혈액 세포이며, 홍반(erythema)은 피부의 붉은 색을 나타냅니다.",
+          "synonyms": [
+            "붉은"
+          ]
+        },
+        "vi": {
+          "meaning": "đỏ",
+          "explanation": "Từ tiếng Hy Lạp \"erythros\" có nghĩa là đỏ. Erythrocytes là tế bào máu đỏ; erythema là sự đỏ da.",
+          "synonyms": [
+            "đỏ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cyan",
+      "forms": [
+        "cyan",
+        "cyano"
+      ],
+      "meaning": "blue",
+      "synonyms": [
+        "blue"
+      ],
+      "examples": [
+        "cyanosis",
+        "cyanotic",
+        "cyanide"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"kyanos,\" meaning dark blue. Cyanosis is blue discoloration from lack of oxygen.",
+      "translations": {
+        "ko": {
+          "meaning": "파란색",
+          "explanation": "그리스어 'kyanos'에서 유래하며, 어두운 파란색을 의미합니다. 청색증은 산소 부족으로 인한 파란색 변색을 나타냅니다.",
+          "synonyms": [
+            "파란색"
+          ]
+        },
+        "vi": {
+          "meaning": "màu xanh",
+          "explanation": "Từ tiếng Hy Lạp \"kyanos,\" có nghĩa là màu xanh đậm. Cyanosis là tình trạng da có màu xanh do thiếu oxy.",
+          "synonyms": [
+            "màu xanh"
+          ]
+        }
+      }
+    },
+    {
+      "id": "melan",
+      "forms": [
+        "melan",
+        "melano"
+      ],
+      "meaning": "black",
+      "synonyms": [
+        "black",
+        "dark"
+      ],
+      "examples": [
+        "melanin",
+        "melanoma",
+        "melancholy"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"melas,\" meaning black. Melanin is dark pigment; melanoma is cancer of pigment cells.",
+      "translations": {
+        "ko": {
+          "meaning": "검은색",
+          "explanation": "그리스어 'melas'에서 유래된 단어로, 검은색을 의미합니다. 멜라닌은 어두운 색소이며, 멜라노마는 색소 세포의 암을 뜻합니다.",
+          "synonyms": [
+            "검은",
+            "어두운"
+          ]
+        },
+        "vi": {
+          "meaning": "đen",
+          "explanation": "Từ gốc tiếng Hy Lạp \"melas\" có nghĩa là đen. Melanin là sắc tố tối; melanoma là ung thư của các tế bào sắc tố.",
+          "synonyms": [
+            "đen",
+            "tối"
+          ]
+        }
+      }
+    },
+    {
+      "id": "xanth",
+      "forms": [
+        "xanth",
+        "xantho"
+      ],
+      "meaning": "yellow",
+      "synonyms": [
+        "yellow"
+      ],
+      "examples": [
+        "xanthoma",
+        "xanthophyll",
+        "xanthoderma"
+      ],
+      "origin": "Greek",
+      "category": "medical",
+      "position": "root",
+      "frequency": 5,
+      "explanation": "From Greek \"xanthos,\" meaning yellow. Xanthoma is a yellow skin deposit; xanthophyll is yellow plant pigment.",
+      "translations": {
+        "ko": {
+          "meaning": "노란색",
+          "explanation": "그리스어 'xanthos'에서 유래된 것으로, 노란색을 의미합니다. '잔토마'는 노란색 피부 침착물이며, '잔토필'은 노란색 식물 색소입니다.",
+          "synonyms": [
+            "노란색"
+          ]
+        },
+        "vi": {
+          "meaning": "vàng",
+          "explanation": "Từ tiếng Hy Lạp 'xanthos', có nghĩa là vàng. Xanthoma là một loại tổn thương da có màu vàng; xanthophyll là sắc tố thực vật màu vàng.",
+          "synonyms": [
+            "vàng"
+          ]
+        }
+      }
+    }
+  ]
+}

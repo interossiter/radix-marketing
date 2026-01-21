@@ -1,0 +1,1915 @@
+{
+  "fragments": [
+    {
+      "id": "chem",
+      "forms": [
+        "chem",
+        "chemo"
+      ],
+      "meaning": "chemical",
+      "synonyms": [
+        "chemical",
+        "chemistry"
+      ],
+      "examples": [
+        "chemistry",
+        "chemotherapy",
+        "biochemical",
+        "alchemy"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"khemeia,\" meaning transmutation of metals (alchemy). Modern chemistry studies matter and its transformations.",
+      "translations": {
+        "ko": {
+          "meaning": "화학의",
+          "explanation": "그리스어 'khemeia'에서 유래하였으며, 금속의 변환(연금술)을 의미합니다. 현대 화학은 물질과 그 변화를 연구합니다.",
+          "synonyms": [
+            "화학",
+            "화학적"
+          ]
+        },
+        "vi": {
+          "meaning": "hóa học",
+          "explanation": "Từ tiếng Hy Lạp \"khemeia,\" có nghĩa là sự chuyển đổi kim loại (thuật giả kim). Hóa học hiện đại nghiên cứu về vật chất và các biến đổi của nó.",
+          "synonyms": [
+            "hóa học",
+            "hóa học"
+          ]
+        }
+      }
+    },
+    {
+      "id": "phys",
+      "forms": [
+        "phys",
+        "physi"
+      ],
+      "meaning": "nature",
+      "synonyms": [
+        "nature",
+        "body",
+        "physical"
+      ],
+      "examples": [
+        "physics",
+        "physical",
+        "physician",
+        "physiology"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 9,
+      "explanation": "From Greek \"physis,\" meaning nature. Physics studies natural phenomena; a physician studies the body's nature.",
+      "translations": {
+        "ko": {
+          "meaning": "자연",
+          "explanation": "그리스어 'physis'에서 유래된 단어로, 자연을 의미합니다. 물리학은 자연 현상을 연구하고, 의사는 신체의 본질을 연구합니다.",
+          "synonyms": [
+            "자연",
+            "신체",
+            "물리적"
+          ]
+        },
+        "vi": {
+          "meaning": "tự nhiên",
+          "explanation": "Từ tiếng Hy Lạp \"physis,\" có nghĩa là tự nhiên. Vật lý nghiên cứu các hiện tượng tự nhiên; bác sĩ nghiên cứu bản chất của cơ thể.",
+          "synonyms": [
+            "tự nhiên",
+            "cơ thể",
+            "vật lý"
+          ]
+        }
+      }
+    },
+    {
+      "id": "electr",
+      "forms": [
+        "electr",
+        "electro"
+      ],
+      "meaning": "electricity",
+      "synonyms": [
+        "electricity",
+        "electric",
+        "amber"
+      ],
+      "examples": [
+        "electric",
+        "electron",
+        "electrode",
+        "electromagnetic"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 9,
+      "explanation": "From Greek \"elektron,\" meaning amber. Static electricity was first observed when rubbing amber, giving us the word electron.",
+      "translations": {
+        "ko": {
+          "meaning": "전기",
+          "explanation": "그리스어 'elektron'에서 유래되었으며, 이는 호박을 의미합니다. 정전기는 호박을 문지르면서 처음 관찰되었고, 이로 인해 전자라는 단어가 생겨났습니다.",
+          "synonyms": [
+            "전기",
+            "전기의",
+            "호박"
+          ]
+        },
+        "vi": {
+          "meaning": "điện",
+          "explanation": "Từ gốc tiếng Hy Lạp \"elektron\", có nghĩa là hổ phách. Điện tĩnh lần đầu tiên được quan sát khi chà xát hổ phách, từ đó chúng ta có từ electron.",
+          "synonyms": [
+            "điện",
+            "điện tử"
+          ]
+        }
+      }
+    },
+    {
+      "id": "atom",
+      "forms": [
+        "atom",
+        "atomo"
+      ],
+      "meaning": "indivisible",
+      "synonyms": [
+        "indivisible",
+        "uncuttable"
+      ],
+      "examples": [
+        "atom",
+        "atomic",
+        "subatomic",
+        "atomize"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"atomos,\" meaning uncuttable (a + tomos). Ancient Greeks believed atoms were the smallest indivisible units of matter.",
+      "translations": {
+        "ko": {
+          "meaning": "나눌 수 없는",
+          "explanation": "그리스어 'atomos'에서 유래된 것으로, '자르지 않는'이라는 뜻입니다 (a + tomos). 고대 그리스인들은 원자가 물질의 가장 작은 나눌 수 없는 단위라고 믿었습니다.",
+          "synonyms": [
+            "나눌 수 없는",
+            "자르지 않는"
+          ]
+        },
+        "vi": {
+          "meaning": "không thể chia nhỏ",
+          "explanation": "Từ tiếng Hy Lạp \"atomos,\" có nghĩa là không thể cắt (a + tomos). Người Hy Lạp cổ đại tin rằng nguyên tử là những đơn vị nhỏ nhất không thể chia nhỏ của vật chất.",
+          "synonyms": [
+            "không thể chia nhỏ",
+            "không thể cắt"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nucle",
+      "forms": [
+        "nucle",
+        "nucleo"
+      ],
+      "meaning": "kernel",
+      "synonyms": [
+        "kernel",
+        "nucleus",
+        "core"
+      ],
+      "examples": [
+        "nucleus",
+        "nuclear",
+        "nucleotide",
+        "nucleic"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Latin \"nucleus,\" meaning kernel or inner part. The nucleus is the core of an atom or cell containing genetic material.",
+      "translations": {
+        "ko": {
+          "meaning": "핵",
+          "explanation": "라틴어 'nucleus'에서 유래된 것으로, 핵 또는 내부 부분을 의미합니다. 핵은 원자나 세포의 중심부로, 유전 물질을 포함하고 있습니다.",
+          "synonyms": [
+            "핵",
+            "세포핵",
+            "중심부"
+          ]
+        },
+        "vi": {
+          "meaning": "hạt nhân",
+          "explanation": "Từ tiếng Latinh \"nucleus\", có nghĩa là hạt nhân hoặc phần bên trong. Hạt nhân là cốt lõi của một nguyên tử hoặc tế bào chứa vật chất di truyền.",
+          "synonyms": [
+            "hạt nhân",
+            "hạt nhân tế bào",
+            "cốt lõi"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mol",
+      "forms": [
+        "mol",
+        "mole"
+      ],
+      "meaning": "mass",
+      "synonyms": [
+        "mass",
+        "molecule"
+      ],
+      "examples": [
+        "molecule",
+        "molar",
+        "molecular",
+        "mole"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Latin \"moles,\" meaning mass. A molecule is a small mass of bonded atoms; a mole is a unit measuring molecular quantities.",
+      "translations": {
+        "ko": {
+          "meaning": "질량",
+          "explanation": "라틴어 'moles'에서 유래된 것으로, 질량을 의미합니다. 분자는 결합된 원자의 작은 질량이며, 몰은 분자량을 측정하는 단위입니다.",
+          "synonyms": [
+            "질량",
+            "분자"
+          ]
+        },
+        "vi": {
+          "meaning": "khối lượng",
+          "explanation": "Từ tiếng Latin \"moles,\" có nghĩa là khối lượng. Một phân tử là một khối lượng nhỏ của các nguyên tử liên kết với nhau; một mol là đơn vị đo lường số lượng phân tử.",
+          "synonyms": [
+            "khối lượng",
+            "phân tử"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kinet",
+      "forms": [
+        "kinet",
+        "kine"
+      ],
+      "meaning": "motion",
+      "synonyms": [
+        "motion",
+        "movement"
+      ],
+      "examples": [
+        "kinetic",
+        "kinetics",
+        "telekinesis",
+        "cinema"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"kinesis,\" meaning motion. Kinetic energy is energy of motion; cinema captures moving images.",
+      "translations": {
+        "ko": {
+          "meaning": "움직임",
+          "explanation": "그리스어 'kinesis'에서 유래된 것으로, 움직임을 의미합니다. 운동 에너지는 움직임의 에너지이며, 영화는 움직이는 이미지를 포착합니다.",
+          "synonyms": [
+            "움직임",
+            "동작"
+          ]
+        },
+        "vi": {
+          "meaning": "chuyển động",
+          "explanation": "Từ tiếng Hy Lạp 'kinesis', có nghĩa là chuyển động. Năng lượng động học là năng lượng của chuyển động; điện ảnh ghi lại những hình ảnh đang chuyển động.",
+          "synonyms": [
+            "chuyển động",
+            "vận động"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dynam",
+      "forms": [
+        "dynam",
+        "dynamo"
+      ],
+      "meaning": "power",
+      "synonyms": [
+        "power",
+        "force"
+      ],
+      "examples": [
+        "dynamic",
+        "dynamo",
+        "dynamite",
+        "aerodynamic"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"dynamis,\" meaning power or force. Dynamics studies forces and motion; dynamite releases explosive power.",
+      "translations": {
+        "ko": {
+          "meaning": "힘",
+          "explanation": "그리스어 'dynamis'에서 유래된 것으로, 힘이나 세력을 의미합니다. 역학은 힘과 운동을 연구하며, 다이너마이트는 폭발적인 힘을 방출합니다.",
+          "synonyms": [
+            "힘",
+            "세력"
+          ]
+        },
+        "vi": {
+          "meaning": "sức mạnh",
+          "explanation": "Từ tiếng Hy Lạp \"dynamis,\" có nghĩa là sức mạnh hoặc lực. Động lực học nghiên cứu các lực và chuyển động; thuốc nổ (dynamite) giải phóng sức mạnh nổ.",
+          "synonyms": [
+            "sức mạnh",
+            "lực"
+          ]
+        }
+      }
+    },
+    {
+      "id": "magnet",
+      "forms": [
+        "magnet",
+        "magneto"
+      ],
+      "meaning": "magnet",
+      "synonyms": [
+        "magnet",
+        "magnetic"
+      ],
+      "examples": [
+        "magnet",
+        "magnetic",
+        "magnetism",
+        "electromagnetic"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"Magnesia,\" a region where magnetic iron ore was found. Magnetism is the force of attraction between certain materials.",
+      "translations": {
+        "ko": {
+          "meaning": "자석",
+          "explanation": "그리스어 '마그네시아'에서 유래된 것으로, 자철광이 발견된 지역을 의미합니다. 자기력은 특정 물질 간의 끌어당기는 힘입니다.",
+          "synonyms": [
+            "자석",
+            "자기"
+          ]
+        },
+        "vi": {
+          "meaning": "nam châm",
+          "explanation": "Từ gốc Hy Lạp \"Magnesia,\" một khu vực nơi tìm thấy quặng sắt từ tính. Từ tính là lực hút giữa một số vật liệu nhất định.",
+          "synonyms": [
+            "nam châm",
+            "từ tính"
+          ]
+        }
+      }
+    },
+    {
+      "id": "optic",
+      "forms": [
+        "optic",
+        "opto"
+      ],
+      "meaning": "sight",
+      "synonyms": [
+        "sight",
+        "vision",
+        "eye"
+      ],
+      "examples": [
+        "optical",
+        "optics",
+        "optician",
+        "fiber optic"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"optikos,\" meaning of sight. Optics is the study of light and vision; fiber optics transmit light signals.",
+      "translations": {
+        "ko": {
+          "meaning": "시각",
+          "explanation": "그리스어 'optikos'에서 유래된 것으로, 시각에 관한 의미입니다. 광학(optics)은 빛과 시각에 대한 연구이며, 광섬유(fiber optics)는 빛 신호를 전달합니다.",
+          "synonyms": [
+            "시각",
+            "시야",
+            "눈"
+          ]
+        },
+        "vi": {
+          "meaning": "thị giác",
+          "explanation": "Từ tiếng Hy Lạp \"optikos,\" có nghĩa là liên quan đến thị giác. Quang học là nghiên cứu về ánh sáng và thị giác; quang sợi truyền tín hiệu ánh sáng.",
+          "synonyms": [
+            "thị giác",
+            "tầm nhìn",
+            "mắt"
+          ]
+        }
+      }
+    },
+    {
+      "id": "acoust",
+      "forms": [
+        "acoust",
+        "acous"
+      ],
+      "meaning": "hearing",
+      "synonyms": [
+        "hearing",
+        "sound"
+      ],
+      "examples": [
+        "acoustic",
+        "acoustics",
+        "acousma"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"akoustikos,\" meaning of hearing. Acoustics studies sound waves and how we perceive them.",
+      "translations": {
+        "ko": {
+          "meaning": "청각",
+          "explanation": "그리스어 'akoustikos'에서 유래된 것으로, 청각의 의미입니다. 음향학은 소리의 파동과 우리가 그것을 어떻게 인식하는지를 연구합니다.",
+          "synonyms": [
+            "청각",
+            "소리"
+          ]
+        },
+        "vi": {
+          "meaning": "nghe",
+          "explanation": "Từ gốc tiếng Hy Lạp \"akoustikos\", có nghĩa là liên quan đến việc nghe. Âm học nghiên cứu sóng âm và cách chúng ta cảm nhận chúng.",
+          "synonyms": [
+            "nghe",
+            "âm thanh"
+          ]
+        }
+      }
+    },
+    {
+      "id": "radi",
+      "forms": [
+        "radi",
+        "radio"
+      ],
+      "meaning": "ray",
+      "synonyms": [
+        "ray",
+        "beam",
+        "radiation"
+      ],
+      "examples": [
+        "radiation",
+        "radio",
+        "radius",
+        "radiant"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Latin \"radius,\" meaning ray or spoke. Radiation emits rays of energy; radio uses electromagnetic rays.",
+      "translations": {
+        "ko": {
+          "meaning": "광선",
+          "explanation": "라틴어 'radius'에서 유래된 것으로, 광선이나 바퀴의 spoke를 의미합니다. 방사선은 에너지의 광선을 방출하며, 라디오는 전자기 광선을 사용합니다.",
+          "synonyms": [
+            "광선",
+            "빔"
+          ]
+        },
+        "vi": {
+          "meaning": "tia",
+          "explanation": "Từ gốc Latin \"radius\" có nghĩa là tia hoặc nan hoa. Bức xạ phát ra các tia năng lượng; radio sử dụng các tia điện từ.",
+          "synonyms": [
+            "tia",
+            "chùm ánh sáng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "spectr",
+      "forms": [
+        "spectr",
+        "spectro"
+      ],
+      "meaning": "appearance",
+      "synonyms": [
+        "appearance",
+        "image",
+        "spectrum"
+      ],
+      "examples": [
+        "spectrum",
+        "spectroscopy",
+        "specter",
+        "spectral"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Latin \"spectrum,\" meaning appearance or image. A spectrum shows the range of light wavelengths; spectroscopy analyzes them.",
+      "translations": {
+        "ko": {
+          "meaning": "모습",
+          "explanation": "라틴어 'spectrum'에서 유래된 것으로, 모습이나 이미지를 의미합니다. 스펙트럼은 빛의 파장 범위를 보여주며, 분광학은 이를 분석합니다.",
+          "synonyms": [
+            "모습",
+            "이미지"
+          ]
+        },
+        "vi": {
+          "meaning": "hình ảnh",
+          "explanation": "Từ gốc Latin \"spectrum\" có nghĩa là hình ảnh hoặc sự xuất hiện. Quang phổ cho thấy dải bước sóng ánh sáng; quang phổ học phân tích chúng.",
+          "synonyms": [
+            "hình ảnh",
+            "quang phổ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "chrom",
+      "forms": [
+        "chrom",
+        "chromo"
+      ],
+      "meaning": "color",
+      "synonyms": [
+        "color",
+        "colour"
+      ],
+      "examples": [
+        "chromosome",
+        "chromatic",
+        "monochrome",
+        "chrome"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"chroma,\" meaning color. Chromosomes were named for their ability to absorb colored dyes; chrome gives metallic color.",
+      "translations": {
+        "ko": {
+          "meaning": "색",
+          "explanation": "그리스어 'chroma'에서 유래된 것으로, 색을 의미합니다. 염색약을 흡수하는 능력 때문에 염색체(chromosome)라는 이름이 붙여졌고, 크롬(chrome)은 금속 색을 제공합니다.",
+          "synonyms": [
+            "색깔"
+          ]
+        },
+        "vi": {
+          "meaning": "màu sắc",
+          "explanation": "Từ gốc Hy Lạp \"chroma\" có nghĩa là màu sắc. Các nhiễm sắc thể được đặt tên vì khả năng hấp thụ thuốc nhuộm màu; chrome mang lại màu sắc kim loại.",
+          "synonyms": [
+            "màu",
+            "sắc"
+          ]
+        }
+      }
+    },
+    {
+      "id": "iso",
+      "forms": [
+        "iso"
+      ],
+      "meaning": "equal",
+      "synonyms": [
+        "equal",
+        "same"
+      ],
+      "examples": [
+        "isotope",
+        "isometric",
+        "isomer",
+        "isobar"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "prefix",
+      "frequency": 7,
+      "explanation": "From Greek \"isos,\" meaning equal. Isotopes have equal protons but different neutrons; isometric means equal measure.",
+      "translations": {
+        "ko": {
+          "meaning": "같은",
+          "explanation": "그리스어 '이소스(isos)'에서 유래되어 '같은'이라는 의미를 가지고 있습니다. 동위 원소는 같은 수의 양성자를 가지지만 다른 수의 중성자를 가지고 있으며, 등척도(isometric)는 같은 측정을 의미합니다.",
+          "synonyms": [
+            "동일한",
+            "같은"
+          ]
+        },
+        "vi": {
+          "meaning": "bằng nhau",
+          "explanation": "Từ tiếng Hy Lạp \"isos,\" có nghĩa là bằng nhau. Isotope có số proton bằng nhau nhưng số neutron khác nhau; isometric có nghĩa là đo lường bằng nhau.",
+          "synonyms": [
+            "bằng nhau",
+            "giống nhau"
+          ]
+        }
+      }
+    },
+    {
+      "id": "endo",
+      "forms": [
+        "endo"
+      ],
+      "meaning": "within",
+      "synonyms": [
+        "within",
+        "inside",
+        "internal"
+      ],
+      "examples": [
+        "endothermic",
+        "endoscopy",
+        "endocrine",
+        "endoplasm"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "prefix",
+      "frequency": 7,
+      "explanation": "From Greek \"endon,\" meaning within. Endothermic reactions absorb heat from within; the endocrine system works internally.",
+      "translations": {
+        "ko": {
+          "meaning": "내부의",
+          "explanation": "그리스어 'endon'에서 유래된 것으로, 내부를 의미합니다. 내열 반응은 내부에서 열을 흡수하고, 내분비계는 내부에서 작용합니다.",
+          "synonyms": [
+            "내부",
+            "안쪽",
+            "내적인"
+          ]
+        },
+        "vi": {
+          "meaning": "bên trong",
+          "explanation": "Từ tiếng Hy Lạp \"endon\" có nghĩa là bên trong. Các phản ứng nội nhiệt (endothermic) hấp thụ nhiệt từ bên trong; hệ thống nội tiết (endocrine) hoạt động bên trong.",
+          "synonyms": [
+            "bên trong",
+            "nội bộ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "exo",
+      "forms": [
+        "exo"
+      ],
+      "meaning": "outside",
+      "synonyms": [
+        "outside",
+        "external",
+        "outer"
+      ],
+      "examples": [
+        "exothermic",
+        "exoskeleton",
+        "exoplanet",
+        "exotic"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "prefix",
+      "frequency": 7,
+      "explanation": "From Greek \"exo,\" meaning outside. Exothermic reactions release heat outward; an exoskeleton is an external skeleton.",
+      "translations": {
+        "ko": {
+          "meaning": "바깥",
+          "explanation": "그리스어 'exo'에서 유래된 것으로, 바깥쪽을 의미합니다. 발열 반응(exothermic reactions)은 열을 바깥으로 방출하며, 외골격(exoskeleton)은 외부에 있는 뼈대입니다.",
+          "synonyms": [
+            "외부",
+            "외적인"
+          ]
+        },
+        "vi": {
+          "meaning": "bên ngoài",
+          "explanation": "Từ tiếng Hy Lạp \"exo\" có nghĩa là bên ngoài. Các phản ứng tỏa nhiệt (exothermic) giải phóng nhiệt ra bên ngoài; bộ xương ngoài (exoskeleton) là bộ xương bên ngoài.",
+          "synonyms": [
+            "bên ngoài",
+            "ngoại",
+            "bề ngoài"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cryo",
+      "forms": [
+        "cryo"
+      ],
+      "meaning": "cold",
+      "synonyms": [
+        "cold",
+        "freezing",
+        "frost"
+      ],
+      "examples": [
+        "cryogenic",
+        "cryotherapy",
+        "cryonics",
+        "cryopreservation"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"kryos,\" meaning icy cold or frost. Cryogenics deals with extremely low temperatures; cryotherapy uses cold for treatment.",
+      "translations": {
+        "ko": {
+          "meaning": "차가운",
+          "explanation": "그리스어 'kryos'에서 유래된 단어로, 얼음처럼 차가운 또는 서리의 의미를 가지고 있습니다. 크라이오제닉스는 매우 낮은 온도와 관련이 있으며, 크라이오테라피는 치료를 위해 차가움을 사용합니다.",
+          "synonyms": [
+            "추운",
+            "얼어붙은"
+          ]
+        },
+        "vi": {
+          "meaning": "lạnh",
+          "explanation": "Từ tiếng Hy Lạp \"kryos\", có nghĩa là lạnh như băng hoặc sương giá. Cryogenics liên quan đến nhiệt độ cực thấp; cryotherapy sử dụng lạnh để điều trị.",
+          "synonyms": [
+            "lạnh",
+            "đông lạnh",
+            "sương giá"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cosm",
+      "forms": [
+        "cosm",
+        "cosmo"
+      ],
+      "meaning": "universe",
+      "synonyms": [
+        "universe",
+        "order",
+        "world"
+      ],
+      "examples": [
+        "cosmic",
+        "cosmos",
+        "cosmology",
+        "microcosm"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"kosmos,\" meaning order or universe. The cosmos is the ordered universe; cosmology studies its origin and structure.",
+      "translations": {
+        "ko": {
+          "meaning": "우주",
+          "explanation": "그리스어 '코스모스(kosmos)'에서 유래하며, 질서 또는 우주를 의미합니다. 코스모스는 질서 있는 우주를 나타내며, 우주론(cosmology)은 그 기원과 구조를 연구합니다.",
+          "synonyms": [
+            "우주",
+            "질서",
+            "세계"
+          ]
+        },
+        "vi": {
+          "meaning": "vũ trụ",
+          "explanation": "Từ tiếng Hy Lạp \"kosmos\", có nghĩa là trật tự hoặc vũ trụ. Vũ trụ là một thế giới có trật tự; ngành vũ trụ học nghiên cứu nguồn gốc và cấu trúc của nó.",
+          "synonyms": [
+            "vũ trụ",
+            "trật tự",
+            "thế giới"
+          ]
+        }
+      }
+    },
+    {
+      "id": "galax",
+      "forms": [
+        "galax",
+        "galact"
+      ],
+      "meaning": "milk",
+      "synonyms": [
+        "milk",
+        "milky"
+      ],
+      "examples": [
+        "galaxy",
+        "galactic",
+        "lactose"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"galaxias,\" meaning milky. The Milky Way galaxy appears as a milky band across the night sky.",
+      "translations": {
+        "ko": {
+          "meaning": "우유",
+          "explanation": "그리스어 '갈락시아스'(galaxias)에서 유래되었으며, '우유 같은'이라는 뜻입니다. 은하수는 밤하늘에 우유 같은 띠로 나타납니다.",
+          "synonyms": [
+            "우유",
+            "우유 같은"
+          ]
+        },
+        "vi": {
+          "meaning": "sữa",
+          "explanation": "Từ tiếng Hy Lạp \"galaxias\", có nghĩa là sữa. Dải Ngân Hà xuất hiện như một dải sữa trên bầu trời đêm.",
+          "synonyms": [
+            "sữa",
+            "sữa trắng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stell",
+      "forms": [
+        "stell",
+        "stellar"
+      ],
+      "meaning": "star",
+      "synonyms": [
+        "star",
+        "stellar"
+      ],
+      "examples": [
+        "stellar",
+        "constellation",
+        "interstellar"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Latin \"stella,\" meaning star. Stellar refers to stars; a constellation is a group of stars; interstellar means between stars.",
+      "translations": {
+        "ko": {
+          "meaning": "별",
+          "explanation": "라틴어 'stella'에서 유래된 것으로, 별을 의미합니다. 'Stellar'는 별과 관련이 있으며, 'constellation'은 별들의 모임을 뜻합니다. 'interstellar'는 별들 사이를 의미합니다.",
+          "synonyms": [
+            "별"
+          ]
+        },
+        "vi": {
+          "meaning": "ngôi sao",
+          "explanation": "Từ gốc Latin \"stella\" có nghĩa là ngôi sao. Từ \"stellar\" chỉ về các ngôi sao; một \"constellation\" là một nhóm ngôi sao; \"interstellar\" có nghĩa là giữa các ngôi sao.",
+          "synonyms": [
+            "ngôi sao"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lun",
+      "forms": [
+        "lun",
+        "luna"
+      ],
+      "meaning": "moon",
+      "synonyms": [
+        "lunar",
+        "moon"
+      ],
+      "examples": [
+        "lunar",
+        "lunatic",
+        "lunation",
+        "sublunary"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Latin \"luna,\" meaning moon. Lunar refers to the moon; lunatic originally meant moon-struck (affected by the moon).",
+      "translations": {
+        "ko": {
+          "meaning": "달",
+          "explanation": "라틴어 'luna'에서 유래된 것으로, '달'을 의미합니다. 'lunar'는 달과 관련된 것을 나타내며, 'lunatic'은 원래 '달에 영향을 받은'이라는 의미로 사용되었습니다.",
+          "synonyms": [
+            "달"
+          ]
+        },
+        "vi": {
+          "meaning": "mặt trăng",
+          "explanation": "Từ gốc Latin 'luna' có nghĩa là mặt trăng. 'Lunar' liên quan đến mặt trăng; 'lunatic' ban đầu có nghĩa là bị ảnh hưởng bởi mặt trăng.",
+          "synonyms": [
+            "mặt trăng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "atmo",
+      "forms": [
+        "atmo",
+        "atmos"
+      ],
+      "meaning": "vapor",
+      "synonyms": [
+        "vapor",
+        "air",
+        "gas"
+      ],
+      "examples": [
+        "atmosphere",
+        "atmospheric"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"atmos,\" meaning vapor or steam. The atmosphere is the layer of gases surrounding Earth.",
+      "translations": {
+        "ko": {
+          "meaning": "증기",
+          "explanation": "그리스어 'atmos'에서 유래된 것으로, 증기나 수증기를 의미합니다. 대기는 지구를 둘러싼 가스의 층입니다.",
+          "synonyms": [
+            "증기",
+            "공기",
+            "가스"
+          ]
+        },
+        "vi": {
+          "meaning": "hơi nước",
+          "explanation": "Từ tiếng Hy Lạp \"atmos\" có nghĩa là hơi nước hoặc hơi. Khí quyển là lớp khí bao quanh Trái Đất.",
+          "synonyms": [
+            "hơi nước",
+            "khí",
+            "khí gas"
+          ]
+        }
+      }
+    },
+    {
+      "id": "litho",
+      "forms": [
+        "litho",
+        "lith"
+      ],
+      "meaning": "stone",
+      "synonyms": [
+        "stone",
+        "rock"
+      ],
+      "examples": [
+        "lithosphere",
+        "lithograph",
+        "monolith",
+        "neolithic"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"lithos,\" meaning stone. The lithosphere is Earth's rocky outer layer; neolithic means new stone age.",
+      "translations": {
+        "ko": {
+          "meaning": "돌",
+          "explanation": "그리스어 '리토스(lithos)'에서 유래된 것으로, 돌을 의미합니다. 리토스피어(lithosphere)는 지구의 바위로 이루어진 외부 층을 나타내며, 신석기(neolithic)는 새로운 돌 시대를 의미합니다.",
+          "synonyms": [
+            "돌",
+            "암석"
+          ]
+        },
+        "vi": {
+          "meaning": "đá",
+          "explanation": "Từ gốc tiếng Hy Lạp \"lithos,\" có nghĩa là đá. Lớp vỏ trái đất (lithosphere) là lớp ngoài bằng đá của Trái Đất; thuật ngữ thời kỳ đồ đá mới (neolithic) có nghĩa là thời kỳ đá mới.",
+          "synonyms": [
+            "đá",
+            "tảng đá"
+          ]
+        }
+      }
+    },
+    {
+      "id": "petr",
+      "forms": [
+        "petr",
+        "petro"
+      ],
+      "meaning": "rock",
+      "synonyms": [
+        "rock",
+        "stone"
+      ],
+      "examples": [
+        "petroleum",
+        "petrify",
+        "petrology"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"petra,\" meaning rock. Petroleum is rock oil; petrify means to turn to stone; petrology studies rocks.",
+      "translations": {
+        "ko": {
+          "meaning": "바위",
+          "explanation": "그리스어 'petra'에서 유래된 것으로, 바위를 의미합니다. 석유는 바위에서 나오는 기름이며, 석화(petrify)는 돌로 변하다라는 뜻입니다. 암석학(petrology)은 바위를 연구하는 학문입니다.",
+          "synonyms": [
+            "바위",
+            "돌"
+          ]
+        },
+        "vi": {
+          "meaning": "đá",
+          "explanation": "Từ tiếng Hy Lạp \"petra,\" có nghĩa là đá. Dầu mỏ (petroleum) là dầu từ đá; hóa đá (petrify) có nghĩa là biến thành đá; địa chất học (petrology) nghiên cứu về đá.",
+          "synonyms": [
+            "đá",
+            "hòn đá"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ferr",
+      "forms": [
+        "ferr",
+        "ferro"
+      ],
+      "meaning": "iron",
+      "synonyms": [
+        "iron",
+        "ferrous"
+      ],
+      "examples": [
+        "ferrous",
+        "ferric",
+        "ferromagnetic",
+        "ferrite"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Latin \"ferrum,\" meaning iron. Ferrous compounds contain iron; ferromagnetic materials can be magnetized.",
+      "translations": {
+        "ko": {
+          "meaning": "철",
+          "explanation": "라틴어 'ferrum'에서 유래된 것으로, 철을 의미합니다. 철(ferrous) 화합물은 철을 포함하고 있으며, 강자성(ferromagnetic) 물질은 자화될 수 있습니다.",
+          "synonyms": [
+            "철"
+          ]
+        },
+        "vi": {
+          "meaning": "sắt",
+          "explanation": "Từ gốc Latin \"ferrum\" có nghĩa là sắt. Các hợp chất ferrous chứa sắt; các vật liệu ferromagnetic có thể được từ hóa.",
+          "synonyms": [
+            "sắt"
+          ]
+        }
+      }
+    },
+    {
+      "id": "oxy",
+      "forms": [
+        "oxy",
+        "oxi"
+      ],
+      "meaning": "sharp",
+      "synonyms": [
+        "sharp",
+        "acid",
+        "oxygen"
+      ],
+      "examples": [
+        "oxygen",
+        "oxidize",
+        "antioxidant",
+        "oxide"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"oxys,\" meaning sharp or acid. Oxygen was named believing it formed all acids (sharp taste); oxidation is combining with oxygen.",
+      "translations": {
+        "ko": {
+          "meaning": "날카로운",
+          "explanation": "그리스어 'oxys'에서 유래된 것으로, 날카롭거나 신맛을 의미합니다. 산소는 모든 산을 형성한다고 믿어져 이름 지어졌습니다(날카로운 맛); 산화는 산소와 결합하는 과정을 의미합니다.",
+          "synonyms": [
+            "날카로운",
+            "산",
+            "산소"
+          ]
+        },
+        "vi": {
+          "meaning": "sắc",
+          "explanation": "Từ tiếng Hy Lạp \"oxys\", có nghĩa là sắc hoặc axit. Oxy được đặt tên vì được cho là tạo ra tất cả các axit (vị sắc); oxy hóa là quá trình kết hợp với oxy.",
+          "synonyms": [
+            "sắc",
+            "axit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "carb",
+      "forms": [
+        "carb",
+        "carbon"
+      ],
+      "meaning": "coal",
+      "synonyms": [
+        "coal",
+        "carbon"
+      ],
+      "examples": [
+        "carbon",
+        "carbohydrate",
+        "carbonate",
+        "hydrocarbon"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Latin \"carbo,\" meaning coal or charcoal. Carbon is the element in coal; carbohydrates contain carbon, hydrogen, and oxygen.",
+      "translations": {
+        "ko": {
+          "meaning": "석탄",
+          "explanation": "라틴어 'carbo'에서 유래된 것으로, 석탄이나 숯을 의미합니다. 탄소는 석탄에 있는 원소이며, 탄수화물은 탄소, 수소, 산소를 포함하고 있습니다.",
+          "synonyms": [
+            "석탄",
+            "탄소"
+          ]
+        },
+        "vi": {
+          "meaning": "than",
+          "explanation": "Từ gốc Latinh \"carbo\", có nghĩa là than hoặc than củi. Carbon là nguyên tố trong than; carbohydrate chứa carbon, hydro và oxy.",
+          "synonyms": [
+            "than",
+            "carbon"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nitr",
+      "forms": [
+        "nitr",
+        "nitro"
+      ],
+      "meaning": "niter",
+      "synonyms": [
+        "niter",
+        "nitrogen"
+      ],
+      "examples": [
+        "nitrogen",
+        "nitrate",
+        "nitric",
+        "nitroglycerin"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"nitron,\" meaning niter (potassium nitrate). Nitrogen makes up 78% of our atmosphere; nitrates are used in fertilizers.",
+      "translations": {
+        "ko": {
+          "meaning": "질산염",
+          "explanation": "그리스어 '니트론(nitron)'에서 유래하며, 이는 질산염(질산칼륨)을 의미합니다. 질소는 대기의 78%를 차지하며, 질산염은 비료에 사용됩니다.",
+          "synonyms": [
+            "질산염",
+            "질소"
+          ]
+        },
+        "vi": {
+          "meaning": "muối kali",
+          "explanation": "Từ tiếng Hy Lạp \"nitron\", có nghĩa là muối kali (kali nitrat). Nitơ chiếm 78% bầu khí quyển của chúng ta; các muối nitrat được sử dụng trong phân bón.",
+          "synonyms": [
+            "muối kali",
+            "nitơ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sulf",
+      "forms": [
+        "sulf",
+        "sulph"
+      ],
+      "meaning": "sulfur",
+      "synonyms": [
+        "sulfur",
+        "brimstone"
+      ],
+      "examples": [
+        "sulfur",
+        "sulfate",
+        "sulfide",
+        "sulfuric"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Latin \"sulphur,\" meaning brimstone. Sulfur is a yellow element; sulfuric acid is a powerful industrial chemical.",
+      "translations": {
+        "ko": {
+          "meaning": "황",
+          "explanation": "라틴어 'sulphur'에서 유래된 말로, '유황'을 의미합니다. 황은 노란색 원소이며, 황산은 강력한 산업 화학 물질입니다.",
+          "synonyms": [
+            "황",
+            "유황"
+          ]
+        },
+        "vi": {
+          "meaning": "lưu huỳnh",
+          "explanation": "Từ tiếng Latin \"sulphur\", có nghĩa là diêm tiêu. Lưu huỳnh là một nguyên tố màu vàng; axit sulfuric là một hóa chất công nghiệp mạnh.",
+          "synonyms": [
+            "lưu huỳnh",
+            "diêm tiêu"
+          ]
+        }
+      }
+    },
+    {
+      "id": "calc",
+      "forms": [
+        "calc",
+        "calci"
+      ],
+      "meaning": "limestone",
+      "synonyms": [
+        "limestone",
+        "pebble",
+        "calcium"
+      ],
+      "examples": [
+        "calcium",
+        "calcify",
+        "calculate",
+        "calculus"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Latin \"calx,\" meaning limestone or pebble. Calcium is found in limestone; calculate originally meant counting with pebbles.",
+      "translations": {
+        "ko": {
+          "meaning": "석회암",
+          "explanation": "라틴어 'calx'에서 유래된 것으로, 석회암이나 조약돌을 의미합니다. 칼슘은 석회암에서 발견되며, 'calculate'는 원래 조약돌로 계산하는 것을 의미했습니다.",
+          "synonyms": [
+            "석회암",
+            "조약돌",
+            "칼슘"
+          ]
+        },
+        "vi": {
+          "meaning": "đá vôi",
+          "explanation": "Từ tiếng Latin \"calx,\" có nghĩa là đá vôi hoặc sỏi. Canxi có trong đá vôi; từ \"calculate\" ban đầu có nghĩa là đếm bằng sỏi.",
+          "synonyms": [
+            "đá vôi",
+            "sỏi",
+            "canxi"
+          ]
+        }
+      }
+    },
+    {
+      "id": "silic",
+      "forms": [
+        "silic",
+        "silico"
+      ],
+      "meaning": "flint",
+      "synonyms": [
+        "flint",
+        "silicon"
+      ],
+      "examples": [
+        "silicon",
+        "silicate",
+        "silicone",
+        "silica"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Latin \"silex,\" meaning flint. Silicon is used in computer chips and glass; silicone is a synthetic polymer.",
+      "translations": {
+        "ko": {
+          "meaning": "부싯돌",
+          "explanation": "라틴어 'silex'에서 유래된 것으로, 부싯돌을 의미합니다. 실리콘은 컴퓨터 칩과 유리에서 사용되며, 실리콘은 합성 고분자입니다.",
+          "synonyms": [
+            "부싯돌",
+            "실리콘"
+          ]
+        },
+        "vi": {
+          "meaning": "đá lửa",
+          "explanation": "Từ tiếng Latin \"silex\", có nghĩa là đá lửa. Silicon được sử dụng trong chip máy tính và kính; silicone là một loại polymer tổng hợp.",
+          "synonyms": [
+            "đá lửa",
+            "silic"
+          ]
+        }
+      }
+    },
+    {
+      "id": "organ",
+      "forms": [
+        "organ",
+        "organo"
+      ],
+      "meaning": "tool",
+      "synonyms": [
+        "tool",
+        "instrument",
+        "organ"
+      ],
+      "examples": [
+        "organic",
+        "organism",
+        "organization",
+        "organ"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"organon,\" meaning tool or instrument. Organic chemistry studies carbon compounds; an organism is an organized living thing.",
+      "translations": {
+        "ko": {
+          "meaning": "도구",
+          "explanation": "그리스어 'organon'에서 유래된 것으로, 도구나 기구를 의미합니다. 유기 화학은 탄소 화합물을 연구하며, 유기체는 조직된 생명체를 뜻합니다.",
+          "synonyms": [
+            "도구",
+            "기구",
+            "기관"
+          ]
+        },
+        "vi": {
+          "meaning": "công cụ",
+          "explanation": "Từ tiếng Hy Lạp \"organon,\" có nghĩa là công cụ hoặc dụng cụ. Hóa học hữu cơ nghiên cứu các hợp chất chứa carbon; một sinh vật là một thực thể sống được tổ chức.",
+          "synonyms": [
+            "công cụ",
+            "dụng cụ",
+            "cơ quan"
+          ]
+        }
+      }
+    },
+    {
+      "id": "plast",
+      "forms": [
+        "plast",
+        "plasm"
+      ],
+      "meaning": "form",
+      "synonyms": [
+        "form",
+        "mold",
+        "shape"
+      ],
+      "examples": [
+        "plastic",
+        "plasma",
+        "protoplasm",
+        "cytoplasm"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"plastos,\" meaning molded or formed. Plastic can be molded; plasma is the formable state of matter; cytoplasm fills cells.",
+      "translations": {
+        "ko": {
+          "meaning": "형태",
+          "explanation": "그리스어 'plastos'에서 유래된 것으로, '형성된' 또는 '형태가 있는'을 의미합니다. 플라스틱은 형태를 만들 수 있고, 플라스마는 물질의 형성 가능한 상태이며, 세포질은 세포를 채우고 있습니다.",
+          "synonyms": [
+            "형태",
+            "모양"
+          ]
+        },
+        "vi": {
+          "meaning": "hình thức",
+          "explanation": "Từ tiếng Hy Lạp \"plastos\", có nghĩa là được tạo hình hoặc định hình. Nhựa có thể được tạo hình; plasma là trạng thái có thể định hình của vật chất; tế bào chất lấp đầy các tế bào.",
+          "synonyms": [
+            "hình",
+            "mẫu",
+            "dạng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cyt",
+      "forms": [
+        "cyt",
+        "cyto"
+      ],
+      "meaning": "cell",
+      "synonyms": [
+        "cell",
+        "container"
+      ],
+      "examples": [
+        "cytoplasm",
+        "cytology",
+        "leukocyte",
+        "erythrocyte"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"kytos,\" meaning hollow vessel or cell. Cytology studies cells; leukocytes are white blood cells.",
+      "translations": {
+        "ko": {
+          "meaning": "세포",
+          "explanation": "그리스어 'kytos'에서 유래하며, 이는 비어 있는 용기나 세포를 의미합니다. 세포학은 세포를 연구하며, 백혈구는 백혈구 세포입니다.",
+          "synonyms": [
+            "세포",
+            "용기"
+          ]
+        },
+        "vi": {
+          "meaning": "tế bào",
+          "explanation": "Từ tiếng Hy Lạp \"kytos,\" có nghĩa là bình rỗng hoặc tế bào. Sinh học tế bào (cytology) nghiên cứu về tế bào; bạch cầu (leukocytes) là tế bào máu trắng.",
+          "synonyms": [
+            "tế bào",
+            "container"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hist",
+      "forms": [
+        "hist",
+        "histo"
+      ],
+      "meaning": "tissue",
+      "synonyms": [
+        "tissue",
+        "web"
+      ],
+      "examples": [
+        "histology",
+        "histogram",
+        "histamine",
+        "antihistamine"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"histos,\" meaning web or tissue. Histology studies tissues; histamine is released by tissue during allergic reactions.",
+      "translations": {
+        "ko": {
+          "meaning": "조직",
+          "explanation": "그리스어 'histos'에서 유래된 것으로, 웹이나 조직을 의미합니다. 조직학은 조직을 연구하며, 조직에서 알레르기 반응 시 히스타민이 방출됩니다.",
+          "synonyms": [
+            "조직",
+            "웹"
+          ]
+        },
+        "vi": {
+          "meaning": "mô",
+          "explanation": "Từ tiếng Hy Lạp \"histos,\" có nghĩa là tấm hoặc mô. Sinh lý học mô (histology) nghiên cứu các mô; histamine được giải phóng bởi mô trong các phản ứng dị ứng.",
+          "synonyms": [
+            "mô",
+            "tấm"
+          ]
+        }
+      }
+    },
+    {
+      "id": "zyg",
+      "forms": [
+        "zyg",
+        "zygo"
+      ],
+      "meaning": "yoke",
+      "synonyms": [
+        "yoke",
+        "pair",
+        "join"
+      ],
+      "examples": [
+        "zygote",
+        "heterozygous",
+        "homozygous"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 6,
+      "explanation": "From Greek \"zygon,\" meaning yoke or pair. A zygote is formed when two cells join; homozygous means having identical paired genes.",
+      "translations": {
+        "ko": {
+          "meaning": "멍에",
+          "explanation": "그리스어 'zygon'에서 유래된 것으로, 멍이나 쌍을 의미합니다. 접합체(zygote)는 두 세포가 결합할 때 형성되며, 동형접합체(homozygous)는 동일한 쌍의 유전자를 가진 것을 의미합니다.",
+          "synonyms": [
+            "멍에",
+            "쌍",
+            "결합"
+          ]
+        },
+        "vi": {
+          "meaning": "cái ách",
+          "explanation": "Từ tiếng Hy Lạp \"zygon\", có nghĩa là cái ách hoặc cặp. Một hợp tử (zygote) được hình thành khi hai tế bào kết hợp; đồng hợp tử (homozygous) có nghĩa là có các gen cặp giống nhau.",
+          "synonyms": [
+            "cái ách",
+            "cặp",
+            "kết nối"
+          ]
+        }
+      }
+    },
+    {
+      "id": "eco",
+      "forms": [
+        "eco",
+        "oeco"
+      ],
+      "meaning": "house",
+      "synonyms": [
+        "house",
+        "environment",
+        "home"
+      ],
+      "examples": [
+        "ecology",
+        "economy",
+        "ecosystem",
+        "ecosphere"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Greek \"oikos,\" meaning house or dwelling. Ecology studies organisms in their environmental home; economy manages household resources.",
+      "translations": {
+        "ko": {
+          "meaning": "집",
+          "explanation": "그리스어 '오이코스(oikos)'에서 유래된 것으로, 집이나 거주지를 의미합니다. 생태학(ecology)은 생물들이 그들의 환경적 집에서 어떻게 살아가는지를 연구하며, 경제학(economy)은 가정의 자원을 관리하는 학문입니다.",
+          "synonyms": [
+            "집",
+            "환경",
+            "가정"
+          ]
+        },
+        "vi": {
+          "meaning": "nhà",
+          "explanation": "Từ tiếng Hy Lạp \"oikos\", có nghĩa là nhà hoặc chỗ ở. Sinh thái học nghiên cứu các sinh vật trong môi trường sống của chúng; kinh tế quản lý tài nguyên của hộ gia đình.",
+          "synonyms": [
+            "nhà",
+            "môi trường",
+            "tổ ấm"
+          ]
+        }
+      }
+    },
+    {
+      "id": "techn",
+      "forms": [
+        "techn",
+        "techno"
+      ],
+      "meaning": "skill",
+      "synonyms": [
+        "skill",
+        "craft",
+        "art"
+      ],
+      "examples": [
+        "technology",
+        "technique",
+        "technical",
+        "biotechnology"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 9,
+      "explanation": "From Greek \"techne,\" meaning art, skill, or craft. Technology applies scientific knowledge; technique is a method of doing something skillfully.",
+      "translations": {
+        "ko": {
+          "meaning": "기술",
+          "explanation": "그리스어 'techne'에서 유래된 것으로, 예술, 기술 또는 공예를 의미합니다. 기술(technology)은 과학적 지식을 적용하는 것이고, 기법(technique)은 무언가를 능숙하게 수행하는 방법입니다.",
+          "synonyms": [
+            "기술",
+            "공예",
+            "예술"
+          ]
+        },
+        "vi": {
+          "meaning": "kỹ năng",
+          "explanation": "Từ tiếng Hy Lạp \"techne\", có nghĩa là nghệ thuật, kỹ năng hoặc nghề. Công nghệ áp dụng kiến thức khoa học; kỹ thuật là phương pháp thực hiện điều gì đó một cách khéo léo.",
+          "synonyms": [
+            "kỹ năng",
+            "nghề",
+            "nghệ thuật"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cyber",
+      "forms": [
+        "cyber"
+      ],
+      "meaning": "steer",
+      "synonyms": [
+        "steer",
+        "control",
+        "govern"
+      ],
+      "examples": [
+        "cybernetics",
+        "cyberspace",
+        "cybersecurity",
+        "cyborg"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "prefix",
+      "frequency": 8,
+      "explanation": "From Greek \"kybernetes,\" meaning helmsman or pilot. Cybernetics studies control systems; cyberspace is the virtual realm we navigate.",
+      "translations": {
+        "ko": {
+          "meaning": "조종하다",
+          "explanation": "그리스어 'kybernetes'에서 유래된 것으로, '선장' 또는 '파일럿'을 의미합니다. 사이버네틱스는 제어 시스템을 연구하며, 사이버스페이스는 우리가 탐색하는 가상의 영역입니다.",
+          "synonyms": [
+            "조종하다",
+            "통제하다"
+          ]
+        },
+        "vi": {
+          "meaning": "lái",
+          "explanation": "Từ tiếng Hy Lạp \"kybernetes\", có nghĩa là người lái tàu hoặc phi công. Khoa học điều khiển (cybernetics) nghiên cứu các hệ thống kiểm soát; không gian mạng (cyberspace) là lĩnh vực ảo mà chúng ta điều hướng.",
+          "synonyms": [
+            "lái",
+            "kiểm soát"
+          ]
+        }
+      }
+    },
+    {
+      "id": "digit",
+      "forms": [
+        "digit",
+        "digi"
+      ],
+      "meaning": "finger",
+      "synonyms": [
+        "finger",
+        "number"
+      ],
+      "examples": [
+        "digital",
+        "digit",
+        "digitize",
+        "digitalis"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Latin \"digitus,\" meaning finger. We count on fingers, so digits mean numbers; digital technology uses discrete numerical values.",
+      "translations": {
+        "ko": {
+          "meaning": "손가락",
+          "explanation": "라틴어 'digitus'에서 유래된 것으로, 손가락을 의미합니다. 우리는 손가락으로 세기 때문에 'digit'는 숫자를 의미합니다. 디지털 기술은 개별적인 숫자 값을 사용합니다.",
+          "synonyms": [
+            "손가락",
+            "숫자"
+          ]
+        },
+        "vi": {
+          "meaning": "ngón tay",
+          "explanation": "Từ tiếng Latin \"digitus,\" có nghĩa là ngón tay. Chúng ta đếm bằng ngón tay, vì vậy \"digit\" có nghĩa là số; công nghệ số sử dụng các giá trị số riêng biệt.",
+          "synonyms": [
+            "ngón tay",
+            "số"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nano",
+      "forms": [
+        "nano"
+      ],
+      "meaning": "dwarf",
+      "synonyms": [
+        "dwarf",
+        "tiny",
+        "billionth"
+      ],
+      "examples": [
+        "nanotechnology",
+        "nanometer",
+        "nanoparticle",
+        "nanoscale"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "prefix",
+      "frequency": 7,
+      "explanation": "From Greek \"nanos,\" meaning dwarf. A nanometer is one billionth of a meter; nanotechnology works at the atomic scale.",
+      "translations": {
+        "ko": {
+          "meaning": "난쟁이",
+          "explanation": "그리스어 '나노스(nanos)'에서 유래된 단어로, 난쟁이를 의미합니다. 나노미터는 1미터의 10억분의 1에 해당하며, 나노기술은 원자 규모에서 작동합니다.",
+          "synonyms": [
+            "난쟁이",
+            "작은",
+            "10억분의 1"
+          ]
+        },
+        "vi": {
+          "meaning": "người lùn",
+          "explanation": "Từ tiếng Hy Lạp \"nanos\" có nghĩa là người lùn. Một nanomet là một phần tỷ của một mét; công nghệ nano hoạt động ở quy mô nguyên tử.",
+          "synonyms": [
+            "người lùn",
+            "nhỏ bé",
+            "một phần tỷ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "giga",
+      "forms": [
+        "giga"
+      ],
+      "meaning": "giant",
+      "synonyms": [
+        "giant",
+        "billion"
+      ],
+      "examples": [
+        "gigabyte",
+        "gigawatt",
+        "gigantic",
+        "gigahertz"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "prefix",
+      "frequency": 7,
+      "explanation": "From Greek \"gigas,\" meaning giant. A gigabyte is a billion bytes; gigawatt is a billion watts of power.",
+      "translations": {
+        "ko": {
+          "meaning": "거대함",
+          "explanation": "그리스어 '기가스(gigas)'에서 유래된 것으로, 거인을 의미합니다. 기가바이트는 십억 바이트를 의미하고, 기가와트는 십억 와트의 전력을 나타냅니다.",
+          "synonyms": [
+            "거인",
+            "십억"
+          ]
+        },
+        "vi": {
+          "meaning": "khổng lồ",
+          "explanation": "Từ tiếng Hy Lạp \"gigas\", có nghĩa là khổng lồ. Một gigabyte là một tỷ byte; gigawatt là một tỷ watt điện.",
+          "synonyms": [
+            "khổng lồ",
+            "tỷ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tera",
+      "forms": [
+        "tera"
+      ],
+      "meaning": "monster",
+      "synonyms": [
+        "monster",
+        "trillion"
+      ],
+      "examples": [
+        "terabyte",
+        "terawatt",
+        "terahertz"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "prefix",
+      "frequency": 6,
+      "explanation": "From Greek \"teras,\" meaning monster or marvel. A terabyte is a trillion bytes; modern storage often measures in terabytes.",
+      "translations": {
+        "ko": {
+          "meaning": "괴물",
+          "explanation": "그리스어 'teras'에서 유래된 것으로, 괴물이나 경이로움을 의미합니다. 테라바이트는 1조 바이트를 나타내며, 현대 저장 장치는 종종 테라바이트 단위로 측정됩니다.",
+          "synonyms": [
+            "괴물",
+            "조兆"
+          ]
+        },
+        "vi": {
+          "meaning": "quái vật",
+          "explanation": "Từ tiếng Hy Lạp \"teras\", có nghĩa là quái vật hoặc kỳ diệu. Một terabyte là một nghìn tỷ byte; lưu trữ hiện đại thường được đo bằng terabyte.",
+          "synonyms": [
+            "quái vật",
+            "nghìn tỷ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "quant",
+      "forms": [
+        "quant",
+        "quantum"
+      ],
+      "meaning": "how much",
+      "synonyms": [
+        "how much",
+        "amount"
+      ],
+      "examples": [
+        "quantum",
+        "quantity",
+        "quantify",
+        "quantitative"
+      ],
+      "origin": "Latin",
+      "category": "science",
+      "position": "root",
+      "frequency": 8,
+      "explanation": "From Latin \"quantum,\" meaning how much. Quantum physics deals with discrete quantities of energy; quantify means to measure amounts.",
+      "translations": {
+        "ko": {
+          "meaning": "양",
+          "explanation": "라틴어 'quantum'에서 유래된 것으로, '얼마나 많은'이라는 뜻입니다. 양자 물리학은 에너지의 불연속적인 양을 다루며, '정량화하다'는 양을 측정하는 것을 의미합니다.",
+          "synonyms": [
+            "양",
+            "수량"
+          ]
+        },
+        "vi": {
+          "meaning": "bao nhiêu",
+          "explanation": "Từ gốc Latin \"quantum\" có nghĩa là bao nhiêu. Vật lý lượng tử (quantum physics) nghiên cứu về các lượng năng lượng rời rạc; từ \"quantify\" có nghĩa là đo lường số lượng.",
+          "synonyms": [
+            "bao nhiêu",
+            "số lượng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stat_science",
+      "forms": [
+        "stat",
+        "stati"
+      ],
+      "meaning": "standing",
+      "synonyms": [
+        "standing",
+        "stationary"
+      ],
+      "examples": [
+        "static",
+        "stationary",
+        "statistics",
+        "thermostat"
+      ],
+      "origin": "Greek",
+      "category": "science",
+      "position": "root",
+      "frequency": 7,
+      "explanation": "From Greek \"statikos,\" meaning causing to stand. Static means not moving; a thermostat keeps temperature standing at a set point.",
+      "translations": {
+        "ko": {
+          "meaning": "서 있는",
+          "explanation": "그리스어 'statikos'에서 유래된 것으로, 서 있게 하는 것을 의미합니다. '정적(static)'은 움직이지 않는 상태를 말하며, '온도 조절기(thermostat)'는 온도를 설정된 지점에서 유지합니다.",
+          "synonyms": [
+            "정지한",
+            "고정된"
+          ]
+        },
+        "vi": {
+          "meaning": "đứng",
+          "explanation": "Từ gốc Hy Lạp \"statikos\", có nghĩa là làm cho đứng. Tĩnh có nghĩa là không di chuyển; một bộ điều chỉnh nhiệt độ giữ nhiệt độ đứng ở một mức nhất định.",
+          "synonyms": [
+            "đứng",
+            "tĩnh"
+          ]
+        }
+      }
+    }
+  ]
+}
