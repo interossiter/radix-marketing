@@ -133,6 +133,34 @@ images/
 └── INCREDIBLE-RESULT.png
 ```
 
+## App Store Screenshots
+
+### iOS (`images/ios/en/`)
+
+| File | Screen | Status |
+|------|--------|--------|
+| en-01-entry.png | Welcome/onboarding | ✅ |
+| en-02-quiz.png | Quiz input | ✅ |
+| en-03-result.png | Correct answer | ✅ |
+| en-04-xray.png | Fragment detail sheet | ✅ |
+| en-05-rootweb.png | Root Web graph | ✅ |
+| en-06-session.png | Session complete | ✅ |
+| en-07-share.png | Share functionality | ✅ |
+| en-08-settings.png | Settings/Word Packs | ✅ |
+
+### Android (`images/android/en/`)
+
+| File | Screen | Status |
+|------|--------|--------|
+| en-01-entry.png | Welcome/onboarding | 📋 TODO |
+| en-02-quiz.png | Quiz input | ✅ |
+| en-03-result.png | Correct answer | ✅ |
+| en-04-xray.png | Fragment detail sheet | ✅ |
+| en-05-rootweb.png | Root Web graph | ✅ |
+| en-06-session.png | Session complete | 📋 TODO |
+| en-07-share.png | Share functionality | 📋 TODO |
+| en-08-settings.png | Settings/Word Packs | ✅ |
+
 ## Deployment
 
 Vercel auto-deploys from `main` branch.

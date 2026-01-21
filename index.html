@@ -668,6 +668,46 @@
             margin-bottom: 48px;
         }
 
+        .platform-section {
+            margin-bottom: 48px;
+        }
+
+        .platform-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .platform-header h3 {
+            font-size: 1.25rem;
+            color: var(--text);
+        }
+
+        .platform-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--bg-card);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--text-dim);
+        }
+
+        .platform-badge.ios {
+            border: 1px solid #555;
+        }
+
+        .platform-badge.android {
+            border: 1px solid #3DDC84;
+        }
+
+        .platform-badge.android .icon {
+            color: #3DDC84;
+        }
+
         .screenshot-grid {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
@@ -745,7 +785,10 @@
                 Learn that <strong>port</strong> means "carry" and suddenly
                 <em>transport, export, portable, import, report</em> all make sense.
             </p>
-            <a href="#" class="cta-button">Download on App Store</a>
+            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                <a href="#" class="cta-button">🍎 App Store</a>
+                <a href="#" class="cta-button" style="background: #3DDC84;">🤖 Play Store</a>
+            </div>
         </section>
 
         <!-- ILLUMINATE Animation -->
@@ -794,26 +837,62 @@
         <!-- Screenshots -->
         <section class="screenshots">
             <h2>See It in Action</h2>
-            <div class="screenshot-grid">
-                <div class="screenshot-item">
-                    <img src="images/en/en-01-entry.png" alt="Radix home screen">
-                    <p>Start your daily quiz</p>
+
+            <!-- iOS -->
+            <div class="platform-section">
+                <div class="platform-header">
+                    <span class="platform-badge ios">🍎 iOS</span>
                 </div>
-                <div class="screenshot-item">
-                    <img src="images/en/en-02-quiz.png" alt="Quiz screen">
-                    <p>Type the meaning</p>
+                <div class="screenshot-grid">
+                    <div class="screenshot-item">
+                        <img src="images/en/en-01-entry.png" alt="Radix iOS home screen">
+                        <p>Start your daily quiz</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/en/en-02-quiz.png" alt="iOS Quiz screen">
+                        <p>Type the meaning</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/en/en-04-xray.png" alt="iOS Origin detail">
+                        <p>Explore the root</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/en/en-03-result.png" alt="iOS Quiz result">
+                        <p>Know instantly</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/en/en-06-session.png" alt="iOS Session complete">
+                        <p>Track your progress</p>
+                    </div>
                 </div>
-                <div class="screenshot-item">
-                    <img src="images/en/en-04-xray.png" alt="Origin detail">
-                    <p>Explore the root</p>
+            </div>
+
+            <!-- Android -->
+            <div class="platform-section">
+                <div class="platform-header">
+                    <span class="platform-badge android"><span class="icon">🤖</span> Android</span>
                 </div>
-                <div class="screenshot-item">
-                    <img src="images/en/en-03-result.png" alt="Quiz result">
-                    <p>Know instantly</p>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/en/en-06-session.png" alt="Session complete">
-                    <p>Track your progress</p>
+                <div class="screenshot-grid">
+                    <div class="screenshot-item">
+                        <img src="images/android/en/en-01-entry.png" alt="Radix Android home screen">
+                        <p>Start your daily quiz</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/android/en/en-02-quiz.png" alt="Android Quiz screen">
+                        <p>Type the meaning</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/android/en/en-04-xray.png" alt="Android Origin detail">
+                        <p>Explore the root</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/android/en/en-03-result.png" alt="Android Quiz result">
+                        <p>Know instantly</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/android/en/en-05-rootweb.png" alt="Android Root Web">
+                        <p>Explore connections</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -977,7 +1056,10 @@
         <!-- CTA -->
         <section class="hero" style="min-height: auto; padding: 60px 0;">
             <p class="value-prop">Start with the Elements pack. Free forever.</p>
-            <a href="#" class="cta-button">Get Radix</a>
+            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                <a href="#" class="cta-button">🍎 App Store</a>
+                <a href="#" class="cta-button" style="background: #3DDC84;">🤖 Play Store</a>
+            </div>
         </section>
     </main>
 
