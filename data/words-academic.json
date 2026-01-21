@@ -23,7 +23,7 @@
       ]
     },
     "abrogate": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ab",
@@ -51,7 +51,7 @@
       ]
     },
     "abysmal": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -79,7 +79,7 @@
       ]
     },
     "acceptable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "able",
@@ -90,7 +90,7 @@
       ]
     },
     "accidental": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -101,7 +101,7 @@
       ]
     },
     "acknowledge": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ab",
@@ -112,7 +112,7 @@
       ]
     },
     "acquired": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ab",
@@ -123,7 +123,7 @@
       ]
     },
     "adhere": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ad",
@@ -151,7 +151,7 @@
       ]
     },
     "admonish": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ab",
@@ -162,7 +162,7 @@
       ]
     },
     "advantageous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -173,7 +173,7 @@
       ]
     },
     "advocate": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "ab",
@@ -213,7 +213,7 @@
       ]
     },
     "aggressive": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ive",
@@ -224,7 +224,7 @@
       ]
     },
     "ambiguity": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ity",
@@ -281,7 +281,7 @@
       ]
     },
     "ameliorate": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ab",
@@ -292,7 +292,7 @@
       ]
     },
     "amplify": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ify",
@@ -303,7 +303,7 @@
       ]
     },
     "anachronism": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "ana",
@@ -320,7 +320,7 @@
       ]
     },
     "analogous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -331,7 +331,7 @@
       ]
     },
     "annotate": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ab",
@@ -342,7 +342,7 @@
       ]
     },
     "antagonistic": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ist",
@@ -353,7 +353,7 @@
       ]
     },
     "antipathy": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "anti",
@@ -370,7 +370,7 @@
       ]
     },
     "antiseptic": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "anti",
@@ -381,7 +381,7 @@
       ]
     },
     "apathy": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "ab",
@@ -398,7 +398,7 @@
       ]
     },
     "appropriate": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ab",
@@ -409,7 +409,7 @@
       ]
     },
     "approximate": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ab",
@@ -431,7 +431,7 @@
       ]
     },
     "assemble": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ab",
@@ -442,7 +442,7 @@
       ]
     },
     "assiduous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -453,7 +453,7 @@
       ]
     },
     "audacious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -464,7 +464,7 @@
       ]
     },
     "auspicious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -475,7 +475,7 @@
       ]
     },
     "beguile": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "be",
@@ -486,7 +486,7 @@
       ]
     },
     "belie": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "be",
@@ -497,7 +497,7 @@
       ]
     },
     "belligerent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -554,7 +554,7 @@
       ]
     },
     "cacophony": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "phone",
@@ -565,7 +565,7 @@
       ]
     },
     "capricious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -576,7 +576,7 @@
       ]
     },
     "carelessly": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "less",
@@ -593,7 +593,7 @@
       ]
     },
     "censorious": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "er",
@@ -610,7 +610,7 @@
       ]
     },
     "characterization": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ize",
@@ -621,7 +621,7 @@
       ]
     },
     "circumlocution": {
-      "morpheme_count": 4,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "circum",
@@ -672,7 +672,7 @@
       ]
     },
     "cognizant": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -683,7 +683,7 @@
       ]
     },
     "coincidence": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "con",
@@ -700,7 +700,7 @@
       ]
     },
     "collaboration": {
-      "morpheme_count": 4,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "con",
@@ -717,7 +717,7 @@
       ]
     },
     "commensurate": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "con",
@@ -728,7 +728,7 @@
       ]
     },
     "commercialization": {
-      "morpheme_count": 4,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -745,7 +745,7 @@
       ]
     },
     "comparable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "able",
@@ -756,7 +756,7 @@
       ]
     },
     "competent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -767,7 +767,7 @@
       ]
     },
     "complement": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "con",
@@ -778,7 +778,7 @@
       ]
     },
     "complementary": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "con",
@@ -812,7 +812,7 @@
       ]
     },
     "compose": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "con",
@@ -886,7 +886,7 @@
       ]
     },
     "concomitant": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -920,7 +920,7 @@
       ]
     },
     "confident": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -931,7 +931,7 @@
       ]
     },
     "conflated": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "con",
@@ -982,7 +982,7 @@
       ]
     },
     "constituent": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "con",
@@ -1022,7 +1022,7 @@
       ]
     },
     "contentious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -1033,7 +1033,7 @@
       ]
     },
     "contingent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -1061,7 +1061,7 @@
       ]
     },
     "contravene": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "counter",
@@ -1072,7 +1072,7 @@
       ]
     },
     "controversial": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "counter",
@@ -1089,7 +1089,7 @@
       ]
     },
     "convivial": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "con",
@@ -1106,7 +1106,7 @@
       ]
     },
     "cordially": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "cord",
@@ -1123,7 +1123,7 @@
       ]
     },
     "corpulence": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ence",
@@ -1134,7 +1134,7 @@
       ]
     },
     "costly": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ly",
@@ -1145,7 +1145,7 @@
       ]
     },
     "counteract": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "act",
@@ -1156,7 +1156,7 @@
       ]
     },
     "critical": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -1167,7 +1167,7 @@
       ]
     },
     "criticize": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ize",
@@ -1178,7 +1178,7 @@
       ]
     },
     "cupidity": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ity",
@@ -1212,7 +1212,7 @@
       ]
     },
     "decisive": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ive",
@@ -1223,7 +1223,7 @@
       ]
     },
     "demarcate": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "de",
@@ -1234,7 +1234,7 @@
       ]
     },
     "disagreement": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "dis",
@@ -1251,7 +1251,7 @@
       ]
     },
     "disastrous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -1262,7 +1262,7 @@
       ]
     },
     "disconcerting": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "dis",
@@ -1307,7 +1307,7 @@
       ]
     },
     "discourage": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "dis",
@@ -1318,7 +1318,7 @@
       ]
     },
     "disengage": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "dis",
@@ -1346,7 +1346,7 @@
       ]
     },
     "disorienting": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "dis",
@@ -1357,7 +1357,7 @@
       ]
     },
     "dispassionate": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "dis",
@@ -1368,7 +1368,7 @@
       ]
     },
     "disrepute": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "dis",
@@ -1379,7 +1379,7 @@
       ]
     },
     "dissonance": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "dis",
@@ -1413,7 +1413,7 @@
       ]
     },
     "diverge": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "dis",
@@ -1424,7 +1424,7 @@
       ]
     },
     "dominance": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ence",
@@ -1435,7 +1435,7 @@
       ]
     },
     "dormant": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -1469,7 +1469,7 @@
       ]
     },
     "efficacious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -1480,7 +1480,7 @@
       ]
     },
     "egregious": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "ex",
@@ -1520,7 +1520,7 @@
       ]
     },
     "elusive": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ive",
@@ -1531,7 +1531,7 @@
       ]
     },
     "empirical": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -1542,7 +1542,7 @@
       ]
     },
     "encompass": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "en",
@@ -1570,7 +1570,7 @@
       ]
     },
     "encourage": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "en",
@@ -1581,7 +1581,7 @@
       ]
     },
     "engender": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "en",
@@ -1592,7 +1592,7 @@
       ]
     },
     "ephemeral": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -1626,7 +1626,7 @@
       ]
     },
     "equivocate": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "equ",
@@ -1643,7 +1643,7 @@
       ]
     },
     "eulogy": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "eu",
@@ -1660,7 +1660,7 @@
       ]
     },
     "euphoric": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "eu",
@@ -1677,7 +1677,7 @@
       ]
     },
     "evanescent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -1688,7 +1688,7 @@
       ]
     },
     "exacerbate": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ex",
@@ -1699,7 +1699,7 @@
       ]
     },
     "execrable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "able",
@@ -1710,7 +1710,7 @@
       ]
     },
     "exemplify": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ify",
@@ -1721,7 +1721,7 @@
       ]
     },
     "exhaustive": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ive",
@@ -1755,7 +1755,7 @@
       ]
     },
     "expensive": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ive",
@@ -1766,7 +1766,7 @@
       ]
     },
     "explicable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "able",
@@ -1777,7 +1777,7 @@
       ]
     },
     "extensive": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "ex",
@@ -1811,7 +1811,7 @@
       ]
     },
     "forbearance": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "fore",
@@ -1828,7 +1828,7 @@
       ]
     },
     "foretell": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "fore",
@@ -1856,7 +1856,7 @@
       ]
     },
     "frivolous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -1867,7 +1867,7 @@
       ]
     },
     "fruitless": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "less",
@@ -1878,7 +1878,7 @@
       ]
     },
     "grandiloquent": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "loqu",
@@ -1895,7 +1895,7 @@
       ]
     },
     "gratuitous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "grat",
@@ -1906,7 +1906,7 @@
       ]
     },
     "habitual": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -1917,7 +1917,7 @@
       ]
     },
     "hapless": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "less",
@@ -1951,7 +1951,7 @@
       ]
     },
     "hypothesize": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "hypo",
@@ -1968,7 +1968,7 @@
       ]
     },
     "idiosyncrasy": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "syn",
@@ -1979,7 +1979,7 @@
       ]
     },
     "imaginative": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ive",
@@ -1990,7 +1990,7 @@
       ]
     },
     "imminent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -2001,7 +2001,7 @@
       ]
     },
     "impartial": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2018,7 +2018,7 @@
       ]
     },
     "impecunious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2063,7 +2063,7 @@
       ]
     },
     "impenetrable": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2109,7 +2109,7 @@
       ]
     },
     "implement": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2120,7 +2120,7 @@
       ]
     },
     "implication": {
-      "morpheme_count": 4,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2137,7 +2137,7 @@
       ]
     },
     "impractical": {
-      "morpheme_count": 4,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2177,7 +2177,7 @@
       ]
     },
     "inadequate": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2188,7 +2188,7 @@
       ]
     },
     "inadvertently": {
-      "morpheme_count": 4,
+      "morpheme_count": 3,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2211,7 +2211,7 @@
       ]
     },
     "incite": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2222,7 +2222,7 @@
       ]
     },
     "inconspicuous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2262,7 +2262,7 @@
       ]
     },
     "indecipherable": {
-      "morpheme_count": 4,
+      "morpheme_count": 3,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2285,7 +2285,7 @@
       ]
     },
     "indifference": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2302,7 +2302,7 @@
       ]
     },
     "indisputable": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2319,7 +2319,7 @@
       ]
     },
     "indistinct": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2359,7 +2359,7 @@
       ]
     },
     "inevitable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2370,7 +2370,7 @@
       ]
     },
     "inexorable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2381,7 +2381,7 @@
       ]
     },
     "inexpensive": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2398,7 +2398,7 @@
       ]
     },
     "inexplicable": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2438,7 +2438,7 @@
       ]
     },
     "infrequent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2449,7 +2449,7 @@
       ]
     },
     "ingenious": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2466,7 +2466,7 @@
       ]
     },
     "ingenuous": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2483,7 +2483,7 @@
       ]
     },
     "inhibit": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2494,7 +2494,7 @@
       ]
     },
     "injunction": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2505,7 +2505,7 @@
       ]
     },
     "innocuous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -2516,7 +2516,7 @@
       ]
     },
     "insensible": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2533,7 +2533,7 @@
       ]
     },
     "insignificant": {
-      "morpheme_count": 4,
+      "morpheme_count": 3,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2573,7 +2573,7 @@
       ]
     },
     "inspirational": {
-      "morpheme_count": 4,
+      "morpheme_count": 3,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2596,7 +2596,7 @@
       ]
     },
     "insurgent": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2613,7 +2613,7 @@
       ]
     },
     "intangible": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2624,7 +2624,7 @@
       ]
     },
     "intentional": {
-      "morpheme_count": 4,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2641,7 +2641,7 @@
       ]
     },
     "interchangeable": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "inter",
@@ -2715,7 +2715,7 @@
       ]
     },
     "intransigent": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2732,7 +2732,7 @@
       ]
     },
     "invalidate": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2760,7 +2760,7 @@
       ]
     },
     "involuntarily": {
-      "morpheme_count": 4,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2777,7 +2777,7 @@
       ]
     },
     "irrelevant": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2794,7 +2794,7 @@
       ]
     },
     "irreverence": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "in_not",
@@ -2811,7 +2811,7 @@
       ]
     },
     "laudable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "able",
@@ -2822,7 +2822,7 @@
       ]
     },
     "licentious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -2833,7 +2833,7 @@
       ]
     },
     "lionize": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ize",
@@ -2844,7 +2844,7 @@
       ]
     },
     "localized": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "loc",
@@ -2901,7 +2901,7 @@
       ]
     },
     "manageable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "able",
@@ -2912,7 +2912,7 @@
       ]
     },
     "mendacious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -2923,7 +2923,7 @@
       ]
     },
     "mercurial": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -2951,7 +2951,7 @@
       ]
     },
     "misanthropic": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "mis",
@@ -2968,7 +2968,7 @@
       ]
     },
     "misrepresent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "mis",
@@ -2979,7 +2979,7 @@
       ]
     },
     "momentous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -2990,7 +2990,7 @@
       ]
     },
     "munificent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -3001,7 +3001,7 @@
       ]
     },
     "negligent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -3012,7 +3012,7 @@
       ]
     },
     "neophyte": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "neo",
@@ -3023,7 +3023,7 @@
       ]
     },
     "neutrality": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -3040,7 +3040,7 @@
       ]
     },
     "newfound": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "fund",
@@ -3051,7 +3051,7 @@
       ]
     },
     "notional": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -3062,7 +3062,7 @@
       ]
     },
     "obsequious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -3073,7 +3073,7 @@
       ]
     },
     "observable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "able",
@@ -3084,7 +3084,7 @@
       ]
     },
     "observant": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -3095,7 +3095,7 @@
       ]
     },
     "oddity": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ity",
@@ -3129,7 +3129,7 @@
       ]
     },
     "operative": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ive",
@@ -3140,7 +3140,7 @@
       ]
     },
     "ornamental": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -3151,7 +3151,7 @@
       ]
     },
     "orthodox": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "dog",
@@ -3162,7 +3162,7 @@
       ]
     },
     "outstrip": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "out",
@@ -3173,7 +3173,7 @@
       ]
     },
     "overcome": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "over",
@@ -3184,7 +3184,7 @@
       ]
     },
     "overlook": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "over",
@@ -3195,7 +3195,7 @@
       ]
     },
     "overshadow": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "over",
@@ -3206,7 +3206,7 @@
       ]
     },
     "overtly": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ly",
@@ -3217,7 +3217,7 @@
       ]
     },
     "overwhelmed": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "over",
@@ -3228,7 +3228,7 @@
       ]
     },
     "paramount": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ab",
@@ -3239,7 +3239,7 @@
       ]
     },
     "penurious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -3290,7 +3290,7 @@
       ]
     },
     "permanent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -3301,7 +3301,7 @@
       ]
     },
     "perpetual": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -3335,7 +3335,7 @@
       ]
     },
     "pertinacious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -3346,7 +3346,7 @@
       ]
     },
     "philanthropic": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "phil",
@@ -3363,7 +3363,7 @@
       ]
     },
     "plenitude": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ple",
@@ -3374,7 +3374,7 @@
       ]
     },
     "polar": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "er",
@@ -3385,7 +3385,7 @@
       ]
     },
     "popularize": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "er",
@@ -3402,7 +3402,7 @@
       ]
     },
     "potentate": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "pot",
@@ -3419,7 +3419,7 @@
       ]
     },
     "precarious": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -3430,7 +3430,7 @@
       ]
     },
     "preclude": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "pre",
@@ -3441,7 +3441,7 @@
       ]
     },
     "predatory": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "er",
@@ -3452,7 +3452,7 @@
       ]
     },
     "predetermined": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "pre",
@@ -3480,7 +3480,7 @@
       ]
     },
     "premeditated": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "pre",
@@ -3508,7 +3508,7 @@
       ]
     },
     "preserve": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "pre",
@@ -3519,7 +3519,7 @@
       ]
     },
     "presume": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "pre",
@@ -3530,7 +3530,7 @@
       ]
     },
     "prevail": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "pre",
@@ -3541,7 +3541,7 @@
       ]
     },
     "preventable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "able",
@@ -3609,7 +3609,7 @@
       ]
     },
     "proclivity": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "pro",
@@ -3620,7 +3620,7 @@
       ]
     },
     "prodigal": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -3648,7 +3648,7 @@
       ]
     },
     "prolong": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "pro",
@@ -3659,7 +3659,7 @@
       ]
     },
     "prominent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -3687,7 +3687,7 @@
       ]
     },
     "providential": {
-      "morpheme_count": 4,
+      "morpheme_count": 3,
       "roots": [
         {
           "fragment_id": "pro",
@@ -3750,7 +3750,7 @@
       ]
     },
     "pugnacious": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -3761,7 +3761,7 @@
       ]
     },
     "pusillanimous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -3772,7 +3772,7 @@
       ]
     },
     "quantity": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ity",
@@ -3783,7 +3783,7 @@
       ]
     },
     "questionable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "able",
@@ -3794,7 +3794,7 @@
       ]
     },
     "rarely": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ly",
@@ -3805,7 +3805,7 @@
       ]
     },
     "rationalize": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ize",
@@ -3816,7 +3816,7 @@
       ]
     },
     "recalcitrant": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -3827,7 +3827,7 @@
       ]
     },
     "recant": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "re",
@@ -3861,7 +3861,7 @@
       ]
     },
     "recognizable": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "re",
@@ -3895,7 +3895,7 @@
       ]
     },
     "redundant": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -3940,7 +3940,7 @@
       ]
     },
     "regrettable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "able",
@@ -3968,7 +3968,7 @@
       ]
     },
     "relocate": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "re",
@@ -3985,7 +3985,7 @@
       ]
     },
     "replenish": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "re",
@@ -4002,7 +4002,7 @@
       ]
     },
     "representative": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ive",
@@ -4030,7 +4030,7 @@
       ]
     },
     "resilient": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -4041,7 +4041,7 @@
       ]
     },
     "resolve": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "re",
@@ -4052,7 +4052,7 @@
       ]
     },
     "responsive": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ive",
@@ -4063,7 +4063,7 @@
       ]
     },
     "restrain": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "re",
@@ -4091,7 +4091,7 @@
       ]
     },
     "reticent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -4102,7 +4102,7 @@
       ]
     },
     "sanctimonious": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "sanct",
@@ -4119,7 +4119,7 @@
       ]
     },
     "sanction": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "sanct",
@@ -4130,7 +4130,7 @@
       ]
     },
     "scrupulous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -4141,7 +4141,7 @@
       ]
     },
     "scrutinize": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ize",
@@ -4152,7 +4152,7 @@
       ]
     },
     "secretive": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ive",
@@ -4163,7 +4163,7 @@
       ]
     },
     "sensitive": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ive",
@@ -4174,7 +4174,7 @@
       ]
     },
     "simulate": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "simil",
@@ -4185,7 +4185,7 @@
       ]
     },
     "sincerity": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ity",
@@ -4196,7 +4196,7 @@
       ]
     },
     "skeptical": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -4207,7 +4207,7 @@
       ]
     },
     "solicitous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -4218,7 +4218,7 @@
       ]
     },
     "sophisticated": {
-      "morpheme_count": 4,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "soph",
@@ -4235,7 +4235,7 @@
       ]
     },
     "sparingly": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ly",
@@ -4246,7 +4246,7 @@
       ]
     },
     "strenuously": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ly",
@@ -4257,7 +4257,7 @@
       ]
     },
     "sturdily": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ly",
@@ -4268,7 +4268,7 @@
       ]
     },
     "substantial": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -4279,7 +4279,7 @@
       ]
     },
     "supercilious": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "super",
@@ -4296,7 +4296,7 @@
       ]
     },
     "superficial": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "super",
@@ -4359,7 +4359,7 @@
       ]
     },
     "synchronization": {
-      "morpheme_count": 4,
+      "morpheme_count": 3,
       "roots": [
         {
           "fragment_id": "syn",
@@ -4422,7 +4422,7 @@
       ]
     },
     "theoretical": {
-      "morpheme_count": 3,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -4433,7 +4433,7 @@
       ]
     },
     "thoughtfulness": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "ful",
@@ -4467,7 +4467,7 @@
       ]
     },
     "trenchant": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -4478,7 +4478,7 @@
       ]
     },
     "trivial": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "al_fr",
@@ -4489,7 +4489,7 @@
       ]
     },
     "truculent": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ent_suffix",
@@ -4500,7 +4500,7 @@
       ]
     },
     "tumultuous": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ous",
@@ -4511,7 +4511,7 @@
       ]
     },
     "unconventional": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "un",
@@ -4528,7 +4528,7 @@
       ]
     },
     "undeniable": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "un",
@@ -4545,7 +4545,7 @@
       ]
     },
     "underscore": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "under",
@@ -4556,7 +4556,7 @@
       ]
     },
     "unimportant": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "un",
@@ -4573,7 +4573,7 @@
       ]
     },
     "unintended": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "un",
@@ -4590,7 +4590,7 @@
       ]
     },
     "universal": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "uni",
@@ -4607,7 +4607,7 @@
       ]
     },
     "unmistakable": {
-      "morpheme_count": 4,
+      "morpheme_count": 3,
       "roots": [
         {
           "fragment_id": "un",
@@ -4630,7 +4630,7 @@
       ]
     },
     "unmitigated": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "un",
@@ -4641,7 +4641,7 @@
       ]
     },
     "unobtrusive": {
-      "morpheme_count": 4,
+      "morpheme_count": 3,
       "roots": [
         {
           "fragment_id": "un",
@@ -4693,7 +4693,7 @@
       ]
     },
     "unveil": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "un",
@@ -4704,7 +4704,7 @@
       ]
     },
     "upbraid": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "up",
@@ -4715,7 +4715,7 @@
       ]
     },
     "upshot": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "up",
@@ -4726,7 +4726,7 @@
       ]
     },
     "variable": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "able",
@@ -4737,7 +4737,7 @@
       ]
     },
     "veracity": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ity",
@@ -4748,7 +4748,7 @@
       ]
     },
     "verisimilitude": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "ver",
@@ -4765,7 +4765,7 @@
       ]
     },
     "veritable": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "ver",
@@ -4782,7 +4782,7 @@
       ]
     },
     "viability": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ity",
@@ -4793,7 +4793,7 @@
       ]
     },
     "vigilance": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "ence",
@@ -4804,7 +4804,7 @@
       ]
     },
     "vociferous": {
-      "morpheme_count": 3,
+      "morpheme_count": 2,
       "roots": [
         {
           "fragment_id": "voc",
@@ -4821,7 +4821,7 @@
       ]
     },
     "withdraw": {
-      "morpheme_count": 2,
+      "morpheme_count": 1,
       "roots": [
         {
           "fragment_id": "with_germ",
