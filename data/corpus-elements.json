@@ -1,6 +1,30 @@
 {
   "fragments": [
     {
+      "id": "ent_suffix",
+      "forms": [
+        "ent",
+        "ant"
+      ],
+      "meaning": "being, doing",
+      "synonyms": [
+        "being",
+        "doing",
+        "in a state of"
+      ],
+      "examples": [
+        "eloquent",
+        "confident",
+        "prominent",
+        "resilient"
+      ],
+      "origin": "Latin",
+      "category": "default",
+      "position": "suffix",
+      "frequency": 10,
+      "explanation": "From Latin '-ens/-entis' (present participle ending), meaning 'being' or 'doing.' This suffix turns verbs into adjectives describing someone or something in the act of doing. Eloquent means 'speaking out well'; confident means 'trusting fully.'"
+    },
+    {
       "id": "a_not",
       "forms": [
         "a",

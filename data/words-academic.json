@@ -205,7 +205,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 4,
           "type": "bound"
@@ -273,7 +273,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -500,7 +500,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 8,
           "type": "bound"
@@ -540,7 +540,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -669,7 +669,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -753,7 +753,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -883,7 +883,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 8,
           "type": "bound"
@@ -917,7 +917,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -968,7 +968,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 6,
           "type": "bound"
@@ -985,7 +985,7 @@
           "type": "prefix"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 9,
           "type": "bound"
@@ -1030,7 +1030,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -1432,7 +1432,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 4,
           "type": "bound"
@@ -1506,7 +1506,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 5,
           "type": "bound"
@@ -1674,7 +1674,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 8,
           "type": "bound"
@@ -1741,7 +1741,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 5,
           "type": "bound"
@@ -1881,7 +1881,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 9,
           "type": "bound"
@@ -1987,7 +1987,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 5,
           "type": "bound"
@@ -2191,7 +2191,7 @@
           "type": "prefix"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 8,
           "type": "bound"
@@ -2542,7 +2542,7 @@
           "type": "bound"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 9,
           "type": "bound"
@@ -2599,7 +2599,7 @@
           "type": "prefix"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -2718,7 +2718,7 @@
           "type": "prefix"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 9,
           "type": "bound"
@@ -2780,7 +2780,7 @@
           "type": "prefix"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -2987,7 +2987,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -2998,7 +2998,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 6,
           "type": "bound"
@@ -3081,7 +3081,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -3115,7 +3115,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -3287,7 +3287,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 6,
           "type": "bound"
@@ -3321,7 +3321,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 7,
           "type": "bound"
@@ -3405,7 +3405,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 3,
           "type": "bound"
@@ -3656,7 +3656,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 6,
           "type": "bound"
@@ -3713,7 +3713,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 4,
           "type": "bound"
@@ -3730,7 +3730,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 4,
           "type": "bound"
@@ -3813,7 +3813,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 9,
           "type": "bound"
@@ -3892,7 +3892,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 6,
           "type": "bound"
@@ -4027,7 +4027,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 6,
           "type": "bound"
@@ -4088,7 +4088,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 5,
           "type": "bound"
@@ -4385,7 +4385,7 @@
           "type": "root"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 4,
           "type": "bound"
@@ -4464,7 +4464,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 6,
           "type": "bound"
@@ -4486,7 +4486,7 @@
       "morpheme_count": 2,
       "roots": [
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 6,
           "type": "bound"
@@ -4559,7 +4559,7 @@
           "type": "prefix"
         },
         {
-          "fragment_id": "anti",
+          "fragment_id": "ent_suffix",
           "morpheme": "ant",
           "position": 8,
           "type": "bound"
