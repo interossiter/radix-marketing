@@ -46,14 +46,26 @@ Marketing source of truth for Radix vocabulary learning app.
 │  Core Page             ✅ Complete                             │
 │  Hero Section          ✅ "Stop memorizing. Start decoding."   │
 │  Decode Animation      ✅ CSS sequence: word → roots → mastery │
-│  Screenshots           ✅ 5 device mockups                     │
+│  Screenshots           ✅ 5 device mockups (iOS + Android)     │
 │  Privacy Badge         ✅ On-device, school-safe messaging     │
 │  Global Learners       ✅ Korean + Vietnamese hooks            │
 │  X-Ray Theme           ✅ Neon Cyan + Naver Green palette      │
+│  ChatGPT CTA           ✅ Link to GPT                          │
 ├────────────────────────────────────────────────────────────────┤
 │  App Store Link        📋 Placeholder (pending launch)         │
 │  SEO/Indexing          📋 noindex until launch                 │
 │  Pricing Section       📋 Deferred                             │
+└────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────┐
+│  CHATGPT APP                                                   │
+├────────────────────────────────────────────────────────────────┤
+│  MCP Server            ✅ radix-cgpt.vercel.app/mcp            │
+│  Tools                 ✅ analyze_word, explore_root           │
+│  GPT Integration       ✅ Live GPT with MCP actions            │
+│  Skybridge Widget      ✅ Built (12KB Preact bundle)           │
+│  Widget Rendering      📋 Awaiting App Store approval          │
+│  App Submission        📋 Ready to submit                      │
 └────────────────────────────────────────────────────────────────┘
 ```
 
